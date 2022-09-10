@@ -471,7 +471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UI: {fileID: 946033535}
   lineText: {fileID: 3922979}
-  nameText: {fileID: 0}
+  nameText: {fileID: 1554593171}
   continueIndicator: {fileID: 1569758645}
   optionsParent: {fileID: 95364974}
   optionButtonPrefab: {fileID: 5570540824088336098, guid: 147e25d07c98aec4e83af55415b24466, type: 3}
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 1554593172}
   - component: {fileID: 1554593171}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: nametext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
