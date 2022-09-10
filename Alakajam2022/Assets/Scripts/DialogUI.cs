@@ -8,28 +8,28 @@ using UnityEngine.UI;
 
 public class DialogUI : MonoBehaviour
 {
-    public GameObject UI;
-    public TMP_Text lineText;
-    public TMP_Text nameText;
-    public GameObject continueIndicator;
-    public Transform optionsParent;
-    public GameObject optionButtonPrefab;
-    public float textSpeed;
-    public KeyCode skipKey;
+    [TabGroup("References")] public GameObject UI;
+    [TabGroup("References")] public TMP_Text lineText;
+    [TabGroup("References")] public TMP_Text nameText;
+    [TabGroup("References")] public GameObject continueIndicator;
+    [TabGroup("References")] public Transform optionsParent;
+    [TabGroup("References")] public GameObject optionButtonPrefab;
+    [TabGroup("References")] public Image portrait;
+
+
+    [TabGroup("UX")] public float textSpeed;
+    [TabGroup("UX")] public KeyCode skipKey;
+
+    [TabGroup("CharData")] public Character[] characters;
+    Character currentCharacter;
 
     public UnityEvent onDialogStart;
     public UnityEvent onLineStart;
     public UnityEvent OnLineComplete;
     public UnityEvent OnDialogComplete;
 
-    int currentCharacter;
-
-    [MultiLineProperty(10)]
-    public string testDialog;
-
     StoryInfo currentStory;
     int currentPassageID;
-
     bool textButtonPressed;
     bool optionSelected;
 
@@ -47,6 +47,7 @@ public class DialogUI : MonoBehaviour
     public void InitializeStory(int storyIndex)
     {
         currentStory = parser.GetStoryByIndex(0);
+        currentCharacter = null;
         UI.SetActive(true);
         currentPassageID = 0;
         RunPassage(currentStory.GetStartingPassage());
@@ -73,7 +74,26 @@ public class DialogUI : MonoBehaviour
 
     IEnumerator DoRunPassage(Passage passage)
     {
-        lineText.text = passage.text;
+        string[] text = passage.text.Split(" ", 2);
+
+        // test if we need a new character to be displayed
+        bool newChar = currentCharacter == null;
+        if (!newChar)
+            newChar = currentCharacter.nameID == text[0];
+
+        if (newChar)
+        {
+            foreach (Character character in characters)
+            {
+                if (text[0] == character.nameID)
+                {
+                    ChangeCharacter(character);
+                    break;
+                }
+            }
+        }
+        
+        lineText.text = text[1];
         textButtonPressed = false;
         continueIndicator.SetActive(false);
         foreach (Transform child in optionsParent)
@@ -105,7 +125,28 @@ public class DialogUI : MonoBehaviour
 
         OnLineComplete.Invoke();
 
-        if (passage.HasMultipleBranches())
+        // check if we branch. Calling the built in checkers throws a nullref if there are no links, so we do this to save time.
+        bool noBranch = passage.links == null;
+        if (passage.links != null)
+            noBranch = passage.links.Length <= 1;
+
+        if (noBranch)
+        {
+            textButtonPressed = false;
+
+            continueIndicator.SetActive(true);
+            // wait for a skip key to move to next line
+            while (textButtonPressed == false)
+                yield return null;
+
+            if (passage.links == null)
+                Deactivate();
+            else if (passage.links.Length == 0)
+                Deactivate();
+            else
+                RunPassage(currentStory.GetPassageByID(passage.links[0].pid));
+        }
+        else 
         {
             optionSelected = false;
             // display all options
@@ -118,20 +159,6 @@ public class DialogUI : MonoBehaviour
             while (optionSelected == false)
                 yield return null;
         }
-        else
-        {
-            textButtonPressed = false;
-
-            continueIndicator.SetActive(true);
-            // wait for a skip key to move to next line
-            while (textButtonPressed == false)
-                yield return null;
-
-            if (passage.NumOfBranches() == 0)
-                Deactivate();
-            else
-                RunPassage(currentStory.GetPassageByID(++currentPassageID));
-        }
     }
 
     public void RunOption(int pid)
@@ -141,9 +168,18 @@ public class DialogUI : MonoBehaviour
         RunPassage(currentStory.GetPassageByID(pid));
     }
 
-
-    public void ChangeCharacter(int character)
+    public void ChangeCharacter(Character character)
     {
+        portrait.sprite = character.portrait;
+        nameText.text = character.name;
         currentCharacter = character;
     }
+}
+
+[System.Serializable]
+public class Character
+{
+    public Sprite portrait;
+    public string name;
+    public string nameID;
 }
