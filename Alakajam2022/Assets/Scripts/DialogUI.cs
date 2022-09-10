@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
 using Sirenix.OdinInspector;
+using UnityEngine.UI;
 
 public class DialogUI : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class DialogUI : MonoBehaviour
     public TMP_Text lineText;
     public TMP_Text nameText;
     public GameObject continueIndicator;
+    public Transform optionsParent;
+    public GameObject optionButtonPrefab;
     public float textSpeed;
     public KeyCode skipKey;
 
@@ -25,8 +28,10 @@ public class DialogUI : MonoBehaviour
     public string testDialog;
 
     StoryInfo currentStory;
+    int currentPassageID;
 
     bool textButtonPressed;
+    bool optionSelected;
 
     TwineParser parser;
     public void Start()
@@ -42,6 +47,7 @@ public class DialogUI : MonoBehaviour
     {
         currentStory = parser.GetStoryByIndex(0);
         UI.SetActive(true);
+        currentPassageID = 0;
         RunPassage(currentStory.GetStartingPassage());
     }
 
@@ -53,21 +59,26 @@ public class DialogUI : MonoBehaviour
 
     public void RunPassage(Passage passage)
     {
-        RunLine(passage.text, 0);
-
+        StartCoroutine(DoRunPassage(passage));
     }
 
-    public void RunLine(string line, int character)
+    private void Update()
     {
-        if (character != currentCharacter)
-            ChangeCharacter(character);
-
-        StartCoroutine(DoRunLine(line));
+        if (Input.GetKeyDown(skipKey) || Input.GetMouseButtonDown(0))
+        {
+            textButtonPressed = true;
+        }
     }
 
-    IEnumerator DoRunLine(string line)
+    IEnumerator DoRunPassage(Passage passage)
     {
-        lineText.text = line;
+        lineText.text = passage.text;
+        textButtonPressed = false;
+        continueIndicator.SetActive(false);
+        foreach (Transform child in optionsParent)
+        {
+            Destroy(child.gameObject);
+        }
 
         // animate 
         int counter = 0;
@@ -79,7 +90,7 @@ public class DialogUI : MonoBehaviour
                 counter++;
                 lineText.maxVisibleCharacters = counter;
 
-                if (Input.GetKeyDown(skipKey))
+                if (textButtonPressed)
                 {
                     // We've requested a skip of the entire line.
                     // Display all of the text immediately.
@@ -91,24 +102,42 @@ public class DialogUI : MonoBehaviour
             }
         }
 
-        continueIndicator.SetActive(true);
         OnLineComplete.Invoke();
 
-        textButtonPressed = false;
-
-        // wait for a skip key to move to next line
-        while (textButtonPressed == false)
+        if (passage.HasMultipleBranches())
         {
-            textButtonPressed = Input.GetKeyDown(skipKey);
-            yield return null;
+            optionSelected = false;
+            // display all options
+            foreach(Link link in passage.links)
+            {
+                Button button = Instantiate(optionButtonPrefab, optionsParent).GetComponent<Button>();
+                button.GetComponentInChildren<TMP_Text>().text = link.name;
+                button.onClick.AddListener(() => RunOption(link.pid));
+            }
+            while (optionSelected == false)
+                yield return null;
         }
+        else
+        {
+            textButtonPressed = false;
 
-        Deactivate();
+            continueIndicator.SetActive(true);
+            // wait for a skip key to move to next line
+            while (textButtonPressed == false)
+                yield return null;
+
+            if (passage.NumOfBranches() == 0)
+                Deactivate();
+            else
+                RunPassage(currentStory.GetPassageByID(++currentPassageID));
+        }
     }
 
-    public void RunOptions(string options)
+    public void RunOption(int pid)
     {
-
+        optionSelected = true;
+        currentPassageID = pid;
+        RunPassage(currentStory.GetPassageByID(pid));
     }
 
 

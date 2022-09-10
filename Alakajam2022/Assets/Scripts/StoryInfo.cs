@@ -25,7 +25,7 @@ public class Passage
 
     public bool HasMultipleBranches()
     {
-        return links.Length > 0;
+        return links.Length > 1;
     }
     public bool IsTerminalNode()
     {

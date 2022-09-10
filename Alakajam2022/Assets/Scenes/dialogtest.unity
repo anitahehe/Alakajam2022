@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3922980}
   - component: {fileID: 3922979}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: linetext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,6 +261,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3922977}
   m_CullTransparentMesh: 1
+--- !u!1 &95364973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95364974}
+  - component: {fileID: 95364975}
+  m_Layer: 5
+  m_Name: options
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &95364974
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95364973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1393423839}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -74.73482}
+  m_SizeDelta: {x: 581.16, y: 41.9224}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &95364975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95364973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &460213747
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,6 +473,8 @@ MonoBehaviour:
   lineText: {fileID: 3922979}
   nameText: {fileID: 0}
   continueIndicator: {fileID: 1569758645}
+  optionsParent: {fileID: 95364974}
+  optionButtonPrefab: {fileID: 5570540824088336098, guid: 147e25d07c98aec4e83af55415b24466, type: 3}
   textSpeed: 0.05
   skipKey: 32
   onDialogStart:
@@ -497,7 +562,7 @@ MonoBehaviour:
       links: []
       name: Conversation End
       pid: 5
-    startnode: 1
+    startnode: 0
 --- !u!1 &946033535
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +734,7 @@ RectTransform:
   - {fileID: 3922978}
   - {fileID: 1569758646}
   - {fileID: 1516582982}
+  - {fileID: 95364974}
   m_Father: {fileID: 946033536}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
