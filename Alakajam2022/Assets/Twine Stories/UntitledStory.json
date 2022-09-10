@@ -1,0 +1,90 @@
+
+
+{
+  "passages": [
+    {
+      "text": "\"I am speaking dialouge\" said the guy!\n\n[[Option A]]\n[[Option B]]",
+      "links": [
+        {
+          "name": "Option A",
+          "link": "Option A",
+          "pid": "2"
+        },
+        {
+          "name": "Option B",
+          "link": "Option B",
+          "pid": "3"
+        }
+      ],
+      "name": "Conversation Start",
+      "pid": "1",
+      "position": {
+        "x": "575",
+        "y": "575"
+      }
+    },
+    {
+      "text": "\"Option A huh? What do you think of my flavor text?\" said the guy.\n\n[[Conversation Midpoint]]",
+      "links": [
+        {
+          "name": "Conversation Midpoint",
+          "link": "Conversation Midpoint",
+          "pid": "4"
+        }
+      ],
+      "name": "Option A",
+      "pid": "2",
+      "position": {
+        "x": "775",
+        "y": "525"
+      }
+    },
+    {
+      "text": "\"Option B? Fuck you!\" said the guy.\n\n[[Conversation Midpoint]]",
+      "links": [
+        {
+          "name": "Conversation Midpoint",
+          "link": "Conversation Midpoint",
+          "pid": "4"
+        }
+      ],
+      "name": "Option B",
+      "pid": "3",
+      "position": {
+        "x": "775",
+        "y": "650"
+      }
+    },
+    {
+      "text": "\"Aight I'm out.\" said the guy.\n\n[[Conversation End]]",
+      "links": [
+        {
+          "name": "Conversation End",
+          "link": "Conversation End",
+          "pid": "5"
+        }
+      ],
+      "name": "Conversation Midpoint",
+      "pid": "4",
+      "position": {
+        "x": "950",
+        "y": "575"
+      }
+    },
+    {
+      "text": "\"The Man Leaves\"\n\nFIN.",
+      "name": "Conversation End",
+      "pid": "5",
+      "position": {
+        "x": "1125",
+        "y": "550"
+      }
+    }
+  ],
+  "name": "Untitled Story",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.5.1",
+  "ifid": "0F662516-3C4E-4D02-A911-A81924BB4331"
+}
+
