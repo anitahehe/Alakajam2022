@@ -37,13 +37,14 @@ public class DialogUI : MonoBehaviour
     public void Start()
     {
         parser = GetComponent<TwineParser>();
+
         // DEBUGGING, REMOVE LATER
-        Initialize(0);
+        //InitializeStory(0);
         
         // get an event hook to initialize this ui when requested
     }
 
-    public void Initialize(int storyIndex)
+    public void InitializeStory(int storyIndex)
     {
         currentStory = parser.GetStoryByIndex(0);
         UI.SetActive(true);
