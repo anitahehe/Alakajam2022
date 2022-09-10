@@ -19,6 +19,43 @@ public class Passage
     public string name;
     public int pid;
 
+    // NEW FUNCTIONALITY HERE
+
+    /*
+     * How to use new stuff: 
+     * 1. Call GetNext instead of getting text variable
+     * 2. After you display GetNext, check HasNext
+     *      - If return true, go to step 1 and call GetNext again
+     *      - If return false, display next passage links with current textlist
+     */
+    #region NEWSTUFF
+    public string[] textList;
+    public int progressIndex = 0;
+    public int maxProgress = 0;
+    public string GetNext()
+    {
+        string nextText = "";
+        nextText = textList[progressIndex++];
+
+        if (nextText == "")
+        {
+            Debug.LogWarning("Next Line Missing!");
+        }
+
+        return nextText;
+    }
+    public bool HasNext()
+    {
+        bool hasNext = false;
+        if (progressIndex < maxProgress)
+        {
+            hasNext = true;
+        }
+
+        return hasNext;
+    }
+    #endregion
+
     public int NumOfBranches()
     {
         return links.Length;
@@ -59,10 +96,13 @@ public class Passage
     }
 
 
-    // Removes anything in [[]]
+    // Removes anything in [[]], and pulls text using newlines
     public void Scrub()
     {
         text = Regex.Replace(text, @"\[[^)]*\]", string.Empty);
+
+        textList = text.Split(new[] { Environment.NewLine, Environment.NewLine }, StringSplitOptions.None);
+        maxProgress = textList.Length;
     }
 }
 
