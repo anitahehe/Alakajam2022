@@ -26,7 +26,7 @@ public class Passage
 
     public bool HasMultipleBranches()
     {
-        return links.Length > 0;
+        return links.Length > 1;
     }
     public bool IsTerminalNode()
     {
@@ -72,7 +72,7 @@ public class StoryInfo
     public string name;
     public string creator;
     public Passage[] passages;
-    public int startNode;
+    public int startnode;
 
     public static StoryInfo CreateFromJSON(string jsonString)
     {
@@ -89,7 +89,7 @@ public class StoryInfo
 
     public Passage GetStartingPassage()
     {
-        return GetPassageByID(startNode);
+        return GetPassageByID(startnode);
     }
 
     public Passage GetPassageByID(int id)

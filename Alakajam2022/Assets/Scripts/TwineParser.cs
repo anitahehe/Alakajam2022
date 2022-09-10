@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 /*
  * To Use:
@@ -24,6 +25,7 @@ public class TwineParser : MonoBehaviour
     public List<StoryInfo> storyInfo;
 
 
+    [Button("Refresh Story Info")]
     // Start is called before the first frame update
     void Start()
     {
