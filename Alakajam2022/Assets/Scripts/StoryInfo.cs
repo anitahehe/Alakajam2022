@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 [System.Serializable]
@@ -56,6 +57,13 @@ public class Passage
 
         return returnID;
     }
+
+
+    // Removes anything in [[]]
+    public void Scrub()
+    {
+        text = Regex.Replace(text, @"\[[^)]*\]", string.Empty);
+    }
 }
 
 [System.Serializable]
@@ -69,6 +77,14 @@ public class StoryInfo
     public static StoryInfo CreateFromJSON(string jsonString)
     {
         return JsonUtility.FromJson<StoryInfo>(jsonString);
+    }
+
+    public void ScrubForButtonPrompts()
+    {
+        foreach (Passage passage in passages)
+        {
+            passage.Scrub();
+        }
     }
 
     public Passage GetStartingPassage()
