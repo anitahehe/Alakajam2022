@@ -10,7 +10,7 @@ public class BoatMovement : MonoBehaviour
     public float deceleration;
     public float torque;
 
-    private Rigidbody rb;
+    private Rigidbody2D rb;
 
     public BoatController boatController;
 
@@ -21,7 +21,7 @@ public class BoatMovement : MonoBehaviour
         {
             Debug.LogError("Error: Boat Movement does not have attacked Boat Controller");
         }
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
@@ -29,11 +29,11 @@ public class BoatMovement : MonoBehaviour
         // Apply forward/reverse thrust and hand-applied deceleration.
         if (boatController.forward)
         {
-            rb.AddForce(transform.up * forwardThrust);
+            rb.AddForce(new Vector2(transform.up.x, transform.up.y) * forwardThrust);
         }
         if (boatController.backwards)
         {
-            rb.AddForce(-transform.up * reverseThrust);
+            rb.AddForce(new Vector2(-transform.up.x, -transform.up.y) * reverseThrust);
         }
         if (!boatController.forward && !boatController.backwards)
         {
@@ -41,13 +41,13 @@ public class BoatMovement : MonoBehaviour
         }
         // Apply torque based turning.
         Quaternion lastRotation = transform.rotation;
-        if ((boatController.left && boatController.forward) || (boatController.right && boatController.backwards))
+        if (boatController.left || (boatController.right && boatController.backwards))
         {
-            rb.AddRelativeTorque(-transform.forward * torque);
+            rb.AddTorque(torque * (1 + transform.forward.magnitude));
         }
-        if ((boatController.right && boatController.forward) || (boatController.left && boatController.backwards))
+        if (boatController.right || (boatController.left && boatController.backwards))
         {
-            rb.AddRelativeTorque(transform.forward * torque);
+            rb.AddTorque(-torque * (1 + transform.forward.magnitude));
         }
         Quaternion currentRotation = transform.rotation;
         Quaternion relativeRotation = currentRotation * Quaternion.Inverse(lastRotation);
