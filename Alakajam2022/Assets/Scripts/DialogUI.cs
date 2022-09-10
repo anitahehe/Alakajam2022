@@ -105,7 +105,28 @@ public class DialogUI : MonoBehaviour
 
         OnLineComplete.Invoke();
 
-        if (passage.HasMultipleBranches())
+        // check if we branch. Calling the built in checkers throws a nullref if there are no links, so we do this to save time.
+        bool noBranch = passage.links == null;
+        if (passage.links != null)
+            noBranch = passage.links.Length <= 1;
+
+        if (noBranch)
+        {
+            textButtonPressed = false;
+
+            continueIndicator.SetActive(true);
+            // wait for a skip key to move to next line
+            while (textButtonPressed == false)
+                yield return null;
+
+            if (passage.links == null)
+                Deactivate();
+            else if (passage.links.Length == 0)
+                Deactivate();
+            else
+                RunPassage(currentStory.GetPassageByID(passage.links[0].pid));
+        }
+        else 
         {
             optionSelected = false;
             // display all options
@@ -117,20 +138,6 @@ public class DialogUI : MonoBehaviour
             }
             while (optionSelected == false)
                 yield return null;
-        }
-        else
-        {
-            textButtonPressed = false;
-
-            continueIndicator.SetActive(true);
-            // wait for a skip key to move to next line
-            while (textButtonPressed == false)
-                yield return null;
-
-            if (passage.NumOfBranches() == 0)
-                Deactivate();
-            else
-                RunPassage(currentStory.GetPassageByID(++currentPassageID));
         }
     }
 
