@@ -1,0 +1,31 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> CurrState;
+RWTexture2D<float4> LastState;
+RWTexture2D<float4> NextState;
+
+int2 resolution;
+float3 waveEffect;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    float curr_ij = CurrState[id.xy].x;
+    float last_ij = LastState[id.xy].x;
+    float curr_ip1j = CurrState[id.xy + uint2(1, 0)].x;
+    float curr_ijp1 = CurrState[id.xy + uint2(0, 1)].x;
+    float curr_im1j = CurrState[id.xy - uint2(1, 0)].x;
+    float curr_ijm1 = CurrState[id.xy - uint2(0, 1)].x;
+
+    float newWaveHeight = curr_ij * 2 - curr_ij + 0.25 * (curr_ip1j + curr_ijp1 + curr_im1j + curr_ijm1 - 4 * curr_ij);
+
+    if (id.x == floor(waveEffect.x) && id.y == floor(waveEffect.y))
+    {
+        newWaveHeight = waveEffect.z;
+    }
+
+    NextState[id.xy] = float4(newWaveHeight, newWaveHeight, newWaveHeight, 1);
+}
