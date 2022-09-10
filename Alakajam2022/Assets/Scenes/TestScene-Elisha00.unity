@@ -231,6 +231,7 @@ GameObject:
   - component: {fileID: 205292674}
   - component: {fileID: 205292678}
   - component: {fileID: 205292679}
+  - component: {fileID: 205292680}
   m_Layer: 0
   m_Name: PlayerBoat
   m_TagString: Untagged
@@ -326,7 +327,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 205292673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5658d396f86b9f349bf81094080b47ae, type: 3}
+  m_Script: {fileID: 11500000, guid: fa2ac6b6f5cc74d4d984f1ed6391fd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 10
@@ -334,6 +335,7 @@ MonoBehaviour:
   reverseThrust: 0.5
   deceleration: 0.01
   torque: 2
+  boatController: {fileID: 0}
 --- !u!54 &205292679
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -350,6 +352,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 52
   m_CollisionDetection: 0
+--- !u!114 &205292680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205292673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430ee209470320d46a0ec89118e02bbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forward: 0
+  backwards: 0
+  left: 0
+  right: 0
 --- !u!1 &1995022884
 GameObject:
   m_ObjectHideFlags: 0
