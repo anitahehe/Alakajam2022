@@ -249,7 +249,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 2.5
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &205292675
@@ -333,7 +333,7 @@ MonoBehaviour:
   forwardThrust: 2.25
   reverseThrust: 0.5
   deceleration: 0.01
-  torque: 10
+  torque: 2
 --- !u!54 &205292679
 Rigidbody:
   m_ObjectHideFlags: 0
