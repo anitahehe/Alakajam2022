@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class DangerZone : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public bool alerted = false;
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.tag == "Player")
+        {
+            alerted = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        
+        if (collision.tag == "Player")
+        {
+            alerted = false;
+        }
     }
 }

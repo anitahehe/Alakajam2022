@@ -21,6 +21,9 @@ public class PirateAIController : BoatController
     public float sightRange = 20.0f;
     public bool inChase = false;
 
+    public float bumpStrength = 100;
+    public float bumpStunTime = 3;
+
     public void Start()
     {
         patrolPoints = new Queue<Transform>();
@@ -82,9 +85,23 @@ public class PirateAIController : BoatController
         return patrolPoints.Peek();
     }
 
+    private void UpdateIsInChase()
+    {
+        if ((playerTarget.transform.position - this.transform.position).magnitude < sightRange
+            && dangerZone.alerted)
+        {
+            inChase = true;
+        }
+        else
+        {
+            inChase = false;
+        }
+    }
+
     private void Update() 
     {
-        // Check for sightRange
+        UpdateIsInChase();
+
         if (inChase)
         {
             CalculateNavigation(playerTarget);
@@ -103,6 +120,16 @@ public class PirateAIController : BoatController
             {
                 GetNextPatrolPoint();
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Player")
+        {
+            BoatMovement boat = collision.gameObject.GetComponent<BoatMovement>();
+
+            boat.Bump(bumpStrength, collision.transform.position - this.transform.position, bumpStunTime);
         }
     }
 }
