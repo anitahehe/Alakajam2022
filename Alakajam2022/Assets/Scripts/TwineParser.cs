@@ -33,6 +33,7 @@ public class TwineParser : MonoBehaviour
         foreach(TextAsset story in stories)
         {
             StoryInfo info = StoryInfo.CreateFromJSON(story.ToString());
+            info.ScrubForButtonPrompts();
             storyInfo.Add(info);
         }
     }

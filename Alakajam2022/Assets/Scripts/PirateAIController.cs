@@ -4,8 +4,7 @@ using UnityEngine;
 
 /*
  * 1. Player must be in sightrange
- * 2. Player must be in 
- * 
+ * 2. Player must be in danger zone
  */
 
 
