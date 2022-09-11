@@ -1377,9 +1377,29 @@ PrefabInstance:
         to pulse in faint rhythm almost like a heartbeat. The key begins to glow\u2026\n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[5].text
+      value: "NARRATION\nBefore you can finish your inquiry, what you begin to realize
+        is the ghost of a pirate captain interrupts you.\n\nCAPTAIN\nAvast ye' scallywag! 
+        Yer to sail me right to Skull Island immediately. This ship here is now commandeered
+        by yer's truly, savvy? \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].text
+      value: "NARRATION\nYou stare right into the empty sockets of this ethereal
+        Captain; he looks entirely indifferent to your existence.\n\nNARRATION\nYou
+        are utterly frozen in fear, your mouth agape. \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[7].text
+      value: "NARRATION\nYou stare right into the empty sockets of this ethereal
+        Captain; he looks entirely indifferent to your existence.  \n\nNARRATION\nYou
+        open your mouth and are jumbling and stuttering your words in fear. \n\nNARRATION\nYou
+        give up trying to articulate and close your mouth in surrender.\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[1].passages.Array.data[0].text
       value: "NARRATION\nThe tide is calm making your approach straightforward. A
-        moment of solace for this first time during this journey.\n\nNARRATION\nYou
+        moment of solace for the first time during this journey.\n\nNARRATION\nYou
         realize the captain has been quiet for some time as he is fixated on a distant
         blue light.\n\nNARRATION\nYou approach the shores of the island and run your
         raft up against the beachhead to dismount onto the sand.\n\nNARRATION\nYou
@@ -1388,7 +1408,7 @@ PrefabInstance:
         island reeks of betrayal.\n\nCAPTAIN\nThe spyglass of my ol\u2019 navigator
         should be around here somewhere. We won't even reach the shore of where we're
         going without it.\n\nNARRATION\nYou only make it a few steps inland before
-        you find the human remains clutching a spyglass. \n\nNARRATION\nAs you reach
+        you find human remains clutching a spyglass. \n\nNARRATION\nAs you reach
         for it blue light swirls and coalesces in front of you \u2013 it as blinding
         as a full moon across a calm sea. \n\nFLORRIE\nWell, look what has washed
         up with the tides.\n\nFLORRIE\nYou \u2018ought to give up piracy and return
@@ -1407,6 +1427,41 @@ PrefabInstance:
         My judgement is to refuse your command.\n\nCAPTAIN\nRefusing yer captain
         can get you quickly to the end of a plank! I wish I had the chance when it
         mattered most, but this\u2019ll do! \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[3].text
+      value: "NARRATION\nYou go inland and retrieve driftwood from the beach and
+        collect scattered apparel and the remaining belongings of Florrie the Navigator.\n\nNARRATION\nYou
+        hear Florrie and the Captain talking as you return and set to work on building
+        a pyre. \n\nCAPTAIN\nYe were too quick to pack a duffle and show the dungbie
+        of a dinghy as ye sailed away.\n\nCAPTAIN\nThose seabirds pecking at yer
+        corpse were the best funeral wake a traitor like ye deserves Florrie.\n\nFLORRIE\nI
+        did it to deny the mutineers the spyglass you seadog. They figured out its
+        importance. \n\nNARRATION\nFlorrie turns to you as you ready to light the
+        pyre with your tinder box. A profound mix of sadness and relief washes across
+        her ghastly face.\n\nFLORRIE\nThank you for this funeral pyre. You have fulfilled
+        my final wish.\n\nFLORRIE\nCaptain, perhaps in this moment you could set
+        aside your blinding greed and eulogize me like you once promised?\n\nCAPTAIN\nI
+        don't recall ever making such a promise.\n\nNARRATION\nAn expression crosses
+        Florries face showing the captain's words cut deep.\n\nFLORRIE\nI see. Well,
+        I know what it's like to be forgotten just like that promise.\n\nNARRATION\nShe
+        is fighting tears. Seeing this, the captain's smug look of self-righteousness
+        appears to have weakened across his skullish expression.\n\nCAPTAIN\n...\n\nCAPTAIN\nYou
+        earned your title, Florrie the Straight. Not once were we lost at sea. A
+        captain couldn\u2019t ask for a better navigator. \n\nNARRATION\nA few tears
+        roll down her face, the motes of blue ectoplasm dissolving into the sand
+        below. You see a slight smile. You start to see her fade as more parts dissolve
+        into the ground below.\n\nFLORRIE\nIt is true. I was as obsessed with the
+        map room as you are now with gold.\n\nFLORRIE\nPerhaps if we both lifted
+        our heads up more, we could have seen what the rest of the crew had planned
+        for us all.\n\nCAPTAIN\n...?\n\nFLORRIE\nYou have given me what I need to
+        free myself of this place. Take the spyglass and go.\n\nFLORRIE\nGo get your
+        gold, captain. Perhaps there you'll see what a fool you are.\n\nNARRATION\nShe
+        continues to fade in a gentle waterfall of azure light gracefully pooling
+        below her pyre.\n\nNARRATION\nYou feel spyglass appear in your hands, now
+        complete with its sapphire lens whole again.\n\nCAPTAIN\n...\n\nNARRATION\nThe
+        Captain stows his cutlas and stiffens up. \n\nCAPTAIN\nBack to sea. Captain's
+        orders."
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].text
@@ -1479,7 +1534,7 @@ PrefabInstance:
         all partied for days, until all the rum and rations were gone. What a fine
         time!\n\nCAPTAIN\nBy the end we had completely fogotten about the-\n\nNARRATION\nThe
         captain trails off.\n\nCAPTAIN\n...\n\nCAPTAIN\n\"It takes many islands to
-        make an archipelago...\" heh.\n\nNARRATION\nThe seems to notice you again,
+        make an archipelago...\" heh.\n\nNARRATION\nHe seems to notice you again,
         his gaze focusses on you. \n\nCAPTAIN\nGet back to marching, landlubber.
         We could have bought twice the rum with the gold on the ship we escaped from
         back then!\n\n"
@@ -1672,7 +1727,6 @@ PrefabInstance:
 
 
 
-
 '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
@@ -1704,7 +1758,7 @@ PrefabInstance:
         sigh as you exhale.\n\nNARRATION\nYour eyes meet the sockets of the Captain
         and for a second you swear he raised and eyebrow at you. That is, if he had
         an eyebrow still left. \n\nNARRATION\nYou avert his gaze and hastily begin
-        tying the rope around a sturdy palm tree. \n\n \n\n"
+        tying the rope around a sturdy palm tree. \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[4].text
@@ -1712,20 +1766,20 @@ PrefabInstance:
         ship slides out of the water and drags through the sand. \n\nNARRATION\nIt
         leaves behind a trench in the sand, one which you assume will be washed away
         in the next high high tide. \n\nNARRATION\nYou find a sturdy palm tree deep
-        within the beach. This is a good spot.\n\n\n\n"
+        within the beach. This is a good spot.\n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[5].text
       value: "CAPTAIN\nSink me! That's how ye tie a knot? Every old salt knows you
         loop twice, go through the middle and do one more loop to make a proper taut-line.
-        \n\n\n\n\n\n"
+        \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[6].text
       value: "NARRATION\nYou ignore the Captain's advice and keep your knot the way
         it is. What does he know? \n\nNARRATION\nAn annoyed click noise pops from
         his jaw. \n\nNARRATION\nAfter you do one last check to test it's effectiveness
-        you look up to see the Captain facing towards the orange light. \n\n\n\n"
+        you look up to see the Captain facing towards the orange light. \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[7].text
@@ -1783,7 +1837,7 @@ PrefabInstance:
         moves to ready his flintlock once more.\n\nNARRATION\nLeftpaw raises his
         hands in resignation and faces you. \n\nLEFTPAW THE BILGERAT\nLook, ye seem
         to 'ave an even keel. The only thing left I need to find is the 'elm. The
-        cockswain 'ould've also 'anted it in its rightful place. \n\n\n\n\n\n\n\n"
+        cockswain 'ould've also 'anted it in its rightful place. \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[9].text
@@ -1794,7 +1848,7 @@ PrefabInstance:
         your own incompetence to see beyond the veil of child-like immaturity is
         the only thing that can suprise spirits who have seen beyond the veil of
         mortaility.\n\nNARRATION\nFor once tonight, the two actually agreed on something.
-        \n\n\n\n"
+        \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].text
@@ -1827,16 +1881,30 @@ PrefabInstance:
         Siren. You hear the Captain and Leftpaw resume arguing in the distance.
 
 
-
-
 '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[11].text
-      value: "NARRATION\nUsing the orange and green glow of the ghosts as a point
-        of reference to navigate, you scour all around beach.\n\nNARRATION\nNo matter
-        how far away you were, the sound of the two arguing managed to always be
-        vageuly audible.\n\nNARRATION\nAlas, it is to no avail.\n\n \n\n\n"
+      value: 'NARRATION
+
+        Using the orange and green glow of the ghosts as
+        a point of reference to navigate, you scour all around beach.
+
+
+        NARRATION
+
+        No
+        matter how far away you were, the sound of the two arguing managed to always
+        be vageuly audible.
+
+
+        NARRATION
+
+        Alas, it is to no avail.
+
+
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[12].text
@@ -1851,7 +1919,7 @@ PrefabInstance:
         beach is the wheel of a ship. You set out to return to the two arguing ghosts
         by restracing your steps backwards.\n\nLEFTPAW\nI see ye found it. Good work
         matey. \n\nLEFTPAW\nNow return it to the deep. \n\nNARRATION\nLeftpaw motions
-        towards the sea. \n\n\n\n"
+        towards the sea. \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[13].text
@@ -1874,7 +1942,7 @@ PrefabInstance:
         course yer sailing. \n\nLEFTPAW\nJust remember, it doesn\u2019t matter how
         big the island is, it takes many islands to make an archipelago. \n\nNARRATION\nLeftpaw
         looks back towards you. \n\nLEFTPAW\nA bargain is a bargain. The Scarlet
-        Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
+        Siren is whole again. My lantern is yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
         remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
         into a swarm of ember-like motes adrift across the sky. \n\nNARRATION\nLike
         fireflies dancing over the ocean and across the night sky. Slowly flickering
@@ -1910,13 +1978,25 @@ PrefabInstance:
         course yer sailing. \n\nLEFTPAW\nJust remember, it doesn\u2019t matter how
         big the island is, it takes many islands to make an archipelago. \n\nNARRATION\nLeftpaw
         looks back towards you. \n\nLEFTPAW\nA bargain is a bargain. The Scarlet
-        Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
+        Siren is whole again. My lantern is yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
         remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
         into a swarm of ember-like motes. \n\nNARRATION\nLike fireflies dancing over
         the ocean and across the night sky. Slowly flickering out one by one as they
         landed in the water. \n\nNARRATION\nYou feel a gentle nudge at your feet,
         and as you look down you notice the waves brought in the amber lantern.\n\nCAPTAIN\n\u2026\n\nCAPTAIN\nAvast
         Ye! Back to the ship. Captain\u2019s orders!\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[5].maxProgress
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].maxProgress
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[7].maxProgress
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].maxProgress
@@ -1931,12 +2011,52 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].maxProgress
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].maxProgress
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[4].maxProgress
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[5].maxProgress
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].maxProgress
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].maxProgress
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].maxProgress
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].maxProgress
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[12].maxProgress
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[10].maxProgress
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].maxProgress
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].maxProgress
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].links.Array.size
@@ -1951,6 +2071,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[5].textList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].textList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[7].textList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.size
       value: 25
       objectReference: {fileID: 0}
@@ -1963,12 +2095,52 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[4].textList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[5].textList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.size
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].textList.Array.size
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[12].textList.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[10].textList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].textList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.size
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[0].passages.Array.data[0].textList.Array.data[1]
@@ -2011,8 +2183,33 @@ PrefabInstance:
         key begins to glow\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[5].textList.Array.data[2]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].textList.Array.data[2]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[0].passages.Array.data[6].textList.Array.data[3]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[7].textList.Array.data[3]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[0].textList.Array.data[0]
+      value: 'NARRATION
+
+        The tide is calm making your approach straightforward.
+        A moment of solace for the first time during this journey.'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[1].passages.Array.data[0].textList.Array.data[1]
@@ -2020,6 +2217,20 @@ PrefabInstance:
 
         You realize the captain has been quiet for some
         time as he is fixated on a distant blue light.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[0].textList.Array.data[6]
+      value: 'NARRATION
+
+        You only make it a few steps inland before you find
+        human remains clutching a spyglass. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[3].textList.Array.data[4]
+      value: 'FLORRIE
+
+        I did it to deny the mutineers the spyglass you seadog.
+        They figured out its importance. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[0]
@@ -2208,6 +2419,12 @@ PrefabInstance:
         your attention on not ending up as a ghost yourself.'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.data[4]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[0]
       value: 'NARRATION
 
@@ -2287,6 +2504,12 @@ PrefabInstance:
         around a sturdy palm tree. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[4]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[5]
       value: 
       objectReference: {fileID: 0}
@@ -2298,6 +2521,12 @@ PrefabInstance:
         you your ship slides out of the water and drags through the sand. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[4].textList.Array.data[3]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[5].textList.Array.data[0]
       value: 'CAPTAIN
 
@@ -2307,7 +2536,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[5].textList.Array.data[1]
-      value: 
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[0]
@@ -2331,7 +2562,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[3]
-      value: 
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[4]
@@ -2453,11 +2686,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[5]
-      value: 
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[6]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[3].textList.Array.data[11]
+      value: 'NARRATION
+
+        She is fighting tears. Seeing this, the captain''s
+        smug look of self-righteousness appears to have weakened across his skullish
+        expression.'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[10]
@@ -2576,7 +2819,7 @@ PrefabInstance:
       propertyPath: storyInfo.Array.data[2].passages.Array.data[3].textList.Array.data[15]
       value: 'NARRATION
 
-        The seems to notice you again, his gaze focusses
+        He seems to notice you again, his gaze focusses
         on you. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
@@ -2676,6 +2919,12 @@ PrefabInstance:
         Alas, it is to no avail.'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].textList.Array.data[3]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[0]
       value: 'NARRATION
 
@@ -2715,7 +2964,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[7]
-      value: 
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[8]
@@ -2867,6 +3118,12 @@ PrefabInstance:
         you. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[36]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].links.Array.data[0].pid
       value: 13
       objectReference: {fileID: 0}
@@ -2910,7 +3167,7 @@ PrefabInstance:
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[17]
       value: "LEFTPAW\nA bargain is a bargain. The Scarlet Siren is whole again.
-        My lanterns yours\u2026 and\u2026 thank ye. "
+        My lantern is yours\u2026 and\u2026 thank ye. "
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[18]
@@ -2963,7 +3220,7 @@ PrefabInstance:
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[19]
       value: "LEFTPAW\nA bargain is a bargain. The Scarlet Siren is whole again.
-        My lanterns yours\u2026 and\u2026 thank ye. "
+        My lantern is yours\u2026 and\u2026 thank ye. "
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[20]
