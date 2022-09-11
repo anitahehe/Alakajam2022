@@ -12,12 +12,24 @@ public class TriggerDialoog : MonoBehaviour
     bool isTriggered;
     public float FadeTime;
 
+
+    public bool givesNavigatorItem = false;
+    public bool givesShipwrightItem = false;
+
    void OnTriggerEnter2D(Collider2D collision){
        if(collision.gameObject.tag == "Player"&& !isTriggered){
            Debug.Log("Story is triggered");
            dialogUIScript.InitializeStory(storyNumber);
            audioObject.PlayOneShot(characterMusic);
            isTriggered = true;
+           if (givesNavigatorItem)
+           {
+                GameManager.Instance().hasNavigatorItem = true;
+           }
+           if (givesShipwrightItem)
+           {
+                GameManager.Instance().hasShipwrightItem = true;
+           }
        }
    }
    void OnTriggerExit2D(){
