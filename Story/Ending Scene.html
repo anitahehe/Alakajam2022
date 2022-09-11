@@ -1,0 +1,339 @@
+<html>
+  <head>
+    <title>Ending Scene</title>
+    <script type="text/javascript">
+      /**
+       * Twison - Twine 2 JSON Export Story Format
+       *
+       * Copyright (c) 2015 Em Walker
+       * https://lazerwalker.com
+       *
+       * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+       * associated documentation files (the "Software"), to deal in the Software without restriction,
+       * including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+       * and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+       * subject to the following conditions:
+       *
+       * The above copyright notice and this permission notice shall be included in all copies or substantial
+       * portions of the Software.
+       *
+       * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+       * LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+       * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+       * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+       * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+       */
+      var Twison={extractLinksFromText:function(t){var n=t.match(/\[\[.+?\]\]/g);return n?n.map(function(t){var n=t.match(/\[\[(.*?)\-\&gt;(.*?)\]\]/);return n?{name:n[1],link:n[2]}:(t=t.substring(2,t.length-2),{name:t,link:t})}):null},extractPropsFromText:function(t){var n,r={},e=!1;const a=/\{\{((\s|\S)+?)\}\}((\s|\S)+?)\{\{\/\1\}\}/gm;for(;null!==(n=a.exec(t));){const o=n[1],s=n[3].replace(/(\r\n|\n|\r)/gm,""),i=this.extractPropsFromText(s);r[o]=null!==i?i:s,e=!0}return e?r:null},convertPassage:function(t){var n={text:t.innerHTML},r=Twison.extractLinksFromText(n.text);r&&(n.links=r);const e=Twison.extractPropsFromText(n.text);if(e&&(n.props=e),["name","pid","position","tags"].forEach(function(r){var e=t.attributes[r].value;e&&(n[r]=e)}),n.position){var a=n.position.split(",");n.position={x:a[0],y:a[1]}}return n.tags&&(n.tags=n.tags.split(" ")),n},convertStory:function(t){var n=t.getElementsByTagName("tw-passagedata"),r=Array.prototype.slice.call(n).map(Twison.convertPassage),e={passages:r};["name","startnode","creator","creator-version","ifid"].forEach(function(n){var r=t.attributes[n].value;r&&(e[n]=r)});var a={};return e.passages.forEach(function(t){a[t.name]=t.pid}),e.passages.forEach(function(t){t.links&&t.links.forEach(function(t){t.pid=a[t.link],t.pid||(t.broken=!0)})}),e},convert:function(){var t=document.getElementsByTagName("tw-storydata")[0],n=JSON.stringify(Twison.convertStory(t),null,2);document.getElementById("output").innerHTML=n}};window.Twison=Twison;
+    </script>
+  </head>
+  <body>
+    <pre id="output"></pre>
+    <div id="storyData" style="display: none;">
+      <tw-storydata name="Ending Scene" startnode="1" creator="Twine" creator-version="2.5.1" format="Twison" format-version="0.0.1" ifid="D00FE9CE-68F8-4027-9568-BAAFAB414D64" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Ending 1" tags="" position="1075,500" size="100,100">NARRATION
+With the spyglass cutting through the fog and the latern revealing the hidden contents of the map, your raft creeps up against the shoreline.
+
+CAPTAIN
+Oh how I&#39;ve longed to set foot on you once more, my dear island!
+
+NARRATION
+The captain snatches the map and lantern from your hands and begins marching.
+
+CAPTAIN
+You&#39;re about to witness a sight few have had the privelege of seeing. No greater fortune has ever been amassed on the high seas.
+
+NARRATION
+The march proceeds mostly in silence, a rare case for the captain in your journey so far.
+
+NARRATION
+To your surprise, the captain begins to slow down. His steps are no longer full of the enthusiasm he had jumping off the raft.
+
+NARRATION
+Finally, he comes to a stop after catching sight the moon resting over the ocean horizon.
+
+CAPTAIN
+...
+
+CAPTAIN
+You&#39;re not getting the full experience here you know.
+
+CAPTAIN
+You pilot a miserable raft. Have you ever sailed with a full crew?
+
+CAPTAIN
+The coordination is remarkable. Sea battles are strategy, but one can only strategize effectively when the crew is consistent.
+
+CAPTAIN
+...
+
+CAPTAIN
+Bah! Small crew or large, the old crew chose to be looters! And here we are, a mere crew of two having accomplished what they failed to do!
+
+CAPTAIN
+I must admit. You would fare poorly in a sea battle.
+
+CAPTAIN
+...
+
+CAPTAIN
+Alone, I mean. A good sailor knows themselves and their mates form more than the sum of their parts.
+
+CAPTAIN
+... you should get a fishing buddy or something.
+
+CAPTAIN
+What am I saying? Get back to marching landlubber, break&#39;s over!
+
+NARRATION
+He abruptly begins marching, returning his eyes to the map.
+
+CAPTAIN
+Gold in the moonlight! That&#39;s what being a pirate is all about!
+
+NARRATION
+He is completely ignoring you.
+
+CAPTAIN
+They couldn&#39;t earn their keep and decided to take it from their dear old captain! Ha!
+
+CAPTAIN
+Greed! That&#39;s what did those bastards in, and brought them to their watery grave!
+
+[[A watery grave like yours?]]</tw-passagedata><tw-passagedata pid="2" name="A watery grave like yours?" tags="" position="1075,625" size="100,100">CAPTAIN
+Don&#39;t mistake me for a victim of my own greed like those others, fool! You may be daft but at least you&#39;re not a mutineer!
+
+CAPTAIN
+Who gets the gold in the end? Me, that&#39;s who. The one who earned it!
+
+[[You didn&#39;t earn it alone.]]</tw-passagedata><tw-passagedata pid="3" name="You didn&#39;t earn it alone." tags="" position="1075,750" size="100,100">CAPTAIN
+I earned my keep, and a crew needs a captain.
+
+CAPTAIN
+Do you know what those bastards were before I came along?
+
+CAPTAIN
+Street urchins. Whelps. Drunks. The dregs of society.
+
+CAPTAIN
+Every captain starts somewhere. Who wants to join an inexperienced captain?
+
+CAPTAIN
+I&#39;ll give you a hint. It&#39;s not the picks of the litter.
+
+CAPTAIN
+No, I made them the crew they were. I invested time and care into my crew.
+
+CAPTAIN
+Long days and late nights. A captain who spends all his time in his quarters is the captain who loses his battles.
+
+CAPTAIN
+You need a crew you can trust with your life.
+
+[[Guess that wasn&#39;t the crew you made then.]]</tw-passagedata><tw-passagedata pid="4" name="Guess that wasn&#39;t the crew you made then." tags="" position="1075,875" size="100,100">NARRATION
+The captain is dumbfounded. He stops his marching.
+
+CAPTAIN
+Don&#39;t tell me about my own crew, ye scallywag!
+
+CAPTAIN
+I taught them too well if anything! Once we could go for the big fish there was no looking back!
+
+CAPTAIN
+Royal galleons. Merchant vessels. Literal treasure ships. The amount of gold was beyond anything I had promised them.
+
+CAPTAIN
+Why shouldn&#39;t I get my fair share? They had more than enough of what they&#39;d originally agreed to.
+
+CAPTAIN
+In the beginning we had to run from sea fights! We flew up the black flag and if they didn&#39;t surrender we had to run for our lives!
+
+CAPTAIN
+If Florrie couldn&#39;t help us flee into the reefs we&#39;d have died a thousand times over!
+
+CAPTAIN
+And that&#39;s nothing if Leftpaw didn&#39;t find ways of keeping the ship afloat when god knows it took one too many cannonballs to the hull!
+
+CAPTAIN
+I remember one time we barely made it to land to do repairs, and what did we find on the deserted island we hit?
+
+CAPTAIN
+Another recent shipwreck. Rum smugglers! They had been so drunk at sea they had run the ship aground!
+
+CAPTAIN
+We all partied for days, until all the rum and rations were gone. What a fine time!
+
+CAPTAIN
+By the end we had completely fogotten about the-
+
+NARRATION
+The captain trails off.
+
+CAPTAIN
+...
+
+CAPTAIN
+Get back to marching, landlubber. We could have bought twice the rum with the gold on the ship we escaped from back then!
+
+[[Florrie and Leftpaw didn&#39;t betray you.]]</tw-passagedata><tw-passagedata pid="5" name="Florrie and Leftpaw didn&#39;t betray you." tags="" position="1075,1000" size="100,100">NARRATION
+The captain erupts into a raging stance.
+
+CAPTAIN
+They were the closest crewmates I had! I trusted them with the security of this very island!
+
+CAPTAIN
+And in the end, they betrayed me!
+
+[[They sacrificed themselves for you.]]</tw-passagedata><tw-passagedata pid="6" name="They sacrificed themselves for you." tags="" position="1075,1125" size="100,100">CAPTAIN
+Nonsense! Balderdash!
+
+CAPTAIN
+Even if that were true, they should have kept a better eye on the crew! Mutinies don&#39;t just happen you know!
+
+[[Gold and greed replaced you as captain.]]</tw-passagedata><tw-passagedata pid="7" name="Gold and greed replaced you as captain." tags="" position="1075,1250" size="100,100">CAPTAIN
+...
+
+CAPTAIN
+Oh bugger it all.
+
+CAPTAIN
+I&#39;m this close to the gold, and you&#39;re ruining it!
+
+CAPTAIN
+I can put them all behind me! What matter is it if they had less?
+
+CAPTAIN
+If they didn&#39;t want more they would have stopped sailing!
+
+CAPTAIN
+And if they stopped sailing I wouldn&#39;t have a crew!
+
+CAPTAIN
+And if I didn&#39;t have a crew I&#39;d be-
+
+CAPTAIN
+...
+
+CAPTAIN
+All alone.
+
+CAPTAIN
+All alone with me gold.
+
+NARRATION
+The captain falls silent and in the distance you hear the crashing sounds of the waves.
+
+CAPTAIN
+...
+
+CAPTAIN
+I don&#39;t like to see it, but the treasure I&#39;ve lost is something gold can&#39;t buy.
+
+NARRATION
+The captain looks over his incorpoeal body.
+
+CAPTAIN
+...
+
+CAPTAIN
+If you had to choose, would you pick a life or a legacy?
+
+[[Life.]]
+[[Legacy.]]</tw-passagedata><tw-passagedata pid="8" name="Life." tags="" position="1075,1375" size="100,100">CAPTAIN
+I guess me next question should be, &quot;would you spend your life like pirates save gold?&quot;
+
+NARRATION
+The captain passes you the lantern and map.
+
+[[Take it.]]</tw-passagedata><tw-passagedata pid="9" name="Legacy." tags="" position="1200,1375" size="100,100">CAPTAIN
+Ha! I suppose most do want to live beyond their lives. It&#39;s not what it&#39;s cracked up to be.
+
+NARRATION
+The captain passes you the lantern and map.
+
+[[Take it.]]</tw-passagedata><tw-passagedata pid="10" name="Take it." tags="" position="1150,1500" size="100,100">CAPTAIN
+You&#39;re getting a field promotion. For exceptional work at sea.
+
+CAPTAIN
+You&#39;re first mate now. Better find someone to boss around.
+
+CAPTAIN
+Maybe buying someone a drink with some of that gold would help?
+
+CAPTAIN
+Take it from a lonely captain. Buying folks a drink is a great way to gather up a crew.
+
+CAPTAIN
+...
+
+CAPTAIN
+Better yet, a great way to gather up others to grow closer to.
+
+CAPTAIN
+Me, I&#39;ve had my time. I&#39;m through being captain.
+
+CAPTAIN
+I had it and even when I almost lost it all, I went ahead and made sure I lost everything.
+
+CAPTAIN
+Me best mates. And I threw their lot in with those I would curse beyond the grave.
+
+CAPTAIN
+I&#39;m through with it. I&#39;m though with being a captain, and I&#39;m through with being anything.
+
+NARRATION
+His ghostly body begins to fade, like Florrie and Leftpaw did.
+
+CAPTAIN
+Maybe... maybe I ought to try fishing?
+
+NARRATION
+Your captain is gone.
+
+NARRATION
+At sea, command falls to those of the next highest rank. What are your orders, captain?
+
+[[Finish the march!]]
+
+[[Return to the boat.]]</tw-passagedata><tw-passagedata pid="11" name="Finish the march!" tags="" position="1150,1625" size="100,100">NARRATION
+You barely walk a few meters before you see the entrace to a cave, the moonlight cutting through and revealing a golden glow.
+
+NARRATION
+You step inside, and within is more gold than you possible could have imagined. The cave is wider and deeper than it appears from outside.
+
+NARRATION
+You step inside, and within is more gold than you possible could have imagined. The cave is wider and deeper than it appeared from outside.
+
+NARRATION
+It&#39;ll take a few trips with your raft, but you figure you can go back and forth to accumulate enough to buy a ship of your own.
+
+NARRATION
+With your magic lantern and spyglass it will be no trouble.
+
+NARRATION
+As you lift the first handful of gold, you realize how heavy it is.
+
+NARRATION
+You can&#39;t help but think - this would be easier with a crew.
+
+NARRATION
+THE END.
+
+NARRATION
+Created for the 16th Alakajam by:
+
+NARRATION
+TODO: ALPHABETICAL CREDITS</tw-passagedata><tw-passagedata pid="12" name="Return to the boat." tags="" position="1275,1625" size="100,100">NARRATION
+&quot;A pirate&#39;s life&#39;s not for me,&quot; you say to yourself.
+
+NARRATION
+You turn around, then remember how excited you were to possibly catch a tuna earlier.
+
+NARRATION
+... and gold can buy a lot of tuna.
+
+[[Finish the march!]] </tw-passagedata></tw-storydata>
+    </div>
+    <script>
+      Twison.convert();
+    </script>
+  </body>
+</html>
