@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class TriggerDialoog : MonoBehaviour
 {
-    void Start(){
-        
-    }
+    public DialogUI dialogUIScript;
+
+    public int storyNumber; 
 
    void OnTriggerEnter2D(Collider2D collision){
        if(collision.gameObject.tag == "Player"){
-           Debug.Log("Dialog here! BLAH BLAH");
+           Debug.Log("Story is triggered");
+           dialogUIScript.InitializeStory(storyNumber);
+
+
+
        }
    }
 }
