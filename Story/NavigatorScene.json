@@ -1,115 +1,113 @@
-
-
 {
   "passages": [
     {
-      "text": "NARRATION\nYou approach the shores of the island, and run your raft up against the beachhead to dismount onto the sand.\n\nCAPTAIN\nAnother island that reeks of betrayal.\n\nCAPTAIN\nThe spyglass of the navigator should be around here somewhere. We won't even reach the shore of where we're going without it.\n\nNARRATION\nYou only make it a few steps inland before a ghostly presence appears before you!\n\nFLORRIE\nWell, look what has washed up with the tides.\n\nFLORRIE\nYou ought to give up piracy and return to that fishing raft of yours. This captain will be no help to your livelihood.\n\nCAPTAIN\nFlorrie you fiend! Justice exists after all, with a traitor like you damned to such a pitiful island as this!\n\nCAPTAIN\nMy new crew may be modest in size but is a great improvement in the loyalty department, as you should know.\n\nFLORRIE\nI expect your heart would have fed the bottom-feeders in your watery grave well, had you not lost it so long before your demise.\n\nCAPTAIN\nHearsay! Speak not of hearts to me you accursed mutineer!\n\nFLORRIE\nTraitor? The only traitor here is you. You long ago abandoned a love of sea, comradery and adventure for love of gold.\n\nCAPTAIN\nWith crewmates like you, I'd prefer the company of gold. Give us your spyglass, traitor.\n\nFLORRIE\nYou entrusted it to me once with my judgement, and it remains in that state. My judgement is to refuse your command.\n\nCAPTAIN\nRefusing your captain can get you quickly to the end of a plank, not that I had the chance when it mattered most!\n\n[[Florrie 2]]\n",
+      "text": "NARRATION\nThe tide is calm making your approach straightforward. A moment of solace for this first time during this journey.\n\nNARRATION\nYou realize the captain has been quiet for some time as he is fixated on a distant blue witch light.\n\nNARRATION\nYou approach the shores of the island and run your raft up against the beachhead to dismount onto the sand.\n\nNARRATION\nYou watch the sea foam bubbling across the shore as you drag your vessel deeper on the beach. You leave it unanchored with no worry of the tide.\n\nCAPTAIN\nThis island reeks of betrayal.\n\nCAPTAIN\nThe spyglass of my ol’ navigator should be around here somewhere. We won't even reach the shore of where we're going without it.\n\nNARRATION\nYou only make it a few steps inland before you find the human remains clutching a spyglass. \n\nNARRATION\nAs you reach for it blue light swirls and coalesces in front of you – it as blinding as a full moon across a calm sea. \n\nFLORRIE\nWell, look what has washed up with the tides.\n\nFLORRIE\nYou ‘ought to give up piracy and return to that fishing raft of yours. This captain will be no help to your livelihood.\n\nCAPTAIN\nFlorrie you fiend! \n\nNARRATION\nThe captain reaches for his cutlass. \n\nCAPTAIN\nWith a scurvy dog like ye thrice-damned to such a pitiful island as this, justice exists after all!\n\nCAPTAIN\nMy new crew may be modest in size but is a great improvement in the loyalty department, as a traitor like ye should know.\n\nFLORRIE\nI expect your heart would have fed the bottom-feeders in your watery grave well, had you not lost it so long before your demise.\n\nCAPTAIN\nHearsay! Speak not of hearts to me ye accursed mutineer!\n\nFLORRIE\nThe only traitor here is you. You long ago abandoned a love of sea, comradery, and adventure for love of gold. It poisoned you captain. \n\nCAPTAIN\nWith crewmates like ye, I'd prefer the company of gold. Give us yer spyglass, traitor.\n\nFLORRIE\nYou entrusted it to me once with my judgement, and it remains under my protection. My judgement is to refuse your command.\n\nCAPTAIN\nRefusing yer captain can get you quickly to the end of a plank! I wish I had the chance when it mattered most, but this’ll do! \n\n[[The spyglass looks broken…]]\n",
       "links": [
         {
-          "name": "Florrie 2",
-          "link": "Florrie 2",
-          "pid": "2"
+          "name": "The spyglass looks broken…",
+          "link": "The spyglass looks broken…",
+          "pid": "6"
         }
       ],
       "name": "Florrie 1",
       "pid": "1",
       "position": {
         "x": "1075",
-        "y": "500"
+        "y": "475"
       }
     },
     {
-      "text": "FLORRIE\nThis tires me. You, the only one here with a body. Care to assist me in my wishes?\n\nFLORRIE\nUnlike your captain here, I haven't had much company lately.\n\nFLORRIE\nI died of exposure not far from here. In my current state there's not much I could do to clean up.\n\nFLORRIE\nLong ago, after days of torturous isolation, starvation, and burning sun on my skin I woke from death to the sight of seabirds feasting on my corpse.\n\nCAPTAIN\nI can only hope you slept in and missed the last boat! No wonder the mutineers died at sea, the fools approached their final destination without the spyglass!\n\nCAPTAIN\nI imagine you wanted it all for yourself, and were so excited you forgot to pack an escape boat to row over their corpses with. Fool!\n\nFLORRIE\nSilence. Go fetch my corpse, unless you'd prefer to listen to an eternity of your dear captain's musings.\n\n[[In trade for the spyglass?]]\n[[Why?]]",
-      "links": [
-        {
-          "name": "In trade for the spyglass?",
-          "link": "In trade for the spyglass?",
-          "pid": "4"
-        },
-        {
-          "name": "Why?",
-          "link": "Why?",
-          "pid": "7"
-        }
-      ],
-      "name": "Florrie 2",
-      "pid": "2",
-      "position": {
-        "x": "1225",
-        "y": "500"
-      }
-    },
-    {
-      "text": "FLORRIE\nI have reason to be upset you know.\n\nFLORRIE\nThe crew once sailed the high seas in constant companionship. One grows to appreciate the company on a ship.\n\nFLORRIE\nI only set out to sea for a legacy worth remembering. I only stayed out there to be among those who cared for me and I for them.\n\nCAPTAIN\nYour disingenuity even after death is despicable.\n\nFLORRIE\nWhen I was stranded here all I wanted was the old crew to appear on the horizon to rescue me.\n\nFLORRIE\nI'd have given anything for even one trusted shipmate to have been with me for the end.\n\nFLORRIE\nInstead I passed alone. Are you getting the picture your captain is so clearly missing?\n\n[[What is your intent?]]",
+      "text": "FLORRIE\nI have reason to be distraught you know.\n\nFLORRIE\nThe crew once sailed the high seas in constant companionship. One grows to appreciate the company on a ship. You could say we were a family of sorts.\n\nFLORRIE\nI originally set out to sea for a legacy worth remembering. I only stayed out there to be among those who cared for me and I for them.\n\nCAPTAIN\nYer commitment to run a rig even after death is despicable.\n\nNARRATOR\nShe ignores the captain’s interjection and continues.\n\nFLORRIE\nWhen I was stranded here all I wanted was the old crew to appear on the horizon to rescue me.\n\nFLORRIE\nI'd have given anything for even one trusted shipmate to have been with me for the end. If only…\n\nFLORRIE\nInstead, I passed alone, with no legacy left behind. Are you getting the picture your captain is so clearly missing?\n\n[[What is your intent?]]\n",
       "links": [
         {
           "name": "What is your intent?",
           "link": "What is your intent?",
-          "pid": "5"
+          "pid": "3"
         }
       ],
       "name": "What must I do?",
-      "pid": "3",
+      "pid": "2",
       "position": {
         "x": "1325",
         "y": "775"
       }
     },
     {
-      "text": "FLORRIE\nThere hasn't been anything to see, why would I need it? There's not a soul around apart from me until you two arrived.\n\n[[What must I do?]]",
-      "links": [
-        {
-          "name": "What must I do?",
-          "link": "What must I do?",
-          "pid": "3"
-        }
-      ],
-      "name": "In trade for the spyglass?",
-      "pid": "4",
-      "position": {
-        "x": "1425",
-        "y": "625"
-      }
-    },
-    {
-      "text": "FLORRIE\nBring my body back here and light a pyre with some driftwood.\n\nFLORRIE\nI died alone. I shall at least have attendees to my funeral.\n\n[[Very well.]]\n",
+      "text": "FLORRIE\nLight a pyre with some driftwood and burn my remains on it.\n\nFLORRIE\nI died alone. I shall at least have attendees to my funeral. I deserve as much.\n\nNARRATOR\nShe gazes toward the Captain, who stands there expressionless. \n\n[[Very well.]]\n",
       "links": [
         {
           "name": "Very well.",
           "link": "Very well.",
-          "pid": "6"
+          "pid": "4"
         }
       ],
       "name": "What is your intent?",
-      "pid": "5",
+      "pid": "3",
       "position": {
         "x": "1325",
         "y": "900"
       }
     },
     {
-      "text": "NARRATION\nYou go inland and retrieve the bones and apparel of Florrie, gather it with some driftwood on the beach, and light it on fire.\n\nCAPTAIN\nThose seabirds pecking at your corpse were the best funeral guests a traitor like you deserves Florrie.\n\nFLORRIE\nThank you for this funeral pyre. You have fulfilled my final wish.\n\nFLORRIE\nPerhaps, in this moment you could set aside your blinding greed and eulogize me like you once promised, my captain?\n\nCAPTAIN\nI don't recall ever making such a promise.\n\nNARRATION\nAn expression crosses Florries face that shows the captain's words cut deep.\n\nFLORRIE\nI see. Well, I know what it's like to be forgotten just like that promise.\n\nNARRATION\nShe is fighting tears. Seeing this, captain's smug look of self-righteousness appears to have weakened.\n\nCAPTAIN\n...\n\nCAPTAIN\nYou earned your monachre, Florrie the Straight. Not once were we lost at sea.\n\nNARRATION\nShe is still crying, but you see a slight smile.\n\nFLORRIE\nIt is true. I was as obsessed with the map room as you are now with gold.\n\nFLORRIE\nPerhaps if we both lifted our heads up more we could have seen what the rest of the crew had planned for us all.\n\nCAPTAIN\n...?\n\nFLORRIE\nYou have given me what I need to free myself of this place. Take the spyglass, and go.\n\nFLORRIE\nGo get your gold, captain. Perhaps there you'll see what a fool you are.\n\nNARRATION\nShe fades and dissapears. You feel spyglass appear in your hands.\n\nCAPTAIN\n...\n\nCAPTAIN\nBack to sea. Captain's orders.",
+      "text": "NARRATION\nYou go inland and retrieve driftwood from the beach and collect scattered apparel and the remaining belongings of Florrie the Navigator.\n\nNARRATION\nYou hear Florrie and the Captain talking as you return and set to work on building a pyre. \n\nCAPTAIN\nYe were too quick to pack a duffle and show the dungbie of a dinghy as ye sailed away.\n\nCAPTAIN\nThose seabirds pecking at yer corpse were the best funeral wake a traitor like ye deserves Florrie.\n\nFLORRIE\nI did it to deny the mutineers the spyglass you seadog. There figured out its importance. \n\nNARRATION\nFlorrie turns to you as you ready to light the pyre with your tinder box. A profound mix of sadness and relief washes across her ghastly face.\n\nFLORRIE\nThank you for this funeral pyre. You have fulfilled my final wish.\n\nFLORRIE\nCaptain, perhaps in this moment you could set aside your blinding greed and eulogize me like you once promised?\n\nCAPTAIN\nI don't recall ever making such a promise.\n\nNARRATION\nAn expression crosses Florries face showing the captain's words cut deep.\n\nFLORRIE\nI see. Well, I know what it's like to be forgotten just like that promise.\n\nNARRATION\nShe is fighting tears. Seeing this, captain's smug look of self-righteousness appears to have weakened across his skullish expression.\n\nCAPTAIN\n...\n\nCAPTAIN\nYou earned your title, Florrie the Straight. Not once were we lost at sea. A captain couldn’t ask for a better navigator. \n\nNARRATION\nA few tears roll down her face, the motes of blue ectoplasm dissolving into the sand below. You see a slight smile. You start to see her fade as more parts dissolve into the ground below.\n\nFLORRIE\nIt is true. I was as obsessed with the map room as you are now with gold.\n\nFLORRIE\nPerhaps if we both lifted our heads up more, we could have seen what the rest of the crew had planned for us all.\n\nCAPTAIN\n...?\n\nFLORRIE\nYou have given me what I need to free myself of this place. Take the spyglass and go.\n\nFLORRIE\nGo get your gold, captain. Perhaps there you'll see what a fool you are.\n\nNARRATION\nShe continues to fade in a gentle waterfall of azure light gracefully pooling below her pyre.\n\nNARRATION\nYou feel spyglass appear in your hands, now complete with its sapphire lens whole again.\n\nCAPTAIN\n...\n\nNARRATION\nThe Captain stows his cutlas and stiffens up. \n\nCAPTAIN\nBack to sea. Captain's orders.",
       "name": "Very well.",
-      "pid": "6",
+      "pid": "4",
       "position": {
         "x": "1325",
         "y": "1025"
       }
     },
     {
-      "text": "FLORRIE\nWhy? Because I have the spyglass you need. Doesn't that appeal to your sense of loyalty to your captain, or is there hope for you yet?\n\n[[What must I do?]]",
+      "text": "\n\nFLORRIE\nYou’re as daft as the mutineers. Why? Because I’m the only one that can fix the spyglass you need. \n\nFLORRIE\nDoesn't that appeal to your sense of loyalty to your ‘captain’, or is there hope for you yet?\n\n[[What must I do?]]\n",
       "links": [
         {
           "name": "What must I do?",
           "link": "What must I do?",
-          "pid": "3"
+          "pid": "2"
         }
       ],
       "name": "Why?",
-      "pid": "7",
+      "pid": "5",
       "position": {
         "x": "1275",
         "y": "625"
+      }
+    },
+    {
+      "text": "FLORRIE\nThis tires me. You, the only one here with a body. \n\nNARRATOR\nFlorrie turns to face you and for the first time you can see her distinguished presence. Without a doubt, she is the most intelligent being on the island built from an education in life.\n\nNARRATOR\nThere are stashes of charts holstered at her hip presumably of all the archipelagos the Scarlet Siren sailed. Her hair floats in the air as if she was a drowned corpse adrift in water.\n\nFLORRIE\nCare to assist me in my wishes?\n\nFLORRIE\nUnlike your captain here, I haven't had much company lately.\n\nFLORRIE\nAs you can see, I died of exposure here. Marooned alone on this island. In my current state there's not much I could do to clean up.\n\nFLORRIE\nLong ago, following days of torturous isolation, starvation, and burning sun on my skin I woke from death to the sight of seabirds feasting on my corpse.\n\nCAPTAIN\nI hope this was because ye slept in and missed the last boat! No wonder the mutineers died at sea, the fools approached their final destination without the spyglass!\n\nNARRATOR\nThe Captain lets out a cackle as he casually waves the cutlass in his hand.\n\nCAPTAIN\nI imagine ye wanted it all for yourself ye greedy harlot and were so excited ye forgot to pack an escape boat to row over their corpses with. Yer a scallywag!\n\nFLORRIE\nSilence my Captain. You there, go fetch my corpse, unless you'd prefer to listen to an eternity of your dear captain's musings.\n\n[[But the spyglass is broken...]]\n[[Why?]]\n",
+      "links": [
+        {
+          "name": "But the spyglass is broken...",
+          "link": "But the spyglass is broken...",
+          "pid": "7"
+        },
+        {
+          "name": "Why?",
+          "link": "Why?",
+          "pid": "5"
+        }
+      ],
+      "name": "The spyglass looks broken…",
+      "pid": "6",
+      "position": {
+        "x": "1075",
+        "y": "600"
+      }
+    },
+    {
+      "text": "FLORRIE\nYou’re a keen one, not nearly as daft as you look. I’m the only one that can fix the spyglass you need. \n\nFLORRIE\nDoesn't that appeal to your sense of loyalty to your ‘captain’, or is there hope for you yet?\n\n[[What must I do?]]\n",
+      "links": [
+        {
+          "name": "What must I do?",
+          "link": "What must I do?",
+          "pid": "2"
+        }
+      ],
+      "name": "But the spyglass is broken...",
+      "pid": "7",
+      "position": {
+        "x": "1100",
+        "y": "725"
       }
     }
   ],
@@ -119,4 +117,3 @@
   "creator-version": "2.5.1",
   "ifid": "3FDCA753-1616-4F85-9C5F-38BD867AB7A2"
 }
-
