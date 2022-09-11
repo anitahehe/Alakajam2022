@@ -93,7 +93,7 @@
       }
     },
     {
-      "text": "NARRATION\nBefore you can finish your inquiry, what you begin to realize is the ghost of a pirate captain interrupts you.\n\nCAPTAIN\nAvast ye' scallywag!  Yer to sail me right to Skull Island immediately. This ship here is now commandeered by yer's truly, savvy? \n\n\n[[Stay Silent]]\n[[Try to form a response]]\n",
+      "text": "NARRATION\nBefore you can finish your inquiry, what you begin to realize is the ghost of a pirate captain interrupts you.\n\nCAPTAIN\nAvast ye' scallywag!  Yer to sail me right to Skull Island immediately. This ship here is now commandeered by yer's truly, savvy? \n\n[[Stay Silent]]\n[[Try to form a response]]\n",
       "links": [
         {
           "name": "Stay Silent",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.\n\nNARRATION\nYou are utterly frozen in fear, your mouth agape. \n\n[[The Captain Resumes Talking]]\n\n",
+      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.\n\nNARRATION\nYou are utterly frozen in fear, your mouth agape. \n\n[[The Captain Resumes Talking]]\n",
       "links": [
         {
           "name": "The Captain Resumes Talking",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.  \n\nNARRATION\nYou open your mouth and are jumbling and stuttering your words in fear. \n\nNARRATION\nYou give up trying to articulate and close your mouth in surrender.\n\n[[The Captain Resumes Talking]]\n\n",
+      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.  \n\nNARRATION\nYou open your mouth and are jumbling and stuttering your words in fear. \n\nNARRATION\nYou give up trying to articulate and close your mouth in surrender.\n\n[[The Captain Resumes Talking]]\n",
       "links": [
         {
           "name": "The Captain Resumes Talking",
