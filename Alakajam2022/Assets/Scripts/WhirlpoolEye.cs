@@ -43,6 +43,7 @@ public class WhirlpoolEye : MonoBehaviour
         // Stop their movement.
         var rb = player.gameObject.GetComponent<Rigidbody2D>();
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, 0.0f);
+        player.GetComponent<BoatMovement>().canMove = false;
         // Spin and shrink until invisible.
         var originalScale = player.transform.localScale;
         while (player.transform.localScale.x > 0.1)
@@ -60,14 +61,13 @@ public class WhirlpoolEye : MonoBehaviour
         // Spin and grow until visible at right location.
         while (player.transform.localScale.x < originalScale.x)
         {
-            
-            
             rb.AddTorque(rotationTorque * (1 + transform.forward.magnitude));
             player.transform.localScale += new Vector3(shrinkRate, shrinkRate, shrinkRate);
             yield return null;
         }
         player.transform.localScale = originalScale;
         
+        player.GetComponent<BoatMovement>().canMove = true;
         running = false;
     }
 }
