@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Link
@@ -100,6 +101,11 @@ public class Passage
     public void Scrub()
     {
         text = Regex.Replace(text, @"\[[^)]*\]", string.Empty);
+
+        if (text.Equals("ENDFIN"))
+        {
+            SceneManager.LoadScene(2);
+        }
 
         textList = text.Split("\n\n", StringSplitOptions.None);
 
