@@ -61,6 +61,7 @@ public class DialogUI : MonoBehaviour
     {
         OnDialogComplete.Invoke();
         UI.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void RunPassage(Passage passage)

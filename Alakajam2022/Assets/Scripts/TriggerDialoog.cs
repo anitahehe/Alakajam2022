@@ -9,15 +9,31 @@ public class TriggerDialoog : MonoBehaviour
     public int storyNumber; 
     public AudioSource audioObject;
     public AudioClip characterMusic;
+    bool isTriggered;
+    public float FadeTime;
 
    void OnTriggerEnter2D(Collider2D collision){
-       if(collision.gameObject.tag == "Player"){
+       if(collision.gameObject.tag == "Player"&& !isTriggered){
            Debug.Log("Story is triggered");
            dialogUIScript.InitializeStory(storyNumber);
            audioObject.PlayOneShot(characterMusic);
-
-
-
+           isTriggered = true;
        }
    }
+   void OnTriggerExit2D(){
+    StartCoroutine (FadeOut (audioObject, FadeTime));
+    
+   }
+   public static IEnumerator FadeOut (AudioSource audioObject, float FadeTime) {
+        float startVolume = audioObject.volume;
+ 
+        while (audioObject.volume > 0) {
+            audioObject.volume -= startVolume * Time.deltaTime / FadeTime;
+ 
+            yield return null;
+        }
+ 
+        audioObject.Stop ();
+        audioObject.volume = startVolume;
+    }
 }
