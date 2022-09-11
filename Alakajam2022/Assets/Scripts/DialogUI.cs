@@ -19,6 +19,7 @@ public class DialogUI : MonoBehaviour
 
     [TabGroup("UX")] public float textSpeed;
     [TabGroup("UX")] public KeyCode skipKey;
+    [TabGroup("UX")] public KeyCode turboKey;
     [TabGroup("UX")] public Color fadedColor;
     [TabGroup("UX")] public float fadeDuration;
 
@@ -72,6 +73,11 @@ public class DialogUI : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(skipKey) || Input.GetMouseButtonDown(0))
+        {
+            textButtonPressed = true;
+        }
+
+        if (Input.GetKey(turboKey))
         {
             textButtonPressed = true;
         }

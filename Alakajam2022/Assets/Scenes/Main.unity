@@ -1306,6 +1306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: turboKey
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: stories.Array.size
       value: 1
