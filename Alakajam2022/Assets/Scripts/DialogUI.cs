@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.Events;
 using Sirenix.OdinInspector;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogUI : MonoBehaviour
 {
@@ -144,6 +145,11 @@ public class DialogUI : MonoBehaviour
                 yield return null;
 
             string[] text = passage.GetNext().Split("\n", 2);
+
+            if (text[0].Equals("END"))
+            {
+                SceneManager.LoadScene(2);
+            }
 
             // test if we need a new character to be displayed
             bool newChar = currentCharacter == null;

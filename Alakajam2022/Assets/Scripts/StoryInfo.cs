@@ -101,12 +101,6 @@ public class Passage
     public void Scrub()
     {
         text = Regex.Replace(text, @"\[[^)]*\]", string.Empty);
-
-        if (text.Equals("ENDFIN"))
-        {
-            SceneManager.LoadScene(2);
-        }
-
         textList = text.Split("\n\n", StringSplitOptions.None);
 
         maxProgress = textList.Length;

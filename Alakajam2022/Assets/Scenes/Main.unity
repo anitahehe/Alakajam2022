@@ -1326,6 +1326,1537 @@ PrefabInstance:
       propertyPath: characters.Array.data[3].dialogSounds.Array.data[3]
       value: 
       objectReference: {fileID: 8300000, guid: 8ce26e71e471dc249a31e8cf0c5134ee, type: 3}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].text
+      value: "NARRATION\nWith the sapphire spyglass cutting through the fog and the
+        amber lantern revealing the hidden contents of the map, your raft creeps
+        up against the shoreline.\n\nCAPTAIN\nOh, how I've longed to set foot on
+        ye once more, my dear island!\n\nNARRATION\nThe captain snatches the map
+        and lantern from your hands and begins marching.\n\nCAPTAIN\nYer about to
+        witness a sight few have had the privilege of seeing. No greater fortune
+        has ever been amassed on the high seas.\n\nNARRATION\nThe march proceeds
+        mostly in silence, a rare case for the captain in your journey so far.\n\nNARRATION\nTo
+        your surprise, the captain begins to slow down. His steps are no longer full
+        of the enthusiasm he had jumping off the raft.\n\nNARRATION\nFinally, he
+        comes to a stop after catching sight the moon resting over the ocean horizon.\n\nCAPTAIN\n...\n\nCAPTAIN\nYer
+        not getting the full experience here ye know.\n\nCAPTAIN\nYou pilot a miserable
+        raft. Have you ever sailed with a full crew?\n\nCAPTAIN\nThe coordination
+        is remarkable. Sea battles are strategy, but one can only strategize effectively
+        when the crew is consistent and trained. Predators hunting prey.\n\nCAPTAIN\n...\n\nCAPTAIN\nBah!
+        Small crew or large, the old crew chose to be looters! And here we are, a
+        mere crew of two having accomplished what they failed to do!\n\nCAPTAIN\nI
+        must admit. Ye would fare poorly in a sea battle.\n\nCAPTAIN\n...\n\nCAPTAIN\nAlone,
+        I mean. A good sailor knows themselves and their mates form more than the
+        sum of their parts.\n\nNARRATION\nIt\u2019s clear the Captain has mulled
+        over Leftpaw\u2019s final words.\n\nCAPTAIN\n... ye should get a fishing
+        buddy or something.\n\nCAPTAIN\nWhat am I saying? Get back to marching landlubber,
+        break's over!\n\nNARRATION\nHe abruptly begins marching, returning his eyes
+        to the map.\n\nCAPTAIN\nGold in the moonlight! That's what being a pirate
+        is all about!\n\nNARRATION\nHe is completely ignoring you. Lost in his own
+        mind.\n\nCAPTAIN\nThey couldn't earn their keep and decided to take it from
+        their dear ol\u2019 captain! Ha!\n\nCAPTAIN\nGreed! That's what did those
+        bastards in and brought them to their watery grave!\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[12].pid
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[1].text
+      value: 'CAPTAIN
+
+        Don''t mistake me for a victim of my own greed like
+        those others, scallywag! You may be daft but at least you''re not a mutineer!
+
+
+        CAPTAIN
+
+        Heh,
+        who gets the gold in the end? Me, that''s who. The one who earned it!
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[3].text
+      value: "NARRATION\nThe captain is dumbfounded. He stops his marching.\n\nCAPTAIN\nDon't
+        tell me about my own crew, ye scallywag!\n\nCAPTAIN\nI taught them too well
+        if anything! Once we could go for the big fish there was no looking back!\n\nCAPTAIN\nRoyal
+        galleons. Merchant vessels. Literal treasure ships. The amount of gold was
+        beyond anything I had promised them.\n\nCAPTAIN\nWhy shouldn't I get my fair
+        share? They had more than enough of what they'd originally agreed to.\n\nCAPTAIN\nIn
+        the beginning we had to run from sea fights! We flew up the black flag and
+        if they didn't surrender we had to run for our lives!\n\nCAPTAIN\nIf Florrie
+        couldn't help us flee into the reefs we'd have died a thousand times over!\n\nCAPTAIN\nAnd
+        that's nothing if Leftpaw didn't find ways of keeping the ship afloat when
+        god knows it took one too many cannonballs to the hull!\n\nCAPTAIN\nI remember
+        one time we barely made it to land to do repairs, and what did we find on
+        the deserted island we hit?\n\nCAPTAIN\nAnother recent shipwreck. Rum smugglers!
+        They had been so drunk at sea they had run the ship aground!\n\nCAPTAIN\nWe
+        all partied for days, until all the rum and rations were gone. What a fine
+        time!\n\nCAPTAIN\nBy the end we had completely fogotten about the-\n\nNARRATION\nThe
+        captain trails off.\n\nCAPTAIN\n...\n\nCAPTAIN\n\"It takes many islands to
+        make an archipelago...\" heh.\n\nNARRATION\nThe seems to notice you again,
+        his gaze focusses on you. \n\nCAPTAIN\nGet back to marching, landlubber.
+        We could have bought twice the rum with the gold on the ship we escaped from
+        back then!\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[6].text
+      value: 'CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        Oh bugger it all.
+
+
+        CAPTAIN
+
+        I''m
+        this close to my horde o'' booty, and yer ruining it!
+
+
+        CAPTAIN
+
+        I
+        can put them all behind me! What matter is it if they had less?
+
+
+        CAPTAIN
+
+        If
+        they didn''t want more, they would have stopped sailing!
+
+
+        CAPTAIN
+
+        And
+        if they stopped sailing, I wouldn''t have a crew!
+
+
+        CAPTAIN
+
+        And
+        if I didn''t have a crew I''d be-
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        All
+        alone.
+
+
+        CAPTAIN
+
+        All alone with me gold.
+
+
+        NARRATION
+
+        The
+        captain falls silent and in the distance you hear the crashing sounds of
+        the waves.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        I don''t
+        like to see it, but the real treasure I''ve lost is something doubloons can''t
+        buy.
+
+
+        NARRATION
+
+        The captain looks over his incorporeal
+        body.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        If you had
+        to choose, would you pick a life or a legacy?
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[7].text
+      value: 'CAPTAIN
+
+        I guess me next question should be, "would ye spend
+        your life like a pirate squanders gold?"
+
+
+        NARRATION
+
+        The
+        captain passes you the lantern and map.
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[8].text
+      value: 'CAPTAIN
+
+        Ha! I suppose most do want to live beyond their lives.
+        It''s not what it''s cracked up to be, I assure ye.
+
+
+        NARRATION
+
+        The
+        captain passes you the lantern and map.
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].text
+      value: "CAPTAIN\nYer getting a field promotion. For exceptional work at sea.\n\nCAPTAIN\nFrom
+        swabbie to captain now. Better find someone to order around.\n\nCAPTAIN\nMaybe
+        buying someone a drink with some of that gold would help?\n\nCAPTAIN\nTake
+        it from a lonely captain. Buying folks a drink is a great way to gather up
+        a crew at each port.\n\nCAPTAIN\n...\n\nCAPTAIN\nBetter yet, a great way
+        to gather up others to grow closer to. Rum soothes the body and crew soothes
+        the soul.\n\nCAPTAIN\nI had it and even when I almost lost it all, I went
+        ahead and made sure I lost everything.\n\nCAPTAIN\nMe best mates. And I threw
+        their lot in with those I would curse beyond the grave.\n\nCAPTAIN\nI'm through
+        with it. I'm though with being a captain, and I'm through with being anything.
+        I\u2019ve had my time.\n\nCAPTAIN\nPromise me one thing. Spread the word
+        of what happened to me and how I failed me crew. Let be a tale of caution.\n\nCAPTAIN\nBy
+        the way, ye don\u2019t get my hat. Wouldn\u2019t give it to ye if I could.\n\nNARRATION\nHis
+        ghostly body begins to fade, like Florrie and Leftpaw\u2019s did.\n\nCAPTAIN\nMaybe...
+        maybe I ought to try fishing?\n\nNARRATION\nYour captain is gone.\n\nNARRATION\nAt
+        sea, command falls to those of the next highest rank. What are your orders,
+        captain?\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[0].text
+      value: "NARRATION\nYou sail upon a island with a mountain on it, as you crest
+        around it, you notice there is a giant cave. \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].text
+      value: 'NARRATION
+
+        From the distance you''re at, you estimate that
+        the cave could fit a war brig in there.
+
+
+        NARRATION
+
+        As you
+        get draw closer to the shore you realize that you''re first guess was too
+        generous, at most the cave could hide a longship.
+
+
+        NARRATION
+
+        It
+        begins to strike you how deeply perturbed that your "Captain" isn''t helping
+        row or guide your boat to shore - an extremely difficult task for a crew
+        during this tide, let alone for one person.
+
+
+        NARRATION
+
+        Your
+        thoughts are soon interrupted by a spray of briny white water that shakes
+        your boat. Nothing too serious, but you focus your attention on not ending
+        up as a ghost yourself.
+
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[2].text
+      value: "NARRATION\nYour ship closes on the shore and the captain hops out,
+        though his feet don't leave a splash in the water as you'd expect leaving
+        you with a sense of dissonance. \n\nNARRATION\nYou keep rowing the boat a
+        little further and later hop into the water with a satisfying sploosh. You're
+        wading forward ankle deep in sea water.\n\nNARRATION\nYou notice the captain
+        is further ahead and that the water isn't slowing him down like it would
+        a physical person. One of the scarce luxuries of being dead you presume.\n\nNARRATION\nDespite
+        the lack of physical resistance for him, you notice how he still makes a
+        conscious effort to keep is flintlocks away from the sea water.\n\nCAPTAIN\nWe're
+        close to one of the filthy mutineers now. I can sense it. \n\nCAPTAIN\nI'm
+        going to cleave that scurvy dog to the brisket... \n\nNARRATION\nThe water
+        is low enough you now are walking, with your boots glopping at each step
+        as they suction through the sand. Your ship being towed over your shoulder
+        by a rope, following behind like a lazy ox. \n\nNARRATION\nIn the darkness
+        you manage to see a ghastly orange light of similar intensity to the Captain\u2019s
+        green hue in the distance. \n\nCAPTAIN\nHeave ho! Put your back into it ye
+        lazy landlubber. I've met freebooters that worked harder than ye. \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].text
+      value: "NARRATION\nAs you muster up the breath to argue with this feisty phantasm,
+        you begin to calculate what backlash you'll face as a result. \n\nNARRATION\nAs
+        you reach your conclusion, you resign yourself to responding with an \"aye\"
+        - which, when your labours catch up to your thoughts, deflates to a meager
+        sigh as you exhale.\n\nNARRATION\nYour eyes meet the sockets of the Captain
+        and for a second you swear he raised and eyebrow at you. That is, if he had
+        an eyebrow still left. \n\nNARRATION\nYou avert his gaze and hastily begin
+        tying the rope around a sturdy palm tree. \n\n \n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[4].text
+      value: "NARRATION\nYou keep a steady pace and monitor your breath as you your
+        ship slides out of the water and drags through the sand. \n\nNARRATION\nIt
+        leaves behind a trench in the sand, one which you assume will be washed away
+        in the next high high tide. \n\nNARRATION\nYou find a sturdy palm tree deep
+        within the beach. This is a good spot.\n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[5].text
+      value: "CAPTAIN\nSink me! That's how ye tie a knot? Every old salt knows you
+        loop twice, go through the middle and do one more loop to make a proper taut-line.
+        \n\n\n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].text
+      value: "NARRATION\nYou ignore the Captain's advice and keep your knot the way
+        it is. What does he know? \n\nNARRATION\nAn annoyed click noise pops from
+        his jaw. \n\nNARRATION\nAfter you do one last check to test it's effectiveness
+        you look up to see the Captain facing towards the orange light. \n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[7].text
+      value: "NARRATION\nYou follow his advice and learn that can already feel the
+        ease of sliding the knot to tighten or loosen. It appears very sturdy. \n\nNARRATION\nAs
+        you look up you recieve a brief nod before the captain pivots toward the
+        orange light. \n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].text
+      value: "NARRATION\nYou begin to walk towards him and stumble as you almost
+        trip over the rope. \n\nCAPTAIN\nIn future, put a rock over the rope to keep
+        the line down. It's good for when the hearties drink a clap of thunder on
+        a dark night. \n\nNARRATION\nFrom your angle you see what you believe to
+        be the edges of a grin on his skeletal face. \n\nCAPTAIN\n...\n\nCAPTAIN\nShiver
+        me timbers! Hurry up, will you? \n\n\nNARRATION\nHe sets off in the lead
+        and you begin your trek toward the orange glow.\n\nNARRATION\nAs you near
+        the figure you start to discern a mostly human shape - the only difference
+        is a ball of ethereal glowing amber light in the stead of a head. \n\nNARRATION\nYou
+        observe a wide array of tools on this individual, everything from hammers,
+        chisels, and most prominently, a saw. \n\nNARRATION\nThere is a frenetic
+        and spontaneous pacing from the orange ghoul like a fish in a school; safe
+        and purposeful, yet still anxious.\n\nCAPTAIN\nLeftpaw! You... \n\nNARRATION\nYou
+        see the orange phantom snap to attention in a salute with his left palm facing
+        down. \n\nNARRATION\nLike a jellyfish readying itself to move, you swear
+        you could see pride inflating his ethereal chest. \n\n\nLEFTPAW\nCap'n!\n\nCAPTAIN\n...son
+        of a biscuit eater - you scurvy dog! I will give ye no quarter!!\n\nNARRATION\nAs
+        quick as it came so to did it go. Leftpaw deflated faster than a beached
+        jellyfish.\n \nNARRATION\nHis amber glow a hue closer to a red now. His arm
+        now slumping limp at his side.\n\nLEFTPAW\n'Scuze me Cap'n? \n\nNARRATION\nYou
+        notice a spectral flintlock in the Captain's hands now. There is a subtle
+        tremble in his grip.\n\nCAPTAIN\nI will never, NEVER, forgive ye, yer a mutinous
+        cur!\n\nLEFTPAW\nForgive me? Yer the one who left me to Davy Jones' locker!\n\nLEFTPAW\nThe
+        Cap'n is supposed to go down with the ship! Where were ye when the Siren
+        sunk to the briny deep? \n\nLEFTPAW\nThe Siren was a loyal lass and ye left
+        her behind on a dinghy! What cap'n are ye? She deserved better!\n\nCAPTAIN\nAye,
+        she was a loyal and reliable lass - unlike you - when you scuttled her! \n\n\nLEFTPAW
+        \nI was too busy repairing her hull and keeping bilge out to notice what
+        the crew was doing. What sort of shipwright do you take me for?\n\nLEFTPAW\nYer
+        are my bruvva cap\u2019n. I am always grateful ye gave me a 'ome and a sense
+        of being part of somethin'...\n\nLEFTPAW\n...and now ye accuse me of BETRAYING
+        YE? OF SCUTTLING, ME 'OME, THE SCARLET SIREN ?\n\nNARRATION\nThe Captain
+        folded his arms across his chest. His hand still gripping a flintlock.\n\nCAPTAIN\nPft,
+        are you trying to run a rig on me Otto? \n\nLEFTPAW\nThere's a name I 'adn't
+        'eard in awhile. Well Cap'n, or should I say //Cedric, // do you even know
+        why I followed? It wasn\u2019t for the doubloons or the bounty.\n\nLEFTPAW\nI
+        was there from the beginning with ye. You were once the paragon of piracy,
+        eh? It's a right pity seeing where ye are now. \n\nCAPTAIN\nAt least I'm
+        getting closer to the booty while ye haplessly pace around like a landlubber
+        out to hornswaggle! \n\n\nLEFTPAW\n'aplessly? I'm trying to put the Siren
+        back together! She deserves dignity, even at the bottom of the deep. \n\nCAPTAIN\nIf
+        yer still loyal to me, then hand over the lantern Otto. Prove yer still me
+        Leftpaw, lest ye be a bilge-sucker. \n\nLEFTPAW\nProve to me that ye still
+        care about the Siren and the lantern is all yours.\n\nNARRATION\nThe Captain
+        moves to ready his flintlock once more.\n\nNARRATION\nLeftpaw raises his
+        hands in resignation and faces you. \n\nLEFTPAW THE BILGERAT\nLook, ye seem
+        to 'ave an even keel. The only thing left I need to find is the 'elm. The
+        cockswain 'ould've also 'anted it in its rightful place. \n\n\n\n\n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].text
+      value: "NARRATION\nBoth the Captain and Leftpaw look at you with an expression
+        of ghastly shock. They quickly exchange a glance.\n\nLEFTPAW\nShivver me
+        timbers, yer serious?\n\nCAPTAIN\nA cockswain is a helmsmen ye scallywag!
+        What do they put in landlubber books these days?\n\nNARRATION\nIt appears
+        your own incompetence to see beyond the veil of child-like immaturity is
+        the only thing that can suprise spirits who have seen beyond the veil of
+        mortaility.\n\nNARRATION\nFor once tonight, the two actually agreed on something.
+        \n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].text
+      value: "NARRATION\nYou barely walk a few meters before you see the entrance
+        to a cave, the moonlight cutting through and revealing a golden glow.\n\nNARRATION\nYou
+        step inside, and within is more gold than you possible could have imagined.
+        The cave is wider and deeper than it appears from outside.\n\nNARRATION\nYou
+        step inside, and within is more doubloons and pieces of eight than you possible
+        could have imagined. The cave is wider and deeper than it appeared from outside.\n\nNARRATION\nIt'll
+        take a few trips with your raft, but you figure you can go back and forth
+        to accumulate enough to buy a ship of your own.\n\nNARRATION\nWith your magic
+        lantern and spyglass it will be no trouble.\n\nNARRATION\nAs you lift the
+        first handful of gold, you realize how heavy it is.\n\nNARRATION\nYou can't
+        help but think - this would be easier with a crew. Perhaps you can break
+        the ice with the tale of the Scarlet Siren and it's infamous Captain. \n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[12].name
+      value: END
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[12].text
+      value: END
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[10].text
+      value: 'NARRATION
+
+        You set out to find the missing helm of the Scarlet
+        Siren. You hear the Captain and Leftpaw resume arguing in the distance.
+
+
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].text
+      value: "NARRATION\nUsing the orange and green glow of the ghosts as a point
+        of reference to navigate, you scour all around beach.\n\nNARRATION\nNo matter
+        how far away you were, the sound of the two arguing managed to always be
+        vageuly audible.\n\nNARRATION\nAlas, it is to no avail.\n\n \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].text
+      value: "NARRATION\nYou find the beachead closest to the cave and follow a river
+        inward. You creep further into the darkness, your steps echoing throughout
+        the cave. \n\nNARRATION\nYou follow the sound of the water, sometimes accidentally
+        slpping into it, until you see a feint light in the distance. It grows brighter
+        and brigher and the tunnel opens into a larger cavern.\n\nNARRATION\nYou
+        are surprised to be in a well-lit lagoon. You notice the pale and bright
+        moonlight pierces through holes in the mountain that eroded over the eons
+        and reflects off the water. \n\nNARRATION\nGently brushing agaisnt this private
+        beach is the wheel of a ship. You set out to return to the two arguing ghosts
+        by restracing your steps backwards.\n\nLEFTPAW\nI see ye found it. Good work
+        matey. \n\nLEFTPAW\nNow return it to the deep. \n\nNARRATION\nLeftpaw motions
+        towards the sea. \n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].text
+      value: "NARRATION\nYou take the helm with both hands and use your entire body
+        weight while throwing it in an arc to gain centrifugal momentum. \n\nNARRATION\nThe
+        helm flies deep and far into the dark sea and makes a very satisfying sploosh
+        sound. White water and mist glistens in the moonlight. \n\nNARRATION\nYou
+        turn to see the reaction of your two ghostly companions just in time to see
+        the Captain making an odd gesture with his boney jaw. \n\n\nLEFTPAW\n\u2026Did
+        ye just try to whistle Cap\u2019n? Without any lips? \n\nCAPTAIN\nI -\n\nLEFTPAW\nHahahahahahaha!\n\nCAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!\n\nNARRATION\nThe
+        two chuckle and giggle on and off as they try to regain their composure.
+        The Captain puts his hand on Leftpaw\u2019s shoulder. \n\nLEFTPAW\nLook at
+        us now, eh? A couple of wretched ghouls. \n\nCAPTAIN\n\u2026\n\nNARRATION\nA
+        moment of sobriety washes over them both. The Captain's hand pulls away from
+        Leftpaw.\n\nLEFTPAW\nAhh\u2026 \n\nNARRATION\nLeftpaw\u2019s glow starts
+        to fade \u2013 the light diminishing with each passing seconds. \n\nLEFTPAW\nI
+        think me times up cap\u2019n. Look, I know we didn\u2019t always agree in
+        life, and we certainly aren\u2019t agreeing in death. \n\nLEFTPAW\nI want
+        ye to know that I hope ye find what it is yer truly lookin\u2019 for on this
+        course yer sailing. \n\nLEFTPAW\nJust remember, it doesn\u2019t matter how
+        big the island is, it takes many islands to make an archipelago. \n\nNARRATION\nLeftpaw
+        looks back towards you. \n\nLEFTPAW\nA bargain is a bargain. The Scarlet
+        Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
+        remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
+        into a swarm of ember-like motes adrift across the sky. \n\nNARRATION\nLike
+        fireflies dancing over the ocean and across the night sky. Slowly flickering
+        out one by one as they landed in the water. \n\nNARRATION\nYou feel a gentle
+        nudge at your feet, and as you look down you notice the waves brought in
+        the amber lantern.\n\nCAPTAIN\n\u2026\n\nCAPTAIN\nAvast Ye! Back to the ship.
+        Captain\u2019s orders!\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].text
+      value: "NARRATION\nYou take a running start toward the water with the helm
+        in both hands. In your mind you plan on jumping while throwing the helm and
+        landing with a double backflip into a recovering somersault.\n\nNARRATION\nAs
+        you jump up, your boot gets stuck in the sand but it\u2019s too late you\u2019re
+        already committed. The helm spirals off in a random direction while you fall
+        back down.\n\nNARRATION\nYou land face first into the beach as a wave hits
+        you and washes over you. You hear a very unsatisfying splish sound as the
+        helm lands nearby. \n\nNARRATION\nThe seawater in your eyes is disorienting
+        and you think you can see the helm being pulled out by the sea. \n\nNARRATION\nYou
+        waddle back toward your two ghostly companions with little dignity in tact.
+        \n\nLEFTPAW\nYer new swabbie reminds me of that clumsy young stowaway who
+        we gave their first swig o\u2019 rum to! \u2018member that? \n\nCAPTAIN\nI
+        -\n\nLEFTPAW\nHahahahahahaha!\n\nCAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!\n\nNARRATION\nThe
+        two chuckle and giggle on and off as they try to regain their composure.
+        The Captain puts his hand on Leftpaw\u2019s shoulder. \n\nLEFTPAW\nLook at
+        us now, eh? A couple of wretched ghouls. \n\nCAPTAIN\n\u2026\n\nNARRATION\nA
+        moment of sobriety washes over them both. The Captain's hand pulls away from
+        Leftpaw.\n\nLEFTPAW\nAhh\u2026 \n\nNARRATION\nLeftpaw\u2019s glow starts
+        to fade \u2013 the light diminishing with each passing seconds. \n\n\nLEFTPAW\nI
+        think me times up cap\u2019n. Look, I know we didn\u2019t always agree in
+        life, and we certainly aren\u2019t agreeing in death. \n\nLEFTPAW\nI want
+        ye to know that I hope ye find what it is yer truly lookin\u2019 for on this
+        course yer sailing. \n\nLEFTPAW\nJust remember, it doesn\u2019t matter how
+        big the island is, it takes many islands to make an archipelago. \n\nNARRATION\nLeftpaw
+        looks back towards you. \n\nLEFTPAW\nA bargain is a bargain. The Scarlet
+        Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
+        remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
+        into a swarm of ember-like motes. \n\nNARRATION\nLike fireflies dancing over
+        the ocean and across the night sky. Slowly flickering out one by one as they
+        landed in the water. \n\nNARRATION\nYou feel a gentle nudge at your feet,
+        and as you look down you notice the waves brought in the amber lantern.\n\nCAPTAIN\n\u2026\n\nCAPTAIN\nAvast
+        Ye! Back to the ship. Captain\u2019s orders!\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].maxProgress
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[3].maxProgress
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].maxProgress
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].maxProgress
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[12].maxProgress
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].links.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].links.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].links.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.size
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[3].textList.Array.size
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].textList.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[12].textList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].textList.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[0]
+      value: 'NARRATION
+
+        With the sapphire spyglass cutting through the fog
+        and the amber lantern revealing the hidden contents of the map, your raft
+        creeps up against the shoreline.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[1]
+      value: 'CAPTAIN
+
+        Oh, how I''ve longed to set foot on ye once more,
+        my dear island!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[3]
+      value: 'CAPTAIN
+
+        Yer about to witness a sight few have had the privilege
+        of seeing. No greater fortune has ever been amassed on the high seas.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[8]
+      value: 'CAPTAIN
+
+        Yer not getting the full experience here ye know.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[1].textList.Array.data[0]
+      value: 'CAPTAIN
+
+        Don''t mistake me for a victim of my own greed like
+        those others, scallywag! You may be daft but at least you''re not a mutineer!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[1].textList.Array.data[1]
+      value: 'CAPTAIN
+
+        Heh, who gets the gold in the end? Me, that''s who.
+        The one who earned it!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[1].textList.Array.data[2]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[6].textList.Array.data[2]
+      value: 'CAPTAIN
+
+        I''m this close to my horde o'' booty, and yer ruining
+        it!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[6].textList.Array.data[4]
+      value: 'CAPTAIN
+
+        If they didn''t want more, they would have stopped
+        sailing!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[6].textList.Array.data[5]
+      value: 'CAPTAIN
+
+        And if they stopped sailing, I wouldn''t have a crew!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[7].textList.Array.data[0]
+      value: 'CAPTAIN
+
+        I guess me next question should be, "would ye spend
+        your life like a pirate squanders gold?"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[7].textList.Array.data[2]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[8].textList.Array.data[0]
+      value: 'CAPTAIN
+
+        Ha! I suppose most do want to live beyond their lives.
+        It''s not what it''s cracked up to be, I assure ye.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[8].textList.Array.data[2]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[0]
+      value: 'CAPTAIN
+
+        Yer getting a field promotion. For exceptional work
+        at sea.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[1]
+      value: 'CAPTAIN
+
+        From swabbie to captain now. Better find someone to
+        order around.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[3]
+      value: 'CAPTAIN
+
+        Take it from a lonely captain. Buying folks a drink
+        is a great way to gather up a crew at each port.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[5]
+      value: 'CAPTAIN
+
+        Better yet, a great way to gather up others to grow
+        closer to. Rum soothes the body and crew soothes the soul.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[6]
+      value: 'CAPTAIN
+
+        I had it and even when I almost lost it all, I went
+        ahead and made sure I lost everything.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[7]
+      value: 'CAPTAIN
+
+        Me best mates. And I threw their lot in with those
+        I would curse beyond the grave.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[8]
+      value: "CAPTAIN\nI'm through with it. I'm though with being a captain, and
+        I'm through with being anything. I\u2019ve had my time."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[9]
+      value: 'CAPTAIN
+
+        Promise me one thing. Spread the word of what happened
+        to me and how I failed me crew. Let be a tale of caution.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[0].textList.Array.data[0]
+      value: 'NARRATION
+
+        You sail upon a island with a mountain on it, as
+        you crest around it, you notice there is a giant cave. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.data[0]
+      value: 'NARRATION
+
+        From the distance you''re at, you estimate that
+        the cave could fit a war brig in there.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.data[1]
+      value: 'NARRATION
+
+        As you get draw closer to the shore you realize
+        that you''re first guess was too generous, at most the cave could hide a
+        longship.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.data[2]
+      value: 'NARRATION
+
+        It begins to strike you how deeply perturbed that
+        your "Captain" isn''t helping row or guide your boat to shore - an extremely
+        difficult task for a crew during this tide, let alone for one person.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.data[3]
+      value: 'NARRATION
+
+        Your thoughts are soon interrupted by a spray of
+        briny white water that shakes your boat. Nothing too serious, but you focus
+        your attention on not ending up as a ghost yourself.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[0]
+      value: 'NARRATION
+
+        Your ship closes on the shore and the captain hops
+        out, though his feet don''t leave a splash in the water as you''d expect
+        leaving you with a sense of dissonance. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[1]
+      value: 'NARRATION
+
+        You keep rowing the boat a little further and later
+        hop into the water with a satisfying sploosh. You''re wading forward ankle
+        deep in sea water.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[4]
+      value: 'CAPTAIN
+
+        We''re close to one of the filthy mutineers now. I
+        can sense it. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[5]
+      value: 'CAPTAIN
+
+        I''m going to cleave that scurvy dog to the brisket... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[6]
+      value: 'NARRATION
+
+        The water is low enough you now are walking, with
+        your boots glopping at each step as they suction through the sand. Your ship
+        being towed over your shoulder by a rope, following behind like a lazy ox. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[7]
+      value: "NARRATION\nIn the darkness you manage to see a ghastly orange light
+        of similar intensity to the Captain\u2019s green hue in the distance. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[8]
+      value: 'CAPTAIN
+
+        Heave ho! Put your back into it ye lazy landlubber.
+        I''ve met freebooters that worked harder than ye. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[0]
+      value: 'NARRATION
+
+        As you muster up the breath to argue with this feisty
+        phantasm, you begin to calculate what backlash you''ll face as a result. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[1]
+      value: 'NARRATION
+
+        As you reach your conclusion, you resign yourself
+        to responding with an "aye" - which, when your labours catch up to your thoughts,
+        deflates to a meager sigh as you exhale.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[2]
+      value: 'NARRATION
+
+        Your eyes meet the sockets of the Captain and for
+        a second you swear he raised and eyebrow at you. That is, if he had an eyebrow
+        still left. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[3]
+      value: 'NARRATION
+
+        You avert his gaze and hastily begin tying the rope
+        around a sturdy palm tree. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[4].textList.Array.data[0]
+      value: 'NARRATION
+
+        You keep a steady pace and monitor your breath as
+        you your ship slides out of the water and drags through the sand. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[5].textList.Array.data[0]
+      value: 'CAPTAIN
+
+        Sink me! That''s how ye tie a knot? Every old salt
+        knows you loop twice, go through the middle and do one more loop to make
+        a proper taut-line. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[5].textList.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[0]
+      value: 'NARRATION
+
+        You ignore the Captain''s advice and keep your knot
+        the way it is. What does he know? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[1]
+      value: 'NARRATION
+
+        An annoyed click noise pops from his jaw. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[2]
+      value: 'NARRATION
+
+        After you do one last check to test it''s effectiveness
+        you look up to see the Captain facing towards the orange light. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[7].textList.Array.data[0]
+      value: 'NARRATION
+
+        You follow his advice and learn that can already
+        feel the ease of sliding the knot to tighten or loosen. It appears very sturdy. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[7].textList.Array.data[1]
+      value: 'NARRATION
+
+        As you look up you recieve a brief nod before the
+        captain pivots toward the orange light. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[0]
+      value: 'NARRATION
+
+        You begin to walk towards him and stumble as you
+        almost trip over the rope. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[1]
+      value: 'CAPTAIN
+
+        In future, put a rock over the rope to keep the line
+        down. It''s good for when the hearties drink a clap of thunder on a dark
+        night. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[2]
+      value: 'NARRATION
+
+        From your angle you see what you believe to be the
+        edges of a grin on his skeletal face. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[3]
+      value: 'CAPTAIN
+
+        ...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[4]
+      value: 'CAPTAIN
+
+        Shiver me timbers! Hurry up, will you? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[5]
+      value: '
+
+        NARRATION
+
+        He sets off in the lead and you begin
+        your trek toward the orange glow.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[6]
+      value: 'NARRATION
+
+        As you near the figure you start to discern a mostly
+        human shape - the only difference is a ball of ethereal glowing amber light
+        in the stead of a head. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[7]
+      value: 'NARRATION
+
+        You observe a wide array of tools on this individual,
+        everything from hammers, chisels, and most prominently, a saw. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[8]
+      value: 'NARRATION
+
+        There is a frenetic and spontaneous pacing from
+        the orange ghoul like a fish in a school; safe and purposeful, yet still
+        anxious.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[9]
+      value: 'CAPTAIN
+
+        Leftpaw! You... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[0]
+      value: 'NARRATION
+
+        Both the Captain and Leftpaw look at you with an
+        expression of ghastly shock. They quickly exchange a glance.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[2]
+      value: 'CAPTAIN
+
+        A cockswain is a helmsmen ye scallywag! What do they
+        put in landlubber books these days?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[3]
+      value: 'NARRATION
+
+        It appears your own incompetence to see beyond the
+        veil of child-like immaturity is the only thing that can suprise spirits
+        who have seen beyond the veil of mortaility.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[4]
+      value: 'NARRATION
+
+        For once tonight, the two actually agreed on something. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[10]
+      value: 'CAPTAIN
+
+        The coordination is remarkable. Sea battles are strategy,
+        but one can only strategize effectively when the crew is consistent and trained.
+        Predators hunting prey.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[13]
+      value: 'CAPTAIN
+
+        I must admit. Ye would fare poorly in a sea battle.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[16]
+      value: "NARRATION\nIt\u2019s clear the Captain has mulled over Leftpaw\u2019s
+        final words."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[17]
+      value: 'CAPTAIN
+
+        ... ye should get a fishing buddy or something.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[18]
+      value: 'CAPTAIN
+
+        What am I saying? Get back to marching landlubber,
+        break''s over!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[19]
+      value: 'NARRATION
+
+        He abruptly begins marching, returning his eyes
+        to the map.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[20]
+      value: 'CAPTAIN
+
+        Gold in the moonlight! That''s what being a pirate
+        is all about!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[21]
+      value: 'NARRATION
+
+        He is completely ignoring you. Lost in his own mind.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[22]
+      value: "CAPTAIN\nThey couldn't earn their keep and decided to take it from
+        their dear ol\u2019 captain! Ha!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[23]
+      value: 'CAPTAIN
+
+        Greed! That''s what did those bastards in and brought
+        them to their watery grave!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[24]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].textList.Array.data[0]
+      value: 'NARRATION
+
+        You barely walk a few meters before you see the
+        entrance to a cave, the moonlight cutting through and revealing a golden
+        glow.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].textList.Array.data[2]
+      value: 'NARRATION
+
+        You step inside, and within is more doubloons and
+        pieces of eight than you possible could have imagined. The cave is wider
+        and deeper than it appeared from outside.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].textList.Array.data[6]
+      value: 'NARRATION
+
+        You can''t help but think - this would be easier
+        with a crew. Perhaps you can break the ice with the tale of the Scarlet Siren
+        and it''s infamous Captain. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].textList.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].textList.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[12].textList.Array.data[0]
+      value: END
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[3].textList.Array.data[14]
+      value: 'CAPTAIN
+
+        "It takes many islands to make an archipelago..."
+        heh.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[3].textList.Array.data[15]
+      value: 'NARRATION
+
+        The seems to notice you again, his gaze focusses
+        on you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[3].textList.Array.data[16]
+      value: 'CAPTAIN
+
+        Get back to marching, landlubber. We could have bought
+        twice the rum with the gold on the ship we escaped from back then!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[6].textList.Array.data[12]
+      value: 'CAPTAIN
+
+        I don''t like to see it, but the real treasure I''ve
+        lost is something doubloons can''t buy.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[6].textList.Array.data[13]
+      value: 'NARRATION
+
+        The captain looks over his incorporeal body.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[6].textList.Array.data[16]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[10]
+      value: "CAPTAIN\nBy the way, ye don\u2019t get my hat. Wouldn\u2019t give it
+        to ye if I could."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[11]
+      value: "NARRATION\nHis ghostly body begins to fade, like Florrie and Leftpaw\u2019s
+        did."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[12]
+      value: 'CAPTAIN
+
+        Maybe... maybe I ought to try fishing?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[13]
+      value: 'NARRATION
+
+        Your captain is gone.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[14]
+      value: 'NARRATION
+
+        At sea, command falls to those of the next highest
+        rank. What are your orders, captain?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[9].textList.Array.data[15]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[10].textList.Array.data[0]
+      value: 'NARRATION
+
+        You set out to find the missing helm of the Scarlet
+        Siren. You hear the Captain and Leftpaw resume arguing in the distance.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[10].textList.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[10].textList.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].textList.Array.data[0]
+      value: 'NARRATION
+
+        Using the orange and green glow of the ghosts as
+        a point of reference to navigate, you scour all around beach.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].textList.Array.data[1]
+      value: 'NARRATION
+
+        No matter how far away you were, the sound of the
+        two arguing managed to always be vageuly audible.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].textList.Array.data[2]
+      value: 'NARRATION
+
+        Alas, it is to no avail.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[0]
+      value: 'NARRATION
+
+        You find the beachead closest to the cave and follow
+        a river inward. You creep further into the darkness, your steps echoing throughout
+        the cave. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[1]
+      value: 'NARRATION
+
+        You follow the sound of the water, sometimes accidentally
+        slpping into it, until you see a feint light in the distance. It grows brighter
+        and brigher and the tunnel opens into a larger cavern.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[2]
+      value: 'NARRATION
+
+        You are surprised to be in a well-lit lagoon. You
+        notice the pale and bright moonlight pierces through holes in the mountain
+        that eroded over the eons and reflects off the water. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[3]
+      value: 'NARRATION
+
+        Gently brushing agaisnt this private beach is the
+        wheel of a ship. You set out to return to the two arguing ghosts by restracing
+        your steps backwards.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[6]
+      value: 'NARRATION
+
+        Leftpaw motions towards the sea. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[0]
+      value: 'NARRATION
+
+        You take the helm with both hands and use your entire
+        body weight while throwing it in an arc to gain centrifugal momentum. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[1]
+      value: 'NARRATION
+
+        The helm flies deep and far into the dark sea and
+        makes a very satisfying sploosh sound. White water and mist glistens in the
+        moonlight. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[2]
+      value: 'NARRATION
+
+        You turn to see the reaction of your two ghostly
+        companions just in time to see the Captain making an odd gesture with his
+        boney jaw. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[7]
+      value: "NARRATION\nThe two chuckle and giggle on and off as they try to regain
+        their composure. The Captain puts his hand on Leftpaw\u2019s shoulder. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[0]
+      value: 'NARRATION
+
+        You take a running start toward the water with the
+        helm in both hands. In your mind you plan on jumping while throwing the helm
+        and landing with a double backflip into a recovering somersault.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[1]
+      value: "NARRATION\nAs you jump up, your boot gets stuck in the sand but it\u2019s
+        too late you\u2019re already committed. The helm spirals off in a random
+        direction while you fall back down."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[5]
+      value: "LEFTPAW\nYer new swabbie reminds me of that clumsy young stowaway who
+        we gave their first swig o\u2019 rum to! \u2018member that? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[7]
+      value: 'LEFTPAW
+
+        Hahahahahahaha!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[9]
+      value: "NARRATION\nThe two chuckle and giggle on and off as they try to regain
+        their composure. The Captain puts his hand on Leftpaw\u2019s shoulder. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[10]
+      value: 'NARRATION
+
+        You see the orange phantom snap to attention in
+        a salute with his left palm facing down. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[11]
+      value: 'NARRATION
+
+        Like a jellyfish readying itself to move, you swear
+        you could see pride inflating his ethereal chest. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[13]
+      value: 'CAPTAIN
+
+        ...son of a biscuit eater - you scurvy dog! I will
+        give ye no quarter!!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[14]
+      value: "NARRATION\nAs quick as it came so to did it go. Leftpaw deflated faster
+        than a beached jellyfish.\n \nNARRATION\nHis amber glow a hue closer to a
+        red now. His arm now slumping limp at his side."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[16]
+      value: 'NARRATION
+
+        You notice a spectral flintlock in the Captain''s
+        hands now. There is a subtle tremble in his grip.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[17]
+      value: 'CAPTAIN
+
+        I will never, NEVER, forgive ye, yer a mutinous cur!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[21]
+      value: 'CAPTAIN
+
+        Aye, she was a loyal and reliable lass - unlike you
+        - when you scuttled her! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[25]
+      value: 'NARRATION
+
+        The Captain folded his arms across his chest. His
+        hand still gripping a flintlock.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[26]
+      value: 'CAPTAIN
+
+        Pft, are you trying to run a rig on me Otto? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[29]
+      value: 'CAPTAIN
+
+        At least I''m getting closer to the booty while ye
+        haplessly pace around like a landlubber out to hornswaggle! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[31]
+      value: 'CAPTAIN
+
+        If yer still loyal to me, then hand over the lantern
+        Otto. Prove yer still me Leftpaw, lest ye be a bilge-sucker. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[33]
+      value: 'NARRATION
+
+        The Captain moves to ready his flintlock once more.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[34]
+      value: 'NARRATION
+
+        Leftpaw raises his hands in resignation and faces
+        you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].links.Array.data[0].pid
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[10]
+      value: 'NARRATION
+
+        A moment of sobriety washes over them both. The
+        Captain''s hand pulls away from Leftpaw.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[11]
+      value: "LEFTPAW\nAhh\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[12]
+      value: "NARRATION\nLeftpaw\u2019s glow starts to fade \u2013 the light diminishing
+        with each passing seconds. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[13]
+      value: "LEFTPAW\nI think me times up cap\u2019n. Look, I know we didn\u2019t
+        always agree in life, and we certainly aren\u2019t agreeing in death. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[14]
+      value: "LEFTPAW\nI want ye to know that I hope ye find what it is yer truly
+        lookin\u2019 for on this course yer sailing. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[15]
+      value: "LEFTPAW\nJust remember, it doesn\u2019t matter how big the island is,
+        it takes many islands to make an archipelago. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[16]
+      value: 'NARRATION
+
+        Leftpaw looks back towards you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[17]
+      value: "LEFTPAW\nA bargain is a bargain. The Scarlet Siren is whole again.
+        My lanterns yours\u2026 and\u2026 thank ye. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[18]
+      value: "NARRATION\nThe remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat
+        disintegrates into a swarm of ember-like motes adrift across the sky. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[10]
+      value: 'LEFTPAW
+
+        Look at us now, eh? A couple of wretched ghouls. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[12]
+      value: 'NARRATION
+
+        A moment of sobriety washes over them both. The
+        Captain''s hand pulls away from Leftpaw.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[13]
+      value: "LEFTPAW\nAhh\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[14]
+      value: "NARRATION\nLeftpaw\u2019s glow starts to fade \u2013 the light diminishing
+        with each passing seconds. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[15]
+      value: "\nLEFTPAW\nI think me times up cap\u2019n. Look, I know we didn\u2019t
+        always agree in life, and we certainly aren\u2019t agreeing in death. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[16]
+      value: "LEFTPAW\nI want ye to know that I hope ye find what it is yer truly
+        lookin\u2019 for on this course yer sailing. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[17]
+      value: "LEFTPAW\nJust remember, it doesn\u2019t matter how big the island is,
+        it takes many islands to make an archipelago. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[18]
+      value: 'NARRATION
+
+        Leftpaw looks back towards you. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[19]
+      value: "LEFTPAW\nA bargain is a bargain. The Scarlet Siren is whole again.
+        My lanterns yours\u2026 and\u2026 thank ye. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[20]
+      value: "NARRATION\nThe remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat
+        disintegrates into a swarm of ember-like motes. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].links.Array.data[0].link
+      value: END
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[2].passages.Array.data[10].links.Array.data[0].name
+      value: END
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
 --- !u!1 &50596954
