@@ -1306,6 +1306,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[3].dialogSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[3].dialogSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: c74fcdf5e0365c041a46f1ce3ac868b8, type: 3}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[3].dialogSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: a0a1269e6ef6dcf4096fc40687319601, type: 3}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[3].dialogSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4202703eaa6808e44b945519c00526d9, type: 3}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[3].dialogSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8ce26e71e471dc249a31e8cf0c5134ee, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
 --- !u!1 &50596954
