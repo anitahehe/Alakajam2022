@@ -403,7 +403,8 @@ MonoBehaviour:
     setColor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
     font: {fileID: 11400000, guid: 8c9776f0ba1b40c4e8ad5ad5ddaf8ec6, type: 2}
     fontStyle: 0
-    dialogSounds: []
+    dialogSounds:
+    - {fileID: 8300000, guid: 37ac24214b14bd042ba8c5ebef1e3475, type: 3}
   onDialogStart:
     m_PersistentCalls:
       m_Calls: []
