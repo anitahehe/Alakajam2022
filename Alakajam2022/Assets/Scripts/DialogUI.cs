@@ -37,12 +37,15 @@ public class DialogUI : MonoBehaviour
     bool optionSelected;
 
     IEnumerator ColorRoutine;
+    IEnumerator VolumeFadeRoutine;
     bool dialogActive;
 
+    AudioSource audio;
     TwineParser parser;
     public void Start()
     {
         parser = GetComponent<TwineParser>();
+        audio = GetComponent<AudioSource>();
         // DEBUGGING, REMOVE LATER
         //InitializeStory(0);
         
@@ -97,7 +100,20 @@ public class DialogUI : MonoBehaviour
         }
     }
 
-    
+    public IEnumerator FadeOut(AudioSource audioObject, float FadeTime)
+    {
+        float startVolume = audioObject.volume;
+
+        while (audioObject.volume > 0)
+        {
+            audioObject.volume -= startVolume * Time.unscaledDeltaTime / FadeTime;
+            yield return null;
+        }
+
+        audioObject.Stop();
+        audioObject.volume = startVolume;
+        VolumeFadeRoutine = null;
+    }
 
     IEnumerator DoRunPassage(Passage passage)
     {
@@ -138,6 +154,18 @@ public class DialogUI : MonoBehaviour
                 Destroy(child.gameObject);
             }
 
+            if (VolumeFadeRoutine != null)
+                StopCoroutine(VolumeFadeRoutine);
+
+            VolumeFadeRoutine = null;
+            audio.volume = 1;
+
+            if (currentCharacter.dialogSounds.Length > 0)
+            {
+                audio.clip = currentCharacter.dialogSounds[Random.Range(0, currentCharacter.dialogSounds.Length)];
+                audio.Play();
+            }
+
             // animate 
             int counter = 0;
             if (textSpeed > 0.0f)
@@ -165,6 +193,9 @@ public class DialogUI : MonoBehaviour
                 }
             }
 
+            VolumeFadeRoutine = FadeOut(audio, fadeDuration);
+            
+            StartCoroutine(VolumeFadeRoutine);
             OnLineComplete.Invoke();
             textButtonPressed = false;
         }
@@ -201,6 +232,7 @@ public class DialogUI : MonoBehaviour
 
     public void ChangeCharacter(Character character)
     {
+        currentCharacter = character;
         if (portrait.sprite != null && character.portrait == null)
         {
             if (ColorRoutine != null)
@@ -233,12 +265,12 @@ public class DialogUI : MonoBehaviour
         {
             lineText.font = character.font;
         }
-
+        lineText.fontStyle = character.fontStyle;
         nameText.text = character.name;
         lineText.color = character.setColor;
         textbox.color = character.setColor;
         continueIndicator.color = character.setColor;
-        currentCharacter = character;
+
     }
 
     IEnumerator PortraitColorChange(Color endColor, float speed)
@@ -265,4 +297,6 @@ public class Character
     public string nameID;
     public Color setColor;
     public TMP_FontAsset font;
+    public FontStyles fontStyle;
+    public AudioClip[] dialogSounds;
 }
