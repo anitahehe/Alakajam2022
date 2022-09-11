@@ -19,7 +19,7 @@ public class PaddlingSound : MonoBehaviour
     {
         if(Input.GetKeyDown("w")){
             audioObject.Play();
-            audioObject.volume = 1;
+            audioObject.volume = 0.5f;
             StopAllCoroutines();
 
         }
