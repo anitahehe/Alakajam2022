@@ -24,7 +24,7 @@
       }
     },
     {
-      "text": "NARRATION\nFrom the distance you're at, you estimate that the cave could fit a war brig in there.\n\nNARRATION\nAs you get draw closer to the shore you realize that you're first guess was too generous, at most the cave could hide a longship.\n\nNARRATION\nIt begins to strike you how deeply perturbed that your \"Captain\" isn't helping row or guide your boat to shore - an extremely difficult task for a crew during this tide, let alone for one person.\n\nNARRATION\nYour thoughts are soon interrupted by a spray of briny white water that shakes your boat. Nothing too serious, but you focus your attention on not ending up as a ghost yourself.\n\n[[Focus on rowing]]\n\n",
+      "text": "NARRATION\nFrom the distance you're at, you estimate that the cave could fit a warship in there.\n\nNARRATION\nAs you get draw closer to the shore you realize that you're first guess was too generous, at most the cave could hide a longship.\n\nNARRATION\nIt begins to strike you how deeply perturbed that your \"Captain\" isn't helping row or guide your boat to shore - an extremely difficult task for a crew during this tide, let alone for one person.\n\nNARRATION\nYour thoughts are soon interrupted by a spray of briny white water that shakes your boat. Nothing too serious, but you focus your attention on not ending up as a ghost yourself.\n\n[[Focus on rowing]]\n\n",
       "links": [
         {
           "name": "Focus on rowing",
