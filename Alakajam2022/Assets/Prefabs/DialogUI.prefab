@@ -444,12 +444,12 @@ MonoBehaviour:
         horizon. You\u2019re reminded of the vibrant coral back home. \n\nNARRATION\nSuddenly,
         you feel a tug on your line and your mind snaps back to the present. \nYou
         lick your lips as another fish will soon be yours!\n\nNARRATION\nYou begin
-        to reel and to your surprise you're met with stiff resistence. \nThere is
-        no doubt in your mind this is a larger fish, a sturgen perhaps? \n\nNARRATION\nYou
-        continue to reel and your biceps ache while you exert yourself.\nWith all
-        this effort you think you may even have a tuna on the line!\n\nNARRATION\nAs
-        your line nears the boat your mind & body are warring with the thought of
-        eating this catch and forgoing the profit. \n\n"
+        to reel on your rod and to your surprise you're met with stiff resistance.
+        \nThere is no doubt in your mind this is a larger fish, a sturgeon perhaps?
+        \n\nNARRATION\nYou continue to reel, and your biceps begin to ache from your
+        exertion.\nWith all this effort \u2013 you now wonder if a tuna is on the
+        line!\n\nNARRATION\nAs your line nears the boat your mind & body are warring
+        with the thought of eating this catch and forgoing the profit. \n\n\n"
       links:
       - name: I think I'll eat the fish
         link: I think I'll eat the fish
@@ -468,26 +468,24 @@ MonoBehaviour:
         sets toward the horizon. You\u2019re reminded of the vibrant coral back home. "
       - "NARRATION\nSuddenly, you feel a tug on your line and your mind snaps back
         to the present. \nYou lick your lips as another fish will soon be yours!"
-      - "NARRATION\nYou begin to reel and to your surprise you're met with stiff
-        resistence. \nThere is no doubt in your mind this is a larger fish, a sturgen
-        perhaps? "
-      - 'NARRATION
-
-        You continue to reel and your biceps ache while you exert
-        yourself.
-
-        With all this effort you think you may even have a tuna
-        on the line!'
+      - "NARRATION\nYou begin to reel on your rod and to your surprise you're met
+        with stiff resistance. \nThere is no doubt in your mind this is a larger
+        fish, a sturgeon perhaps? "
+      - "NARRATION\nYou continue to reel, and your biceps begin to ache from your
+        exertion.\nWith all this effort \u2013 you now wonder if a tuna is on the
+        line!"
       - 'NARRATION
 
         As your line nears the boat your mind & body are warring
         with the thought of eating this catch and forgoing the profit. '
-      - 
+      - '
+
+'
       progressIndex: 0
       maxProgress: 7
-    - text: "NARRATION\nYou can always catch another fish to sell tomorrow and your
-        mouth salivates while your stomach as it antipates it's next delicious meal.\n\nYou
-        can see the catch emerge from the glistening amber waters and it's... \n\n"
+    - text: "NARRATION\nYou can always catch another fish to sell tomorrow, and your
+        mouth salivates while your stomach anticipates its next delicious meal.\n\nNARRATION\nYou
+        can see the catch emerge from the glistening amber waters and it's... \n\n\n"
       links:
       - name: Look closer
         link: Look closer
@@ -497,16 +495,21 @@ MonoBehaviour:
       textList:
       - 'NARRATION
 
-        You can always catch another fish to sell tomorrow and
-        your mouth salivates while your stomach as it antipates it''s next delicious
-        meal.'
-      - 'You can see the catch emerge from the glistening amber waters and it''s... '
-      - 
+        You can always catch another fish to sell tomorrow, and
+        your mouth salivates while your stomach anticipates its next delicious meal.'
+      - 'NARRATION
+
+        You can see the catch emerge from the glistening amber
+        waters and it''s... '
+      - '
+
+'
       progressIndex: 0
       maxProgress: 3
-    - text: "NARRATION\n\nDespite really needing the money and mustering up the resistence,
-        you know which is winning as your stomach growls in defiance. \n\nYou can
-        see the catch emerge from the glistening amber waters and it's... \n\n"
+    - text: "NARRATION\nDespite really needing the money and mustering up the resistance,
+        you know which part of you is winning as your stomach growls in defiance.
+        \n\nNARRATION\nYou can see the catch emerge from the glistening amber waters
+        and it's... \n\n\n"
       links:
       - name: Look closer
         link: Look closer
@@ -514,766 +517,544 @@ MonoBehaviour:
       name: I need to sell this fish
       pid: 3
       textList:
-      - NARRATION
-      - 'Despite really needing the money and mustering up the resistence, you know
-        which is winning as your stomach growls in defiance. '
-      - 'You can see the catch emerge from the glistening amber waters and it''s... '
-      - 
-      progressIndex: 0
-      maxProgress: 4
-    - text: "NARRATION\n...a ball of kelp. \nYou begin to deflate as dissapointment
-        washes over your body and mind.\n\nNARRATION\nYou notice a thud and heft
-        as the kelp is lowered to the deck of your raft. \nThere is a glint of scarlet
-        as you notice the reflection of something glassing from within.\n\nNARRATION\nYou
-        stick your hand within the slimy tangled knot of kelp and your nose becomes
-        overwhelmed with the aurma of brine and earth. \n\nNARRATION\nAfter some
-        digging your hand emerges a bottle that rattles as you untangle the kelp
-        from it. \n\nNARRATION\nYou peer inside the bottle and notice a roll of paper
-        and determine the noise is coming from a corroded key inside the paper. \n\nNARRATION\nYou
-        pop-off the cork in the bottle and notice faint blueish green gas seeping
-        out.\n\nNARRATION\nThe gas is starting to coalesce into misty tendrils and
-        the light begins to pulse in feint rhythm almost like a heartbeat. The key
-        begins to glow green....\n\n\n"
-      links:
-      - name: Wait and watch
-        link: Wait and watch
-        pid: 5
-      - name: Throw the key into the ocean
-        link: Throw the key into the ocean
-        pid: 6
-      name: Look closer
-      pid: 4
-      textList:
-      - "NARRATION\n...a ball of kelp. \nYou begin to deflate as dissapointment washes
-        over your body and mind."
-      - "NARRATION\nYou notice a thud and heft as the kelp is lowered to the deck
-        of your raft. \nThere is a glint of scarlet as you notice the reflection
-        of something glassing from within."
       - 'NARRATION
 
-        You stick your hand within the slimy tangled knot of
-        kelp and your nose becomes overwhelmed with the aurma of brine and earth. '
+        Despite really needing the money and mustering up the
+        resistance, you know which part of you is winning as your stomach growls
+        in defiance. '
       - 'NARRATION
 
-        After some digging your hand emerges a bottle that rattles
-        as you untangle the kelp from it. '
-      - 'NARRATION
-
-        You peer inside the bottle and notice a roll of paper
-        and determine the noise is coming from a corroded key inside the paper. '
-      - 'NARRATION
-
-        You pop-off the cork in the bottle and notice faint blueish
-        green gas seeping out.'
-      - 'NARRATION
-
-        The gas is starting to coalesce into misty tendrils and
-        the light begins to pulse in feint rhythm almost like a heartbeat. The key
-        begins to glow green....'
-      - '
-
-'
-      progressIndex: 0
-      maxProgress: 8
-    - text: 'NARRATION
-
-        The spectral and green etheral ooze keeps seeping
-        out of the key until the mist forms an incorporeal man. As it is happening,
-        you hear faint whispers and groans of terror.
-
-
-'
-      links:
-      - name: Er, who are you?
-        link: Er, who are you?
-        pid: 7
-      name: Wait and watch
-      pid: 5
-      textList:
-      - 'NARRATION
-
-        The spectral and green etheral ooze keeps seeping out
-        of the key until the mist forms an incorporeal man. As it is happening, you
-        hear faint whispers and groans of terror.'
-      - 
-      progressIndex: 0
-      maxProgress: 2
-    - text: "NARRATION\nYou hear a satisfying glub as the bottle sinks back into
-        the ocean, but a green light glows brighter in it's wake and the water begins
-        to boil as if it were growling at you.\n\nNARRATION\nThe boiling reaches
-        a climax as a bright light errupts from it and heads towards your boat. You
-        close your eyes in fear and you begin to scream in terror. \n\nWhen you re-open
-        your eyes you see an incorporeal man, a ghost, sitting across from you on
-        your raft, and notice the bottle is back on the deck of your ship. \n\n\n"
-      links:
-      - name: Er, who are you?
-        link: Er, who are you?
-        pid: 7
-      name: Throw the key into the ocean
-      pid: 6
-      textList:
-      - 'NARRATION
-
-        You hear a satisfying glub as the bottle sinks back into
-        the ocean, but a green light glows brighter in it''s wake and the water begins
-        to boil as if it were growling at you.'
-      - 'NARRATION
-
-        The boiling reaches a climax as a bright light errupts
-        from it and heads towards your boat. You close your eyes in fear and you
-        begin to scream in terror. '
-      - 'When you re-open your eyes you see an incorporeal man, a ghost, sitting
-        across from you on your raft, and notice the bottle is back on the deck of
-        your ship. '
-      - '
-
-'
-      progressIndex: 0
-      maxProgress: 4
-    - text: "NARRATION\nBefore you can finish your inquiry, what you begin to realize
-        is a ghost interrupts you.\n\nCAPTAIN\nAvast ye' scallywag!  Yer to sail
-        me right to Skull island immediately. This ship here is now commandeered
-        by your's truly, savvy? \n\n\n"
-      links:
-      - name: Stay Silent
-        link: Stay Silent
-        pid: 8
-      - name: Try to form a response
-        link: Try to form a response
-        pid: 9
-      name: Er, who are you?
-      pid: 7
-      textList:
-      - 'NARRATION
-
-        Before you can finish your inquiry, what you begin to
-        realize is a ghost interrupts you.'
-      - 'CAPTAIN
-
-        Avast ye'' scallywag!  Yer to sail me right to Skull island
-        immediately. This ship here is now commandeered by your''s truly, savvy? '
+        You can see the catch emerge from the glistening amber
+        waters and it''s... '
       - '
 
 '
       progressIndex: 0
       maxProgress: 3
+    - text: "NARRATION\n...a ball of kelp.\nYou begin to deflate as disappointment
+        washes over your body and mind.\n\nNARRATION\nAs claim your catch, you notice
+        a heft as the kelp is lowered to the deck of your raft. It hits the deck
+        with a hollow thud. \n\nNARRATION\nThere is a glint of scarlet as you notice
+        the reflection of something glassy from within.\n\nNARRATION\nYou stick your
+        hand within the slimy tangled knot of kelp and your nose becomes overwhelmed
+        with the aroma of brine and earth. \n\nNARRATION\nAfter some digging your
+        hand emerges with a bottle. Something rattling within as you untangle the
+        kelp from it. \n\nNARRATION\nYou peer inside the bottle and notice a roll
+        of paper and determine the noise is coming from a corroded key inside housed
+        inside.\n\nNARRATION\nYou pop the cork off the bottle and notice faint blueish
+        green gas seeping out.\n\nNARRATION\nThe gas is starting to coalesce into
+        misty tendrils and a green light begins to pulse in feint rhythm almost like
+        a heartbeat. The key begins to glow\u2026\n\n\n"
+      links:
+      - name: Wait and watch
+        link: Wait and watch
+        pid: 5
+      - name: Throw the bottle into the ocean
+        link: Throw the bottle into the ocean
+        pid: 10
+      name: Look closer
+      pid: 4
+      textList:
+      - 'NARRATION
+
+        ...a ball of kelp.
+
+        You begin to deflate as disappointment
+        washes over your body and mind.'
+      - 'NARRATION
+
+        As claim your catch, you notice a heft as the kelp is
+        lowered to the deck of your raft. It hits the deck with a hollow thud. '
+      - 'NARRATION
+
+        There is a glint of scarlet as you notice the reflection
+        of something glassy from within.'
+      - 'NARRATION
+
+        You stick your hand within the slimy tangled knot of
+        kelp and your nose becomes overwhelmed with the aroma of brine and earth. '
+      - 'NARRATION
+
+        After some digging your hand emerges with a bottle. Something
+        rattling within as you untangle the kelp from it. '
+      - 'NARRATION
+
+        You peer inside the bottle and notice a roll of paper
+        and determine the noise is coming from a corroded key inside housed inside.'
+      - 'NARRATION
+
+        You pop the cork off the bottle and notice faint blueish
+        green gas seeping out.'
+      - "NARRATION\nThe gas is starting to coalesce into misty tendrils and a green
+        light begins to pulse in feint rhythm almost like a heartbeat. The key begins
+        to glow\u2026"
+      - '
+
+'
+      progressIndex: 0
+      maxProgress: 9
     - text: 'NARRATION
 
-        You stare right into the empty sockets of this ethereal
-        Captain, he looks entirely indifferent to you.  You are jumbling and stuttering
-        your words in fear, you give up.
+        The green spectral and ethereal ooze keeps seeping
+        out of the key until the mist forms an incorporeal man. As it is happening,
+        you hear faint whispers and groans of terror.
+
 
 
 '
       links:
-      - name: The Captain Speaks First
-        link: The Captain Speaks First
-        pid: 10
+      - name: Er, who are you?
+        link: Er, who are you?
+        pid: 6
+      name: Wait and watch
+      pid: 5
+      textList:
+      - 'NARRATION
+
+        The green spectral and ethereal ooze keeps seeping out
+        of the key until the mist forms an incorporeal man. As it is happening, you
+        hear faint whispers and groans of terror.'
+      - '
+
+'
+      progressIndex: 0
+      maxProgress: 2
+    - text: "NARRATION\nBefore you can finish your inquiry, what you begin to realize
+        is the ghost of a pirate captain interrupts you.\n\nCAPTAIN\nAvast ye' scallywag! 
+        Yer to sail me right to Skull Island immediately. This ship here is now commandeered
+        by yer's truly, savvy? \n\n\n\n"
+      links:
+      - name: Stay Silent
+        link: Stay Silent
+        pid: 7
+      - name: Try to form a response
+        link: Try to form a response
+        pid: 8
+      name: Er, who are you?
+      pid: 6
+      textList:
+      - 'NARRATION
+
+        Before you can finish your inquiry, what you begin to
+        realize is the ghost of a pirate captain interrupts you.'
+      - 'CAPTAIN
+
+        Avast ye'' scallywag!  Yer to sail me right to Skull Island
+        immediately. This ship here is now commandeered by yer''s truly, savvy? '
+      - 
+      - 
+      progressIndex: 0
+      maxProgress: 4
+    - text: "NARRATION\nYou stare right into the empty sockets of this ethereal Captain;
+        he looks entirely indifferent to your existence.\n\nNARRATION\nYou are utterly
+        frozen in fear, your mouth agape. \n\n\n\n"
+      links:
+      - name: The Captain Resumes Talking
+        link: The Captain Resumes Talking
+        pid: 11
       name: Stay Silent
+      pid: 7
+      textList:
+      - 'NARRATION
+
+        You stare right into the empty sockets of this ethereal
+        Captain; he looks entirely indifferent to your existence.'
+      - 'NARRATION
+
+        You are utterly frozen in fear, your mouth agape. '
+      - 
+      - '
+
+'
+      progressIndex: 0
+      maxProgress: 4
+    - text: "NARRATION\nYou stare right into the empty sockets of this ethereal Captain;
+        he looks entirely indifferent to your existence.  \n\nNARRATION\nYou open
+        your mouth and are jumbling and stuttering your words in fear. \n\nNARRATION\nYou
+        give up trying to articulate and close your mouth in surrender.\n\n\n\n"
+      links:
+      - name: The Captain Resumes Talking
+        link: The Captain Resumes Talking
+        pid: 11
+      name: Try to form a response
       pid: 8
       textList:
       - 'NARRATION
 
         You stare right into the empty sockets of this ethereal
-        Captain, he looks entirely indifferent to you.  You are jumbling and stuttering
-        your words in fear, you give up.'
+        Captain; he looks entirely indifferent to your existence.  '
+      - 'NARRATION
+
+        You open your mouth and are jumbling and stuttering your
+        words in fear. '
+      - 'NARRATION
+
+        You give up trying to articulate and close your mouth
+        in surrender.'
+      - 
       - 
       progressIndex: 0
-      maxProgress: 2
-    - text: "NARRATION\nYou stare right into the empty sockets of this ethereal Captain,
-        he looks entirely indifferent to you. You are utterly frozen in fear, your
-        mouth agape. \n\n"
-      links:
-      - name: The Captain Speaks First
-        link: The Captain Speaks First
-        pid: 10
-      name: Try to form a response
+      maxProgress: 5
+    - text: "NARRATION\nYou set sail for your next destination, heading deeper into
+        the dreaded isles. \n"
+      links: []
+      name: Cast anchor and set sail
       pid: 9
+      textList:
+      - "NARRATION\nYou set sail for your next destination, heading deeper into the
+        dreaded isles. \n"
+      progressIndex: 0
+      maxProgress: 1
+    - text: "NARRATION\nYou hear a satisfying glub as the bottle sinks back into
+        the ocean. A green light glows brighter and brighter under it's wake. The
+        water begins to froth and boil as if it were growling at you.\n\nNARRATION\nThe
+        boiling reaches a climax as a bright ghastly light erupts from it and heads
+        towards your boat. You close your eyes in fear and begin to scream in terror.
+        \n\nNARRATION\nWhen you re-open your eyes you see an incorporeal man, a ghost,
+        sitting across from you on your raft, and hear a clank and rattle as the
+        bottle rolls across the deck of your ship. \n\n\n"
+      links:
+      - name: Er, who are you?
+        link: Er, who are you?
+        pid: 6
+      name: Throw the bottle into the ocean
+      pid: 10
       textList:
       - 'NARRATION
 
-        You stare right into the empty sockets of this ethereal
-        Captain, he looks entirely indifferent to you. You are utterly frozen in
-        fear, your mouth agape. '
-      - 
+        You hear a satisfying glub as the bottle sinks back into
+        the ocean. A green light glows brighter and brighter under it''s wake. The
+        water begins to froth and boil as if it were growling at you.'
+      - 'NARRATION
+
+        The boiling reaches a climax as a bright ghastly light
+        erupts from it and heads towards your boat. You close your eyes in fear and
+        begin to scream in terror. '
+      - 'NARRATION
+
+        When you re-open your eyes you see an incorporeal man,
+        a ghost, sitting across from you on your raft, and hear a clank and rattle
+        as the bottle rolls across the deck of your ship. '
+      - '
+
+'
       progressIndex: 0
-      maxProgress: 2
-    - text: "CAPTAIN \nQuit being lily-livered and weigh anchor immedately! We need
-        to get to my horde o' booty before those mutinious bilge-suckers do! \n\nCAPTAIN
-        \nIf you don't comply with me orders - I will keelhaul ye across the deep.
-        You don't realize how dark and cold it is down there. Savvy?\n\nNARRATION\nThe
-        Captain leans in toward you raising one boney hand upward and closing it
-        in a fist. His skeletel jaw clenches. You find yourself reluctently in agreement
-        with his terms.\n\n"
+      maxProgress: 4
+    - text: "CAPTAIN\nQuit being lily-livered and weigh anchor immediately! We need
+        to get to my horde o' booty before those mutinous bilge-suckers do! \n\nCAPTAIN\nBefore
+        we can get into Skull Island we need the sapphire spyglass to see through
+        the fog so we don\u2019t end up fish food hitting the rocky shoreline.\n\nCAPTAIN\nWe
+        also need the amber lantern to reveal the hidden ink on my map. \n\nNARRATOR\nHe
+        gestures to the blank parchment in the bottle.\n\nCAPTAIN\nFortunately, I
+        sense that these items are on the isles nearby.\n\nCAPTAIN\nIf you don't
+        comply with me orders - I will keelhaul ye across the deep. You don't realize
+        how dark and cold it is down there. Savvy?\n\nNARRATION\nThe Captain leans
+        in toward you raising one boney hand upward and closing it in a fist. His
+        skeletal jaw clenches. You find yourself reluctantly in agreement with his
+        terms.\n\n\n"
       links:
       - name: Cast anchor and set sail
         link: Cast anchor and set sail
-        pid: 11
-      - name: I have questions to ask...
-        link: I have questions to ask...
-        pid: 12
-      name: The Captain Speaks First
-      pid: 10
+        pid: 9
+      name: The Captain Resumes Talking
+      pid: 11
       textList:
-      - "CAPTAIN \nQuit being lily-livered and weigh anchor immedately! We need to
-        get to my horde o' booty before those mutinious bilge-suckers do! "
-      - "CAPTAIN \nIf you don't comply with me orders - I will keelhaul ye across
-        the deep. You don't realize how dark and cold it is down there. Savvy?"
+      - 'CAPTAIN
+
+        Quit being lily-livered and weigh anchor immediately! We
+        need to get to my horde o'' booty before those mutinous bilge-suckers do! '
+      - "CAPTAIN\nBefore we can get into Skull Island we need the sapphire spyglass
+        to see through the fog so we don\u2019t end up fish food hitting the rocky
+        shoreline."
+      - 'CAPTAIN
+
+        We also need the amber lantern to reveal the hidden ink
+        on my map. '
+      - 'NARRATOR
+
+        He gestures to the blank parchment in the bottle.'
+      - 'CAPTAIN
+
+        Fortunately, I sense that these items are on the isles
+        nearby.'
+      - 'CAPTAIN
+
+        If you don''t comply with me orders - I will keelhaul ye
+        across the deep. You don''t realize how dark and cold it is down there. Savvy?'
       - 'NARRATION
 
         The Captain leans in toward you raising one boney hand
-        upward and closing it in a fist. His skeletel jaw clenches. You find yourself
-        reluctently in agreement with his terms.'
-      - 
-      progressIndex: 0
-      maxProgress: 4
-    - text: "NARRATION\nYou set sail for your next destination - heading deeper into
-        the dreaded isles. \n\n"
-      links: []
-      name: Cast anchor and set sail
-      pid: 11
-      textList:
-      - 'NARRATION
+        upward and closing it in a fist. His skeletal jaw clenches. You find yourself
+        reluctantly in agreement with his terms.'
+      - '
 
-        You set sail for your next destination - heading deeper
-        into the dreaded isles. '
-      - 
+'
       progressIndex: 0
-      maxProgress: 2
-    - text: NO QUESTIONS RIGHT NOW - SORRY!
-      links: []
-      name: I have questions to ask...
-      pid: 12
-      textList:
-      - NO QUESTIONS RIGHT NOW - SORRY!
-      progressIndex: 0
-      maxProgress: 1
+      maxProgress: 8
     startnode: 1
   - name: Navigator Scene
     creator: Twine
     passages:
-    - text: 'NARRATION
-
-        You approach the shores of the island, and run your
-        raft up against the beachhead to dismount onto the sand.
-
-
-        CAPTAIN
-
-        Another
-        island that reeks of betrayal.
-
-
-        CAPTAIN
-
-        The spyglass of
-        the navigator should be around here somewhere. We won''t even reach the shore
-        of where we''re going without it.
-
-
-        NARRATION
-
-        You only make
-        it a few steps inland before a ghostly presence appears before you!
-
-
-        FLORRIE
-
-        Well,
-        look what has washed up with the tides.
-
-
-        FLORRIE
-
-        You ought
-        to give up piracy and return to that fishing raft of yours. This captain
-        will be no help to your livelihood.
-
-
-        CAPTAIN
-
-        Florrie you
-        fiend! Justice exists after all, with a traitor like you damned to such a
-        pitiful island as this!
-
-
-        CAPTAIN
-
-        My new crew may be modest
-        in size but is a great improvement in the loyalty department, as you should
-        know.
-
-
-        FLORRIE
-
-        I expect your heart would have fed the bottom-feeders
-        in your watery grave well, had you not lost it so long before your demise.
-
-
-        CAPTAIN
-
-        Hearsay!
-        Speak not of hearts to me you accursed mutineer!
-
-
-        FLORRIE
-
-        Traitor?
-        The only traitor here is you. You long ago abandoned a love of sea, comradery
-        and adventure for love of gold.
-
-
-        CAPTAIN
-
-        With crewmates
-        like you, I''d prefer the company of gold. Give us your spyglass, traitor.
-
-
-        FLORRIE
-
-        You
-        entrusted it to me once with my judgement, and it remains in that state.
-        My judgement is to refuse your command.
-
-
-        CAPTAIN
-
-        Refusing
-        your captain can get you quickly to the end of a plank, not that I had the
-        chance when it mattered most!
-
-
-
-'
+    - text: "NARRATION\nThe tide is calm making your approach straightforward. A
+        moment of solace for this first time during this journey.\n\nNARRATION\nYou
+        realize the captain has been quiet for some time as he is fixated on a distant
+        blue witch light.\n\nNARRATION\nYou approach the shores of the island and
+        run your raft up against the beachhead to dismount onto the sand.\n\nNARRATION\nYou
+        watch the sea foam bubbling across the shore as you drag your vessel deeper
+        on the beach. You leave it unanchored with no worry of the tide.\n\nCAPTAIN\nThis
+        island reeks of betrayal.\n\nCAPTAIN\nThe spyglass of my ol\u2019 navigator
+        should be around here somewhere. We won't even reach the shore of where we're
+        going without it.\n\nNARRATION\nYou only make it a few steps inland before
+        you find the human remains clutching a spyglass. \n\nNARRATION\nAs you reach
+        for it blue light swirls and coalesces in front of you \u2013 it as blinding
+        as a full moon across a calm sea. \n\nFLORRIE\nWell, look what has washed
+        up with the tides.\n\nFLORRIE\nYou \u2018ought to give up piracy and return
+        to that fishing raft of yours. This captain will be no help to your livelihood.\n\nCAPTAIN\nFlorrie
+        you fiend! \n\nNARRATION\nThe captain reaches for his cutlass. \n\nCAPTAIN\nWith
+        a scurvy dog like ye thrice-damned to such a pitiful island as this, justice
+        exists after all!\n\nCAPTAIN\nMy new crew may be modest in size but is a
+        great improvement in the loyalty department, as a traitor like ye should
+        know.\n\nFLORRIE\nI expect your heart would have fed the bottom-feeders in
+        your watery grave well, had you not lost it so long before your demise.\n\nCAPTAIN\nHearsay!
+        Speak not of hearts to me ye accursed mutineer!\n\nFLORRIE\nThe only traitor
+        here is you. You long ago abandoned a love of sea, comradery, and adventure
+        for love of gold. It poisoned you captain. \n\nCAPTAIN\nWith crewmates like
+        ye, I'd prefer the company of gold. Give us yer spyglass, traitor.\n\nFLORRIE\nYou
+        entrusted it to me once with my judgement, and it remains under my protection.
+        My judgement is to refuse your command.\n\nCAPTAIN\nRefusing yer captain
+        can get you quickly to the end of a plank! I wish I had the chance when it
+        mattered most, but this\u2019ll do! \n\n\n"
       links:
-      - name: Florrie 2
-        link: Florrie 2
-        pid: 2
+      - name: "The spyglass looks broken\u2026"
+        link: "The spyglass looks broken\u2026"
+        pid: 6
       name: Florrie 1
       pid: 1
       textList:
       - 'NARRATION
 
-        You approach the shores of the island, and run your raft
-        up against the beachhead to dismount onto the sand.'
-      - 'CAPTAIN
-
-        Another island that reeks of betrayal.'
-      - 'CAPTAIN
-
-        The spyglass of the navigator should be around here somewhere.
-        We won''t even reach the shore of where we''re going without it.'
+        The tide is calm making your approach straightforward.
+        A moment of solace for this first time during this journey.'
       - 'NARRATION
 
-        You only make it a few steps inland before a ghostly
-        presence appears before you!'
+        You realize the captain has been quiet for some time
+        as he is fixated on a distant blue witch light.'
+      - 'NARRATION
+
+        You approach the shores of the island and run your raft
+        up against the beachhead to dismount onto the sand.'
+      - 'NARRATION
+
+        You watch the sea foam bubbling across the shore as you
+        drag your vessel deeper on the beach. You leave it unanchored with no worry
+        of the tide.'
+      - 'CAPTAIN
+
+        This island reeks of betrayal.'
+      - "CAPTAIN\nThe spyglass of my ol\u2019 navigator should be around here somewhere.
+        We won't even reach the shore of where we're going without it."
+      - 'NARRATION
+
+        You only make it a few steps inland before you find the
+        human remains clutching a spyglass. '
+      - "NARRATION\nAs you reach for it blue light swirls and coalesces in front
+        of you \u2013 it as blinding as a full moon across a calm sea. "
       - 'FLORRIE
 
         Well, look what has washed up with the tides.'
-      - 'FLORRIE
-
-        You ought to give up piracy and return to that fishing
-        raft of yours. This captain will be no help to your livelihood.'
+      - "FLORRIE\nYou \u2018ought to give up piracy and return to that fishing raft
+        of yours. This captain will be no help to your livelihood."
       - 'CAPTAIN
 
-        Florrie you fiend! Justice exists after all, with a traitor
-        like you damned to such a pitiful island as this!'
+        Florrie you fiend! '
+      - 'NARRATION
+
+        The captain reaches for his cutlass. '
+      - 'CAPTAIN
+
+        With a scurvy dog like ye thrice-damned to such a pitiful
+        island as this, justice exists after all!'
       - 'CAPTAIN
 
         My new crew may be modest in size but is a great improvement
-        in the loyalty department, as you should know.'
+        in the loyalty department, as a traitor like ye should know.'
       - 'FLORRIE
 
         I expect your heart would have fed the bottom-feeders in
         your watery grave well, had you not lost it so long before your demise.'
       - 'CAPTAIN
 
-        Hearsay! Speak not of hearts to me you accursed mutineer!'
+        Hearsay! Speak not of hearts to me ye accursed mutineer!'
       - 'FLORRIE
 
-        Traitor? The only traitor here is you. You long ago abandoned
-        a love of sea, comradery and adventure for love of gold.'
+        The only traitor here is you. You long ago abandoned a
+        love of sea, comradery, and adventure for love of gold. It poisoned you captain. '
       - 'CAPTAIN
 
-        With crewmates like you, I''d prefer the company of gold.
-        Give us your spyglass, traitor.'
+        With crewmates like ye, I''d prefer the company of gold.
+        Give us yer spyglass, traitor.'
       - 'FLORRIE
 
         You entrusted it to me once with my judgement, and it remains
-        in that state. My judgement is to refuse your command.'
-      - 'CAPTAIN
-
-        Refusing your captain can get you quickly to the end of
-        a plank, not that I had the chance when it mattered most!'
+        under my protection. My judgement is to refuse your command.'
+      - "CAPTAIN\nRefusing yer captain can get you quickly to the end of a plank!
+        I wish I had the chance when it mattered most, but this\u2019ll do! "
       - '
 
 '
       progressIndex: 0
-      maxProgress: 15
-    - text: 'FLORRIE
-
-        This tires me. You, the only one here with a body.
-        Care to assist me in my wishes?
-
-
-        FLORRIE
-
-        Unlike your captain
-        here, I haven''t had much company lately.
-
-
-        FLORRIE
-
-        I died
-        of exposure not far from here. In my current state there''s not much I could
-        do to clean up.
-
-
-        FLORRIE
-
-        Long ago, after days of torturous
-        isolation, starvation, and burning sun on my skin I woke from death to the
-        sight of seabirds feasting on my corpse.
-
-
-        CAPTAIN
-
-        I can
-        only hope you slept in and missed the last boat! No wonder the mutineers
-        died at sea, the fools approached their final destination without the spyglass!
-
-
-        CAPTAIN
-
-        I
-        imagine you wanted it all for yourself, and were so excited you forgot to
-        pack an escape boat to row over their corpses with. Fool!
-
-
-        FLORRIE
-
-        Silence.
-        Go fetch my corpse, unless you''d prefer to listen to an eternity of your
-        dear captain''s musings.
-
-
-'
+      maxProgress: 21
+    - text: "FLORRIE\nI have reason to be distraught you know.\n\nFLORRIE\nThe crew
+        once sailed the high seas in constant companionship. One grows to appreciate
+        the company on a ship. You could say we were a family of sorts.\n\nFLORRIE\nI
+        originally set out to sea for a legacy worth remembering. I only stayed out
+        there to be among those who cared for me and I for them.\n\nCAPTAIN\nYer
+        commitment to run a rig even after death is despicable.\n\nNARRATOR\nShe
+        ignores the captain\u2019s interjection and continues.\n\nFLORRIE\nWhen I
+        was stranded here all I wanted was the old crew to appear on the horizon
+        to rescue me.\n\nFLORRIE\nI'd have given anything for even one trusted shipmate
+        to have been with me for the end. If only\u2026\n\nFLORRIE\nInstead, I passed
+        alone, with no legacy left behind. Are you getting the picture your captain
+        is so clearly missing?\n\n\n"
       links:
-      - name: In trade for the spyglass?
-        link: In trade for the spyglass?
-        pid: 4
-      - name: Why?
-        link: Why?
-        pid: 7
-      name: Florrie 2
+      - name: What is your intent?
+        link: What is your intent?
+        pid: 3
+      name: What must I do?
       pid: 2
       textList:
       - 'FLORRIE
 
-        This tires me. You, the only one here with a body. Care
-        to assist me in my wishes?'
-      - 'FLORRIE
-
-        Unlike your captain here, I haven''t had much company lately.'
-      - 'FLORRIE
-
-        I died of exposure not far from here. In my current state
-        there''s not much I could do to clean up.'
-      - 'FLORRIE
-
-        Long ago, after days of torturous isolation, starvation,
-        and burning sun on my skin I woke from death to the sight of seabirds feasting
-        on my corpse.'
-      - 'CAPTAIN
-
-        I can only hope you slept in and missed the last boat!
-        No wonder the mutineers died at sea, the fools approached their final destination
-        without the spyglass!'
-      - 'CAPTAIN
-
-        I imagine you wanted it all for yourself, and were so excited
-        you forgot to pack an escape boat to row over their corpses with. Fool!'
-      - 'FLORRIE
-
-        Silence. Go fetch my corpse, unless you''d prefer to listen
-        to an eternity of your dear captain''s musings.'
-      - 
-      progressIndex: 0
-      maxProgress: 8
-    - text: 'FLORRIE
-
-        I have reason to be upset you know.
-
-
-        FLORRIE
-
-        The
-        crew once sailed the high seas in constant companionship. One grows to appreciate
-        the company on a ship.
-
-
-        FLORRIE
-
-        I only set out to sea for
-        a legacy worth remembering. I only stayed out there to be among those who
-        cared for me and I for them.
-
-
-        CAPTAIN
-
-        Your disingenuity
-        even after death is despicable.
-
-
-        FLORRIE
-
-        When I was stranded
-        here all I wanted was the old crew to appear on the horizon to rescue me.
-
-
-        FLORRIE
-
-        I''d
-        have given anything for even one trusted shipmate to have been with me for
-        the end.
-
-
-        FLORRIE
-
-        Instead I passed alone. Are you getting
-        the picture your captain is so clearly missing?
-
-
-'
-      links:
-      - name: What is your intent?
-        link: What is your intent?
-        pid: 5
-      name: What must I do?
-      pid: 3
-      textList:
-      - 'FLORRIE
-
-        I have reason to be upset you know.'
+        I have reason to be distraught you know.'
       - 'FLORRIE
 
         The crew once sailed the high seas in constant companionship.
-        One grows to appreciate the company on a ship.'
+        One grows to appreciate the company on a ship. You could say we were a family
+        of sorts.'
       - 'FLORRIE
 
-        I only set out to sea for a legacy worth remembering. I
-        only stayed out there to be among those who cared for me and I for them.'
+        I originally set out to sea for a legacy worth remembering.
+        I only stayed out there to be among those who cared for me and I for them.'
       - 'CAPTAIN
 
-        Your disingenuity even after death is despicable.'
+        Yer commitment to run a rig even after death is despicable.'
+      - "NARRATOR\nShe ignores the captain\u2019s interjection and continues."
       - 'FLORRIE
 
         When I was stranded here all I wanted was the old crew
         to appear on the horizon to rescue me.'
+      - "FLORRIE\nI'd have given anything for even one trusted shipmate to have been
+        with me for the end. If only\u2026"
       - 'FLORRIE
 
-        I''d have given anything for even one trusted shipmate
-        to have been with me for the end.'
-      - 'FLORRIE
-
-        Instead I passed alone. Are you getting the picture your
-        captain is so clearly missing?'
-      - 
-      progressIndex: 0
-      maxProgress: 8
-    - text: 'FLORRIE
-
-        There hasn''t been anything to see, why would I need
-        it? There''s not a soul around apart from me until you two arrived.
-
-
-'
-      links:
-      - name: What must I do?
-        link: What must I do?
-        pid: 3
-      name: In trade for the spyglass?
-      pid: 4
-      textList:
-      - 'FLORRIE
-
-        There hasn''t been anything to see, why would I need it?
-        There''s not a soul around apart from me until you two arrived.'
-      - 
-      progressIndex: 0
-      maxProgress: 2
-    - text: 'FLORRIE
-
-        Bring my body back here and light a pyre with some
-        driftwood.
-
-
-        FLORRIE
-
-        I died alone. I shall at least have
-        attendees to my funeral.
-
-
-
-'
-      links:
-      - name: Very well.
-        link: Very well.
-        pid: 6
-      name: What is your intent?
-      pid: 5
-      textList:
-      - 'FLORRIE
-
-        Bring my body back here and light a pyre with some driftwood.'
-      - 'FLORRIE
-
-        I died alone. I shall at least have attendees to my funeral.'
+        Instead, I passed alone, with no legacy left behind. Are
+        you getting the picture your captain is so clearly missing?'
       - '
 
 '
       progressIndex: 0
-      maxProgress: 3
-    - text: 'NARRATION
+      maxProgress: 9
+    - text: "FLORRIE\nLight a pyre with some driftwood and burn my remains on it.\n\nFLORRIE\nI
+        died alone. I shall at least have attendees to my funeral. I deserve as much.\n\nNARRATOR\nShe
+        gazes toward the Captain, who stands there expressionless. \n\n\n"
+      links:
+      - name: Very well.
+        link: Very well.
+        pid: 4
+      name: What is your intent?
+      pid: 3
+      textList:
+      - 'FLORRIE
 
-        You go inland and retrieve the bones and apparel
-        of Florrie, gather it with some driftwood on the beach, and light it on fire.
+        Light a pyre with some driftwood and burn my remains on
+        it.'
+      - 'FLORRIE
 
+        I died alone. I shall at least have attendees to my funeral.
+        I deserve as much.'
+      - 'NARRATOR
 
-        CAPTAIN
+        She gazes toward the Captain, who stands there expressionless. '
+      - '
 
-        Those
-        seabirds pecking at your corpse were the best funeral guests a traitor like
-        you deserves Florrie.
-
-
-        FLORRIE
-
-        Thank you for this funeral
-        pyre. You have fulfilled my final wish.
-
-
-        FLORRIE
-
-        Perhaps,
-        in this moment you could set aside your blinding greed and eulogize me like
-        you once promised, my captain?
-
-
-        CAPTAIN
-
-        I don''t recall
-        ever making such a promise.
-
-
-        NARRATION
-
-        An expression crosses
-        Florries face that shows the captain''s words cut deep.
-
-
-        FLORRIE
-
-        I
-        see. Well, I know what it''s like to be forgotten just like that promise.
-
-
-        NARRATION
-
-        She
-        is fighting tears. Seeing this, captain''s smug look of self-righteousness
-        appears to have weakened.
-
-
-        CAPTAIN
-
-        ...
-
-
-        CAPTAIN
-
-        You
-        earned your monachre, Florrie the Straight. Not once were we lost at sea.
-
-
-        NARRATION
-
-        She
-        is still crying, but you see a slight smile.
-
-
-        FLORRIE
-
-        It
-        is true. I was as obsessed with the map room as you are now with gold.
-
-
-        FLORRIE
-
-        Perhaps
-        if we both lifted our heads up more we could have seen what the rest of the
-        crew had planned for us all.
-
-
-        CAPTAIN
-
-        ...?
-
-
-        FLORRIE
-
-        You
-        have given me what I need to free myself of this place. Take the spyglass,
-        and go.
-
-
-        FLORRIE
-
-        Go get your gold, captain. Perhaps there
-        you''ll see what a fool you are.
-
-
-        NARRATION
-
-        She fades and
-        dissapears. You feel spyglass appear in your hands.
-
-
-        CAPTAIN
-
-        ...
-
-
-        CAPTAIN
-
-        Back
-        to sea. Captain''s orders.'
+'
+      progressIndex: 0
+      maxProgress: 4
+    - text: "NARRATION\nYou go inland and retrieve driftwood from the beach and collect
+        scattered apparel and the remaining belongings of Florrie the Navigator.\n\nNARRATION\nYou
+        hear Florrie and the Captain talking as you return and set to work on building
+        a pyre. \n\nCAPTAIN\nYe were too quick to pack a duffle and show the dungbie
+        of a dinghy as ye sailed away.\n\nCAPTAIN\nThose seabirds pecking at yer
+        corpse were the best funeral wake a traitor like ye deserves Florrie.\n\nFLORRIE\nI
+        did it to deny the mutineers the spyglass you seadog. There figured out its
+        importance. \n\nNARRATION\nFlorrie turns to you as you ready to light the
+        pyre with your tinder box. A profound mix of sadness and relief washes across
+        her ghastly face.\n\nFLORRIE\nThank you for this funeral pyre. You have fulfilled
+        my final wish.\n\nFLORRIE\nCaptain, perhaps in this moment you could set
+        aside your blinding greed and eulogize me like you once promised?\n\nCAPTAIN\nI
+        don't recall ever making such a promise.\n\nNARRATION\nAn expression crosses
+        Florries face showing the captain's words cut deep.\n\nFLORRIE\nI see. Well,
+        I know what it's like to be forgotten just like that promise.\n\nNARRATION\nShe
+        is fighting tears. Seeing this, captain's smug look of self-righteousness
+        appears to have weakened across his skullish expression.\n\nCAPTAIN\n...\n\nCAPTAIN\nYou
+        earned your title, Florrie the Straight. Not once were we lost at sea. A
+        captain couldn\u2019t ask for a better navigator. \n\nNARRATION\nA few tears
+        roll down her face, the motes of blue ectoplasm dissolving into the sand
+        below. You see a slight smile. You start to see her fade as more parts dissolve
+        into the ground below.\n\nFLORRIE\nIt is true. I was as obsessed with the
+        map room as you are now with gold.\n\nFLORRIE\nPerhaps if we both lifted
+        our heads up more, we could have seen what the rest of the crew had planned
+        for us all.\n\nCAPTAIN\n...?\n\nFLORRIE\nYou have given me what I need to
+        free myself of this place. Take the spyglass and go.\n\nFLORRIE\nGo get your
+        gold, captain. Perhaps there you'll see what a fool you are.\n\nNARRATION\nShe
+        continues to fade in a gentle waterfall of azure light gracefully pooling
+        below her pyre.\n\nNARRATION\nYou feel spyglass appear in your hands, now
+        complete with its sapphire lens whole again.\n\nCAPTAIN\n...\n\nNARRATION\nThe
+        Captain stows his cutlas and stiffens up. \n\nCAPTAIN\nBack to sea. Captain's
+        orders."
       links: []
       name: Very well.
-      pid: 6
+      pid: 4
       textList:
       - 'NARRATION
 
-        You go inland and retrieve the bones and apparel of Florrie,
-        gather it with some driftwood on the beach, and light it on fire.'
+        You go inland and retrieve driftwood from the beach and
+        collect scattered apparel and the remaining belongings of Florrie the Navigator.'
+      - 'NARRATION
+
+        You hear Florrie and the Captain talking as you return
+        and set to work on building a pyre. '
       - 'CAPTAIN
 
-        Those seabirds pecking at your corpse were the best funeral
-        guests a traitor like you deserves Florrie.'
+        Ye were too quick to pack a duffle and show the dungbie
+        of a dinghy as ye sailed away.'
+      - 'CAPTAIN
+
+        Those seabirds pecking at yer corpse were the best funeral
+        wake a traitor like ye deserves Florrie.'
+      - 'FLORRIE
+
+        I did it to deny the mutineers the spyglass you seadog.
+        There figured out its importance. '
+      - 'NARRATION
+
+        Florrie turns to you as you ready to light the pyre with
+        your tinder box. A profound mix of sadness and relief washes across her ghastly
+        face.'
       - 'FLORRIE
 
         Thank you for this funeral pyre. You have fulfilled my
         final wish.'
       - 'FLORRIE
 
-        Perhaps, in this moment you could set aside your blinding
-        greed and eulogize me like you once promised, my captain?'
+        Captain, perhaps in this moment you could set aside your
+        blinding greed and eulogize me like you once promised?'
       - 'CAPTAIN
 
         I don''t recall ever making such a promise.'
       - 'NARRATION
 
-        An expression crosses Florries face that shows the captain''s
+        An expression crosses Florries face showing the captain''s
         words cut deep.'
       - 'FLORRIE
 
@@ -1282,24 +1063,24 @@ MonoBehaviour:
       - 'NARRATION
 
         She is fighting tears. Seeing this, captain''s smug look
-        of self-righteousness appears to have weakened.'
+        of self-righteousness appears to have weakened across his skullish expression.'
       - 'CAPTAIN
 
         ...'
-      - 'CAPTAIN
-
-        You earned your monachre, Florrie the Straight. Not once
-        were we lost at sea.'
+      - "CAPTAIN\nYou earned your title, Florrie the Straight. Not once were we lost
+        at sea. A captain couldn\u2019t ask for a better navigator. "
       - 'NARRATION
 
-        She is still crying, but you see a slight smile.'
+        A few tears roll down her face, the motes of blue ectoplasm
+        dissolving into the sand below. You see a slight smile. You start to see
+        her fade as more parts dissolve into the ground below.'
       - 'FLORRIE
 
         It is true. I was as obsessed with the map room as you
         are now with gold.'
       - 'FLORRIE
 
-        Perhaps if we both lifted our heads up more we could have
+        Perhaps if we both lifted our heads up more, we could have
         seen what the rest of the crew had planned for us all.'
       - 'CAPTAIN
 
@@ -1307,46 +1088,152 @@ MonoBehaviour:
       - 'FLORRIE
 
         You have given me what I need to free myself of this place.
-        Take the spyglass, and go.'
+        Take the spyglass and go.'
       - 'FLORRIE
 
         Go get your gold, captain. Perhaps there you''ll see what
         a fool you are.'
       - 'NARRATION
 
-        She fades and dissapears. You feel spyglass appear in
-        your hands.'
+        She continues to fade in a gentle waterfall of azure
+        light gracefully pooling below her pyre.'
+      - 'NARRATION
+
+        You feel spyglass appear in your hands, now complete
+        with its sapphire lens whole again.'
       - 'CAPTAIN
 
         ...'
+      - 'NARRATION
+
+        The Captain stows his cutlas and stiffens up. '
       - 'CAPTAIN
 
         Back to sea. Captain''s orders.'
       progressIndex: 0
-      maxProgress: 19
-    - text: 'FLORRIE
-
-        Why? Because I have the spyglass you need. Doesn''t
-        that appeal to your sense of loyalty to your captain, or is there hope for
-        you yet?
-
-
-'
+      maxProgress: 25
+    - text: "\n\nFLORRIE\nYou\u2019re as daft as the mutineers. Why? Because I\u2019m
+        the only one that can fix the spyglass you need. \n\nFLORRIE\nDoesn't that
+        appeal to your sense of loyalty to your \u2018captain\u2019, or is there
+        hope for you yet?\n\n\n"
       links:
       - name: What must I do?
         link: What must I do?
-        pid: 3
+        pid: 2
       name: Why?
-      pid: 7
+      pid: 5
+      textList:
+      - 
+      - "FLORRIE\nYou\u2019re as daft as the mutineers. Why? Because I\u2019m the
+        only one that can fix the spyglass you need. "
+      - "FLORRIE\nDoesn't that appeal to your sense of loyalty to your \u2018captain\u2019,
+        or is there hope for you yet?"
+      - '
+
+'
+      progressIndex: 0
+      maxProgress: 4
+    - text: "FLORRIE\nThis tires me. You, the only one here with a body. \n\nNARRATOR\nFlorrie
+        turns to face you and for the first time you can see her distinguished presence.
+        Without a doubt, she is the most intelligent being on the island built from
+        an education in life.\n\nNARRATOR\nThere are stashes of charts holstered
+        at her hip presumably of all the archipelagos the Scarlet Siren sailed. Her
+        hair floats in the air as if she was a drowned corpse adrift in water.\n\nFLORRIE\nCare
+        to assist me in my wishes?\n\nFLORRIE\nUnlike your captain here, I haven't
+        had much company lately.\n\nFLORRIE\nAs you can see, I died of exposure here.
+        Marooned alone on this island. In my current state there's not much I could
+        do to clean up.\n\nFLORRIE\nLong ago, following days of torturous isolation,
+        starvation, and burning sun on my skin I woke from death to the sight of
+        seabirds feasting on my corpse.\n\nCAPTAIN\nI hope this was because ye slept
+        in and missed the last boat! No wonder the mutineers died at sea, the fools
+        approached their final destination without the spyglass!\n\nNARRATOR\nThe
+        Captain lets out a cackle as he casually waves the cutlass in his hand.\n\nCAPTAIN\nI
+        imagine ye wanted it all for yourself ye greedy harlot and were so excited
+        ye forgot to pack an escape boat to row over their corpses with. Yer a scallywag!\n\nFLORRIE\nSilence
+        my Captain. You there, go fetch my corpse, unless you'd prefer to listen
+        to an eternity of your dear captain's musings.\n\n\n"
+      links:
+      - name: But the spyglass is broken...
+        link: But the spyglass is broken...
+        pid: 7
+      - name: Why?
+        link: Why?
+        pid: 5
+      name: "The spyglass looks broken\u2026"
+      pid: 6
       textList:
       - 'FLORRIE
 
-        Why? Because I have the spyglass you need. Doesn''t that
-        appeal to your sense of loyalty to your captain, or is there hope for you
-        yet?'
-      - 
+        This tires me. You, the only one here with a body. '
+      - 'NARRATOR
+
+        Florrie turns to face you and for the first time you can
+        see her distinguished presence. Without a doubt, she is the most intelligent
+        being on the island built from an education in life.'
+      - 'NARRATOR
+
+        There are stashes of charts holstered at her hip presumably
+        of all the archipelagos the Scarlet Siren sailed. Her hair floats in the
+        air as if she was a drowned corpse adrift in water.'
+      - 'FLORRIE
+
+        Care to assist me in my wishes?'
+      - 'FLORRIE
+
+        Unlike your captain here, I haven''t had much company lately.'
+      - 'FLORRIE
+
+        As you can see, I died of exposure here. Marooned alone
+        on this island. In my current state there''s not much I could do to clean
+        up.'
+      - 'FLORRIE
+
+        Long ago, following days of torturous isolation, starvation,
+        and burning sun on my skin I woke from death to the sight of seabirds feasting
+        on my corpse.'
+      - 'CAPTAIN
+
+        I hope this was because ye slept in and missed the last
+        boat! No wonder the mutineers died at sea, the fools approached their final
+        destination without the spyglass!'
+      - 'NARRATOR
+
+        The Captain lets out a cackle as he casually waves the
+        cutlass in his hand.'
+      - 'CAPTAIN
+
+        I imagine ye wanted it all for yourself ye greedy harlot
+        and were so excited ye forgot to pack an escape boat to row over their corpses
+        with. Yer a scallywag!'
+      - 'FLORRIE
+
+        Silence my Captain. You there, go fetch my corpse, unless
+        you''d prefer to listen to an eternity of your dear captain''s musings.'
+      - '
+
+'
       progressIndex: 0
-      maxProgress: 2
+      maxProgress: 12
+    - text: "FLORRIE\nYou\u2019re a keen one, not nearly as daft as you look. I\u2019m
+        the only one that can fix the spyglass you need. \n\nFLORRIE\nDoesn't that
+        appeal to your sense of loyalty to your \u2018captain\u2019, or is there
+        hope for you yet?\n\n\n"
+      links:
+      - name: What must I do?
+        link: What must I do?
+        pid: 2
+      name: But the spyglass is broken...
+      pid: 7
+      textList:
+      - "FLORRIE\nYou\u2019re a keen one, not nearly as daft as you look. I\u2019m
+        the only one that can fix the spyglass you need. "
+      - "FLORRIE\nDoesn't that appeal to your sense of loyalty to your \u2018captain\u2019,
+        or is there hope for you yet?"
+      - '
+
+'
+      progressIndex: 0
+      maxProgress: 3
     startnode: 1
   - name: Ending Scene
     creator: Twine
@@ -2486,20 +2373,19 @@ MonoBehaviour:
         though his feet don't leave a splash in the water as you'd expect leaving
         you with a sense of dissonance. \n\nNARRATION \nYou keep rowing the boat
         a little further and later hop into the water with a satisfying sploosh.
-        You're wading forward ankle deep in sea water.\n\nNARRATION \nYou notice
-        the captain is further ahead and that the water isn't slowing him down like
-        it would a physical person. One of the scarce luxuries of being dead you
-        presume.\n \nNARRATION \nDespite the lack of physical resistance for him,
-        you notice how he still makes a conscious effort to keep is flintlocks away
-        from the sea water.\n\nCAPTAIN \nWe're close to one of the filthy mutineers
-        now. I can sense it. \n\nCAPTAIN \nI'm going to cleave that scurvy dog to
-        the brisket... \n\nNARRATION \nThe water is low enough you now are walking,
-        with your boots glopping at each step as they suction through the sand. Your
-        ship being towed over your shoulder by a rope, following behind like a lazy
-        ox. \n\nNARRATION \nIn the darkness you manage to see a ghastly orange light
-        of similar intensity to the Captain\u2019s green hue in the distance. \n\nCAPTAIN
-        \nHeave ho! Put your back into it ye lazy landlubber. I've met freebooters
-        that worked harder than ye. \n\n\n"
+        You're wading forward ankle deep in sea water.\n\nNARRATION\nYou notice the
+        captain is further ahead and that the water isn't slowing him down like it
+        would a physical person. One of the scarce luxuries of being dead you presume.\n\nNARRATION\nDespite
+        the lack of physical resistance for him, you notice how he still makes a
+        conscious effort to keep is flintlocks away from the sea water.\n\nCAPTAIN
+        \nWe're close to one of the filthy mutineers now. I can sense it. \n\nCAPTAIN
+        \nI'm going to cleave that scurvy dog to the brisket... \n\nNARRATION \nThe
+        water is low enough you now are walking, with your boots glopping at each
+        step as they suction through the sand. Your ship being towed over your shoulder
+        by a rope, following behind like a lazy ox. \n\nNARRATION \nIn the darkness
+        you manage to see a ghastly orange light of similar intensity to the Captain\u2019s
+        green hue in the distance. \n\nCAPTAIN \nHeave ho! Put your back into it
+        ye lazy landlubber. I've met freebooters that worked harder than ye. \n\n\n"
       links:
       - name: Argue
         link: Argue
@@ -2516,11 +2402,16 @@ MonoBehaviour:
       - "NARRATION \nYou keep rowing the boat a little further and later hop into
         the water with a satisfying sploosh. You're wading forward ankle deep in
         sea water."
-      - "NARRATION \nYou notice the captain is further ahead and that the water isn't
-        slowing him down like it would a physical person. One of the scarce luxuries
-        of being dead you presume.\n \nNARRATION \nDespite the lack of physical resistance
-        for him, you notice how he still makes a conscious effort to keep is flintlocks
-        away from the sea water."
+      - 'NARRATION
+
+        You notice the captain is further ahead and that the
+        water isn''t slowing him down like it would a physical person. One of the
+        scarce luxuries of being dead you presume.'
+      - 'NARRATION
+
+        Despite the lack of physical resistance for him, you
+        notice how he still makes a conscious effort to keep is flintlocks away from
+        the sea water.'
       - "CAPTAIN \nWe're close to one of the filthy mutineers now. I can sense it. "
       - "CAPTAIN \nI'm going to cleave that scurvy dog to the brisket... "
       - "NARRATION \nThe water is low enough you now are walking, with your boots
@@ -2534,7 +2425,7 @@ MonoBehaviour:
 
 '
       progressIndex: 0
-      maxProgress: 9
+      maxProgress: 10
     - text: "NARRATION \nAs you muster up the breath to argue with this feisty phantasm,
         you begin to calculate what backlash you'll face as a result. \n\nNARRATION
         \nAs you reach your conclusion, you resign yourself to responding with an
@@ -2674,42 +2565,39 @@ MonoBehaviour:
         \n\nNARRATION \nYou see the orange phantom snap to attention in a salute
         with his left palm facing down. \n\nNARRATION \nLike a jellyfish readying
         itself to move, you swear you could see pride inflating his ethereal chest.
-        \n\n\nLEFTPAW THE BILGERAT\nCap'n!\n\nCAPTAIN \n...son of a biscuit eater
-        - you scurvy dog! I will give ye no quarter!!\n\nNARRATION \nAs quick as
-        it came so to did it go. Leftpaw deflated faster than a beached jellyfish.\n\nNARRATION
+        \n\n\nLEFTPAW\nCap'n!\n\nCAPTAIN \n...son of a biscuit eater - you scurvy
+        dog! I will give ye no quarter!!\n\nNARRATION \nAs quick as it came so to
+        did it go. Leftpaw deflated faster than a beached jellyfish.\n \nNARRATION
         \nHis amber glow a hue closer to a red now. His arm now slumping limp at
-        his side.\n\nLEFTPAW THE BILGERAT\n'Scuze me Cap'n? \n\nNARRATION \nYou notice
-        a spectral flintlock in the Captain's hands now. There is a subtle tremble
-        in his grip.\n\nCAPTAIN \nI will never, NEVER, forgive ye, yer a mutinous
-        cur!\n\nLEFTPAW THE BILGERAT\nForgive me? Yer the one who left me to Davy
-        Jones' locker!\n\nLEFTPAW THE BILGERAT\nThe Cap'n is supposed to go down
-        with the ship! Where were ye when the Siren sunk to the briny deep? \n\nLEFTPAW
-        THE BILGERAT\nThe Siren was a loyal lass and ye left her behind on a dinghy!
-        What cap'n are ye? She deserved better!\n\nCAPTAIN \nAye, she was a loyal
-        //and //reliable lass - unlike //you// - when you scuttled her! \n\n\nLEFTPAW
-        THE BILGERAT\nI was too busy repairing her hull and keeping bilge out to
-        notice what the crew was doing. What sort of shipwright do you take me for?\n\nLEFTPAW
-        THE BILGERAT\nYer are my bruvva cap\u2019n. I am always grateful ye gave
-        me a 'ome and a sense of being part of somethin'...\n\nLEFTPAW THE BILGERAT\n...and
-        now ye accuse me of BETRAYING YE? OF SCUTTLING, ME 'OME, THE SCARLET SIREN
-        ?\n\nNARRATION \nThe Captain folded his arms across his chest. His hand still
-        gripping a flintlock.\n\nCAPTAIN \nPft, are you trying to run a rig on me
-        Otto? \n\nLEFTPAW THE BILGERAT\nThere's a name I 'adn't 'eard in awhile.
-        Well Cap'n, or should I say //Cedric, // do you even know why I followed?
-        It wasn\u2019t for the doubloons or the bounty.\n\nLEFTPAW THE BILGERAT\nI
+        his side.\n\nLEFTPAW\n'Scuze me Cap'n? \n\nNARRATION \nYou notice a spectral
+        flintlock in the Captain's hands now. There is a subtle tremble in his grip.\n\nCAPTAIN
+        \nI will never, NEVER, forgive ye, yer a mutinous cur!\n\nLEFTPAW\nForgive
+        me? Yer the one who left me to Davy Jones' locker!\n\nLEFTPAW\nThe Cap'n
+        is supposed to go down with the ship! Where were ye when the Siren sunk to
+        the briny deep? \n\nLEFTPAW\nThe Siren was a loyal lass and ye left her behind
+        on a dinghy! What cap'n are ye? She deserved better!\n\nCAPTAIN \nAye, she
+        was a loyal and reliable lass - unlike you - when you scuttled her! \n\n\nLEFTPAW
+        \nI was too busy repairing her hull and keeping bilge out to notice what
+        the crew was doing. What sort of shipwright do you take me for?\n\nLEFTPAW\nYer
+        are my bruvva cap\u2019n. I am always grateful ye gave me a 'ome and a sense
+        of being part of somethin'...\n\nLEFTPAW\n...and now ye accuse me of BETRAYING
+        YE? OF SCUTTLING, ME 'OME, THE SCARLET SIREN ?\n\nNARRATION \nThe Captain
+        folded his arms across his chest. His hand still gripping a flintlock.\n\nCAPTAIN
+        \nPft, are you trying to run a rig on me Otto? \n\nLEFTPAW\nThere's a name
+        I 'adn't 'eard in awhile. Well Cap'n, or should I say //Cedric, // do you
+        even know why I followed? It wasn\u2019t for the doubloons or the bounty.\n\nLEFTPAW\nI
         was there from the beginning with ye. You were once the paragon of piracy,
         eh? It's a right pity seeing where ye are now. \n\nCAPTAIN \nAt least I'm
         getting closer to the booty while ye haplessly pace around like a landlubber
-        out to hornswaggle! \n\n\nLEFTPAW THE BILGERAT\n'aplessly? I'm trying to
-        put the Siren back together! She deserves dignity, even at the bottom of
-        the deep. \n\nCAPTAIN \nIf yer still loyal to me, then hand over the lantern
-        Otto. Prove yer still me Leftpaw, lest ye be a bilge-sucker. \n\nLEFTPAW
-        THE BILGERAT\nProve to me that ye still care about the Siren and the lantern
-        is all yours.\n\nNARRATION \nThe Captain moves to ready his flintlock once
-        more.\n\nNARRATION \nLeftpaw raises his hands in resignation and faces you.
-        \n\nLEFTPAW THE BILGERAT\nLook, ye seem to 'ave an even keel. The only thing
-        left I need to find is the 'elm. The cockswain 'ould've also 'anted it in
-        its rightful place. \n\n\n\n\n\n\n\n"
+        out to hornswaggle! \n\n\nLEFTPAW\n'aplessly? I'm trying to put the Siren
+        back together! She deserves dignity, even at the bottom of the deep. \n\nCAPTAIN
+        \nIf yer still loyal to me, then hand over the lantern Otto. Prove yer still
+        me Leftpaw, lest ye be a bilge-sucker. \n\nLEFTPAW\nProve to me that ye still
+        care about the Siren and the lantern is all yours.\n\nNARRATION \nThe Captain
+        moves to ready his flintlock once more.\n\nNARRATION \nLeftpaw raises his
+        hands in resignation and faces you. \n\nLEFTPAW THE BILGERAT\nLook, ye seem
+        to 'ave an even keel. The only thing left I need to find is the 'elm. The
+        cockswain 'ould've also 'anted it in its rightful place. \n\n\n\n\n\n\n\n"
       links:
       - name: Ok, I'll get on it
         link: Ok, I'll get on it
@@ -2744,7 +2632,7 @@ MonoBehaviour:
         see pride inflating his ethereal chest. "
       - '
 
-        LEFTPAW THE BILGERAT
+        LEFTPAW
 
         Cap''n!'
       - "CAPTAIN \n...son of a biscuit eater - you scurvy dog! I will give ye no
@@ -2752,64 +2640,57 @@ MonoBehaviour:
       - "NARRATION \nAs quick as it came so to did it go. Leftpaw deflated faster
         than a beached jellyfish.\n \nNARRATION \nHis amber glow a hue closer to
         a red now. His arm now slumping limp at his side."
-      - 'LEFTPAW THE BILGERAT
+      - 'LEFTPAW
 
         ''Scuze me Cap''n? '
       - "NARRATION \nYou notice a spectral flintlock in the Captain's hands now.
         There is a subtle tremble in his grip."
       - "CAPTAIN \nI will never, NEVER, forgive ye, yer a mutinous cur!"
-      - 'LEFTPAW THE BILGERAT
+      - 'LEFTPAW
 
-        Forgive me? Yer the one who left me to Davy
-        Jones'' locker!'
-      - 'LEFTPAW THE BILGERAT
+        Forgive me? Yer the one who left me to Davy Jones'' locker!'
+      - 'LEFTPAW
 
-        The Cap''n is supposed to go down with the
-        ship! Where were ye when the Siren sunk to the briny deep? '
-      - 'LEFTPAW THE BILGERAT
+        The Cap''n is supposed to go down with the ship! Where
+        were ye when the Siren sunk to the briny deep? '
+      - 'LEFTPAW
 
-        The Siren was a loyal lass and ye left her
-        behind on a dinghy! What cap''n are ye? She deserved better!'
-      - "CAPTAIN \nAye, she was a loyal //and //reliable lass - unlike //you// -
-        when you scuttled her! "
-      - '
+        The Siren was a loyal lass and ye left her behind on a
+        dinghy! What cap''n are ye? She deserved better!'
+      - "CAPTAIN \nAye, she was a loyal and reliable lass - unlike you - when you
+        scuttled her! "
+      - "\nLEFTPAW \nI was too busy repairing her hull and keeping bilge out to notice
+        what the crew was doing. What sort of shipwright do you take me for?"
+      - "LEFTPAW\nYer are my bruvva cap\u2019n. I am always grateful ye gave me a
+        'ome and a sense of being part of somethin'..."
+      - 'LEFTPAW
 
-        LEFTPAW THE BILGERAT
-
-        I was too busy repairing her hull
-        and keeping bilge out to notice what the crew was doing. What sort of shipwright
-        do you take me for?'
-      - "LEFTPAW THE BILGERAT\nYer are my bruvva cap\u2019n. I am always grateful
-        ye gave me a 'ome and a sense of being part of somethin'..."
-      - 'LEFTPAW THE BILGERAT
-
-        ...and now ye accuse me of BETRAYING YE? OF
-        SCUTTLING, ME ''OME, THE SCARLET SIREN ?'
+        ...and now ye accuse me of BETRAYING YE? OF SCUTTLING,
+        ME ''OME, THE SCARLET SIREN ?'
       - "NARRATION \nThe Captain folded his arms across his chest. His hand still
         gripping a flintlock."
       - "CAPTAIN \nPft, are you trying to run a rig on me Otto? "
-      - "LEFTPAW THE BILGERAT\nThere's a name I 'adn't 'eard in awhile. Well Cap'n,
-        or should I say //Cedric, // do you even know why I followed? It wasn\u2019t
-        for the doubloons or the bounty."
-      - 'LEFTPAW THE BILGERAT
+      - "LEFTPAW\nThere's a name I 'adn't 'eard in awhile. Well Cap'n, or should
+        I say //Cedric, // do you even know why I followed? It wasn\u2019t for the
+        doubloons or the bounty."
+      - 'LEFTPAW
 
-        I was there from the beginning with ye. You
-        were once the paragon of piracy, eh? It''s a right pity seeing where ye are
-        now. '
+        I was there from the beginning with ye. You were once the
+        paragon of piracy, eh? It''s a right pity seeing where ye are now. '
       - "CAPTAIN \nAt least I'm getting closer to the booty while ye haplessly pace
         around like a landlubber out to hornswaggle! "
       - '
 
-        LEFTPAW THE BILGERAT
+        LEFTPAW
 
-        ''aplessly? I''m trying to put the
-        Siren back together! She deserves dignity, even at the bottom of the deep. '
+        ''aplessly? I''m trying to put the Siren back
+        together! She deserves dignity, even at the bottom of the deep. '
       - "CAPTAIN \nIf yer still loyal to me, then hand over the lantern Otto. Prove
         yer still me Leftpaw, lest ye be a bilge-sucker. "
-      - 'LEFTPAW THE BILGERAT
+      - 'LEFTPAW
 
-        Prove to me that ye still care about the Siren
-        and the lantern is all yours.'
+        Prove to me that ye still care about the Siren and the
+        lantern is all yours.'
       - "NARRATION \nThe Captain moves to ready his flintlock once more."
       - "NARRATION \nLeftpaw raises his hands in resignation and faces you. "
       - 'LEFTPAW THE BILGERAT
@@ -2824,8 +2705,8 @@ MonoBehaviour:
       progressIndex: 0
       maxProgress: 40
     - text: "NARRATION \nBoth the Captain and Leftpaw look at you with an expression
-        of ghastly shock. They quickly exchange a glance.\n\nLEFTPAW THE BILGERAT\nShivver
-        me timbers, yer serious?\n\nCAPTAIN \nA cockswain is a helmsmen ye scallywag!
+        of ghastly shock. They quickly exchange a glance.\n\nLEFTPAW\nShivver me
+        timbers, yer serious?\n\nCAPTAIN \nA cockswain is a helmsmen ye scallywag!
         What do they put in landlubber books these days?\n\nNARRATION \nIt appears
         your own incompetence to see beyond the veil of child-like immaturity is
         the only thing that can suprise spirits who have seen beyond the veil of
@@ -2840,7 +2721,7 @@ MonoBehaviour:
       textList:
       - "NARRATION \nBoth the Captain and Leftpaw look at you with an expression
         of ghastly shock. They quickly exchange a glance."
-      - 'LEFTPAW THE BILGERAT
+      - 'LEFTPAW
 
         Shivver me timbers, yer serious?'
       - "CAPTAIN \nA cockswain is a helmsmen ye scallywag! What do they put in landlubber
@@ -2913,9 +2794,9 @@ MonoBehaviour:
         moonlight pierces through holes in the mountain that eroded over the eons
         and reflects off the water. \n\nNARRATION \nGently brushing agaisnt this
         private beach is the wheel of a ship. You set out to return to the two arguing
-        ghosts by restracing your steps backwards.\n\nLEFTPAW THE BILGERAT\nI see
-        ye found it. Good work matey. \n\nLEFTPAW THE BILGERAT\nNow return it to
-        the deep. \n\nNARRATION \nLeftpaw motions towards the sea. \n\n\n\n"
+        ghosts by restracing your steps backwards.\n\nLEFTPAW\nI see ye found it.
+        Good work matey. \n\nLEFTPAW\nNow return it to the deep. \n\nNARRATION \nLeftpaw
+        motions towards the sea. \n\n\n\n"
       links:
       - name: Throw it as hard as you can
         link: Throw it as hard as you can
@@ -2938,10 +2819,10 @@ MonoBehaviour:
       - "NARRATION \nGently brushing agaisnt this private beach is the wheel of a
         ship. You set out to return to the two arguing ghosts by restracing your
         steps backwards."
-      - 'LEFTPAW THE BILGERAT
+      - 'LEFTPAW
 
         I see ye found it. Good work matey. '
-      - 'LEFTPAW THE BILGERAT
+      - 'LEFTPAW
 
         Now return it to the deep. '
       - "NARRATION \nLeftpaw motions towards the sea. "
@@ -2954,29 +2835,29 @@ MonoBehaviour:
         \nThe helm flies deep and far into the dark sea and makes a very satisfying
         sploosh sound. White water and mist glistens in the moonlight. \n\nNARRATION
         \nYou turn to see the reaction of your two ghostly companions just in time
-        to see the Captain making an odd gesture with his boney jaw. \n\n\nLEFTPAW
-        THE BILGERAT\n\u2026Did ye just try to whistle Cap\u2019n? Without any lips?
-        \n\nCAPTAIN\nI -\n\nLEFTPAW THE BILGERAT\nHahahahahahaha!\n\nCAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!\n\nNARRATION
+        to see the Captain making an odd gesture with his boney jaw. \n\n\nLEFTPAW\n\u2026Did
+        ye just try to whistle Cap\u2019n? Without any lips? \n\nCAPTAIN\nI -\n\nLEFTPAW\nHahahahahahaha!\n\nCAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!\n\nNARRATION
         \nThe two chuckle and giggle on and off as they try to regain their composure.
-        The Captain puts his hand on Leftpaw\u2019s shoulder. \n\nLEFTPAW THE BILGERAT\nLook
-        at us now, eh? A couple of wretched ghouls. \n\nCAPTAIN\n\u2026\n\n\nNARRATION
+        The Captain puts his hand on Leftpaw\u2019s shoulder. \n\nLEFTPAW\nLook at
+        us now, eh? A couple of wretched ghouls. \n\nCAPTAIN\n\u2026\n\nNARRATION
         \nA moment of sobriety washes over them both. The Captain's hand pulls away
         from Leftpaw.\n\nLEFTPAW THE BILGERAT\nAhh\u2026 \n\nNARRATION \nLeftpaw\u2019s
         glow starts to fade \u2013 the light diminishing with each passing seconds.
-        \n\n\nLEFTPAW THE BILGERAT\nI think me times up cap\u2019n. Look, I know
-        we didn\u2019t always agree in life, and we certainly aren\u2019t agreeing
-        in death. \n\nLEFTPAW THE BILGERAT\nI want ye to know that I hope ye find
-        what it is yer truly lookin\u2019 for on this course yer sailing. \n\nLEFTPAW
+        \n\nLEFTPAW THE BILGERAT\nI think me times up cap\u2019n. Look, I know we
+        didn\u2019t always agree in life, and we certainly aren\u2019t agreeing in
+        death. \n\nLEFTPAW THE BILGERAT\nI want ye to know that I hope ye find what
+        it is yer truly lookin\u2019 for on this course yer sailing. \n\nLEFTPAW
         THE BILGERAT\nJust remember, it doesn\u2019t matter how big the island is,
         it takes many islands to make an archipelago. \n\nNARRATION \nLeftpaw looks
         back towards you. \n\nLEFTPAW THE BILGERAT\nA bargain is a bargain. The Scarlet
         Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION
         \nThe remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
-        into a swarm of ember-like motes. \n\nNARRATION\nLike fireflies dancing over
-        the ocean and across the night sky. Slowly flickering out one by one as they
-        landed in the water. \n\nNARRATION\nYou feel a gentle nudge at your feet,
-        and as you look down you notice the waves brought in the amber lantern.\n\nCAPTAIN\n\u2026\n\nCAPTAIN\nAvast
-        Ye! Back to the ship. Captain\u2019s orders!\n"
+        into a swarm of ember-like motes adrift across the sky. \n\nNARRATION\nLike
+        fireflies dancing over the ocean and across the night sky. Slowly flickering
+        out one by one as they landed in the water. \n\nNARRATION\nYou feel a gentle
+        nudge at your feet, and as you look down you notice the waves brought in
+        the amber lantern.\n\nCAPTAIN\n\u2026\n\nCAPTAIN\nAvast Ye! Back to the ship.
+        Captain\u2019s orders!\n"
       links:
       - name: Finish the march!
         link: Finish the march!
@@ -2990,29 +2871,27 @@ MonoBehaviour:
         satisfying sploosh sound. White water and mist glistens in the moonlight. "
       - "NARRATION \nYou turn to see the reaction of your two ghostly companions
         just in time to see the Captain making an odd gesture with his boney jaw. "
-      - "\nLEFTPAW THE BILGERAT\n\u2026Did ye just try to whistle Cap\u2019n? Without
-        any lips? "
+      - "\nLEFTPAW\n\u2026Did ye just try to whistle Cap\u2019n? Without any lips? "
       - 'CAPTAIN
 
         I -'
-      - 'LEFTPAW THE BILGERAT
+      - 'LEFTPAW
 
         Hahahahahahaha!'
       - "CAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!"
       - "NARRATION \nThe two chuckle and giggle on and off as they try to regain
         their composure. The Captain puts his hand on Leftpaw\u2019s shoulder. "
-      - 'LEFTPAW THE BILGERAT
+      - 'LEFTPAW
 
         Look at us now, eh? A couple of wretched ghouls. '
       - "CAPTAIN\n\u2026"
-      - "\nNARRATION \nA moment of sobriety washes over them both. The Captain's
-        hand pulls away from Leftpaw."
+      - "NARRATION \nA moment of sobriety washes over them both. The Captain's hand
+        pulls away from Leftpaw."
       - "LEFTPAW THE BILGERAT\nAhh\u2026 "
       - "NARRATION \nLeftpaw\u2019s glow starts to fade \u2013 the light diminishing
         with each passing seconds. "
-      - "\nLEFTPAW THE BILGERAT\nI think me times up cap\u2019n. Look, I know we
-        didn\u2019t always agree in life, and we certainly aren\u2019t agreeing in
-        death. "
+      - "LEFTPAW THE BILGERAT\nI think me times up cap\u2019n. Look, I know we didn\u2019t
+        always agree in life, and we certainly aren\u2019t agreeing in death. "
       - "LEFTPAW THE BILGERAT\nI want ye to know that I hope ye find what it is yer
         truly lookin\u2019 for on this course yer sailing. "
       - "LEFTPAW THE BILGERAT\nJust remember, it doesn\u2019t matter how big the
@@ -3021,7 +2900,7 @@ MonoBehaviour:
       - "LEFTPAW THE BILGERAT\nA bargain is a bargain. The Scarlet Siren is whole
         again. My lanterns yours\u2026 and\u2026 thank ye. "
       - "NARRATION \nThe remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat
-        disintegrates into a swarm of ember-like motes. "
+        disintegrates into a swarm of ember-like motes adrift across the sky. "
       - 'NARRATION
 
         Like fireflies dancing over the ocean and across the
