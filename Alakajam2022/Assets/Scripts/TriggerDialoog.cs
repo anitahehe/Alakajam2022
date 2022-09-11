@@ -20,7 +20,7 @@ public class TriggerDialoog : MonoBehaviour
        if(collision.gameObject.tag == "Player"&& !isTriggered){
            Debug.Log("Story is triggered");
            dialogUIScript.InitializeStory(storyNumber);
-           audioObject.PlayOneShot(characterMusic);
+           audioObject.Play();
            isTriggered = true;
            if (givesNavigatorItem)
            {
