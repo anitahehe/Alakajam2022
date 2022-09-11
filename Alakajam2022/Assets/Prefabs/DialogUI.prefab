@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1108113537090357805}
   - component: {fileID: 1108113537090357779}
   - component: {fileID: 1108113537090357778}
+  - component: {fileID: 333848600207948398}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -29,11 +30,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1108113537913627600}
-  - {fileID: 1108113537872451740}
-  - {fileID: 6548877636230612849}
-  - {fileID: 6094935725007163365}
+  m_Children: []
   m_Father: {fileID: 1108113538858888306}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -80,6 +77,26 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &333848600207948398
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108113537090357804}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fa6846fafaecdd34e9f6aebc0be5ca1f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1108113537872451743
 GameObject:
   m_ObjectHideFlags: 0
@@ -104,17 +121,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108113537872451743}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1108113537090357805}
-  m_RootOrder: 1
+  m_Father: {fileID: 1108113538858888306}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.6, y: -76.7}
+  m_AnchoredPosition: {x: 208.60004, y: -163.51315}
   m_SizeDelta: {x: 278.98, y: 28.158}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1108113537872451741
@@ -168,17 +185,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108113537913627603}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1108113537090357805}
-  m_RootOrder: 0
+  m_Father: {fileID: 1108113538858888306}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000038444996, y: -6.2}
+  m_AnchoredPosition: {x: 204, y: -93.013145}
   m_SizeDelta: {x: 278.9809, y: 95.0575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1108113537913627606
@@ -334,18 +351,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UI: {fileID: 1108113538858888333}
+  UIGroup: {fileID: 8602976034465852555}
   lineText: {fileID: 1108113537913627601}
   nameText: {fileID: 2509810378357900569}
-  continueIndicator: {fileID: 7852125235260894417}
+  continueIndicator: {fileID: 2678635792977083744}
   optionsParent: {fileID: 1108113537872451740}
   optionButtonPrefab: {fileID: 5570540824088336098, guid: 147e25d07c98aec4e83af55415b24466, type: 3}
   portrait: {fileID: 3666402897159332683}
   textbox: {fileID: 1108113537090357778}
   textSpeed: 0.03
   skipKey: 32
-  turboKey: 0
+  turboKey: 27
   fadedColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
-  fadeDuration: 0.5
+  fadeDuration: 2
   characters:
   - portrait: {fileID: 21300000, guid: 8cdcf6165c7f8654aa6877c673522b7e, type: 3}
     name: Captain
@@ -362,9 +380,9 @@ MonoBehaviour:
   - portrait: {fileID: 21300000, guid: 3edec7bc904befd4e98cd7b207412d4a, type: 3}
     name: Florrie
     nameID: FLORRIE
-    setColor: {r: 0.7803922, g: 0.3137255, b: 0.3137255, a: 1}
+    setColor: {r: 0.8000001, g: 1, b: 1, a: 1}
     font: {fileID: 11400000, guid: b05223ce69fc30648944aea423f0c12a, type: 2}
-    fontStyle: 0
+    fontStyle: 32
     dialogSounds:
     - {fileID: 8300000, guid: eadd82a565c306c4d82474a41e024ac0, type: 3}
     - {fileID: 8300000, guid: 1485ac25ec7e3b5479cb702d1e9b6bbd, type: 3}
@@ -414,6 +432,7 @@ MonoBehaviour:
   - {fileID: 4900000, guid: 759ee5b8cd7e26a469540f331f600bd6, type: 3}
   - {fileID: 4900000, guid: 68f5266ee4c9f3242ab1b13c2c2c57b5, type: 3}
   - {fileID: 4900000, guid: f0ea1936e11b67e42b064716307588f4, type: 3}
+  - {fileID: 4900000, guid: 99b661a65f84b5149ae5c0a5b7e22486, type: 3}
   storyInfo:
   - name: Captain_Intro_Scene
     creator: Twine
@@ -2410,6 +2429,714 @@ MonoBehaviour:
       progressIndex: 0
       maxProgress: 4
     startnode: 1
+  - name: Shipwright
+    creator: Twine
+    passages:
+    - text: "NARRATION \nYou sail upon a island with a mountain on it, as you crest
+        around it, you notice there is a giant cave. \n\n\n"
+      links:
+      - name: Look at the cave
+        link: Look at the cave
+        pid: 2
+      - name: Focus on rowing
+        link: Focus on rowing
+        pid: 3
+      name: RoSS 1
+      pid: 1
+      textList:
+      - "NARRATION \nYou sail upon a island with a mountain on it, as you crest around
+        it, you notice there is a giant cave. "
+      - '
+
+'
+      progressIndex: 0
+      maxProgress: 2
+    - text: "NARRATION \nFrom the distance you're at, you estimate that the cave
+        could fit a war brig in there.\n\nNARRATION \nAs you get draw closer to the
+        shore you realize that you're first guess was too generous, at most the cave
+        could hide a longship.\n\nNARRATION \nIt begins to strike you how deeply
+        perturbed that your \"Captain\" isn't helping row or guide your boat to shore
+        - an extremely difficult task for a crew during this tide, let alone for
+        one person.\n\nNARRATION \nYour thoughts are soon interrupted by a spray
+        of briny white water that shakes your boat. Nothing too serious, but you
+        focus your attention on not ending up as a ghost yourself.\n\n\n\n"
+      links:
+      - name: Focus on rowing
+        link: Focus on rowing
+        pid: 3
+      name: Look at the cave
+      pid: 2
+      textList:
+      - "NARRATION \nFrom the distance you're at, you estimate that the cave could
+        fit a war brig in there."
+      - "NARRATION \nAs you get draw closer to the shore you realize that you're
+        first guess was too generous, at most the cave could hide a longship."
+      - "NARRATION \nIt begins to strike you how deeply perturbed that your \"Captain\"
+        isn't helping row or guide your boat to shore - an extremely difficult task
+        for a crew during this tide, let alone for one person."
+      - "NARRATION \nYour thoughts are soon interrupted by a spray of briny white
+        water that shakes your boat. Nothing too serious, but you focus your attention
+        on not ending up as a ghost yourself."
+      - 
+      - 
+      progressIndex: 0
+      maxProgress: 6
+    - text: "NARRATION \nYour ship closes on the shore and the captain hops out,
+        though his feet don't leave a splash in the water as you'd expect leaving
+        you with a sense of dissonance. \n\nNARRATION \nYou keep rowing the boat
+        a little further and later hop into the water with a satisfying sploosh.
+        You're wading forward ankle deep in sea water.\n\nNARRATION \nYou notice
+        the captain is further ahead and that the water isn't slowing him down like
+        it would a physical person. One of the scarce luxuries of being dead you
+        presume.\n \nNARRATION \nDespite the lack of physical resistance for him,
+        you notice how he still makes a conscious effort to keep is flintlocks away
+        from the sea water.\n\nCAPTAIN \nWe're close to one of the filthy mutineers
+        now. I can sense it. \n\nCAPTAIN \nI'm going to cleave that scurvy dog to
+        the brisket... \n\nNARRATION \nThe water is low enough you now are walking,
+        with your boots glopping at each step as they suction through the sand. Your
+        ship being towed over your shoulder by a rope, following behind like a lazy
+        ox. \n\nNARRATION \nIn the darkness you manage to see a ghastly orange light
+        of similar intensity to the Captain\u2019s green hue in the distance. \n\nCAPTAIN
+        \nHeave ho! Put your back into it ye lazy landlubber. I've met freebooters
+        that worked harder than ye. \n\n\n"
+      links:
+      - name: Argue
+        link: Argue
+        pid: 4
+      - name: Keep towing the boat
+        link: Keep towing the boat
+        pid: 5
+      name: Focus on rowing
+      pid: 3
+      textList:
+      - "NARRATION \nYour ship closes on the shore and the captain hops out, though
+        his feet don't leave a splash in the water as you'd expect leaving you with
+        a sense of dissonance. "
+      - "NARRATION \nYou keep rowing the boat a little further and later hop into
+        the water with a satisfying sploosh. You're wading forward ankle deep in
+        sea water."
+      - "NARRATION \nYou notice the captain is further ahead and that the water isn't
+        slowing him down like it would a physical person. One of the scarce luxuries
+        of being dead you presume.\n \nNARRATION \nDespite the lack of physical resistance
+        for him, you notice how he still makes a conscious effort to keep is flintlocks
+        away from the sea water."
+      - "CAPTAIN \nWe're close to one of the filthy mutineers now. I can sense it. "
+      - "CAPTAIN \nI'm going to cleave that scurvy dog to the brisket... "
+      - "NARRATION \nThe water is low enough you now are walking, with your boots
+        glopping at each step as they suction through the sand. Your ship being towed
+        over your shoulder by a rope, following behind like a lazy ox. "
+      - "NARRATION \nIn the darkness you manage to see a ghastly orange light of
+        similar intensity to the Captain\u2019s green hue in the distance. "
+      - "CAPTAIN \nHeave ho! Put your back into it ye lazy landlubber. I've met freebooters
+        that worked harder than ye. "
+      - '
+
+'
+      progressIndex: 0
+      maxProgress: 9
+    - text: "NARRATION \nAs you muster up the breath to argue with this feisty phantasm,
+        you begin to calculate what backlash you'll face as a result. \n\nNARRATION
+        \nAs you reach your conclusion, you resign yourself to responding with an
+        \"aye\" - which, when your labours catch up to your thoughts, deflates to
+        a meager sigh as you exhale.\n\nNARRATION \nYour eyes meet the sockets of
+        the Captain and for a second you swear he raised and eyebrow at you. That
+        is, if he had an eyebrow still left. \n\nNARRATION \nYou avert his gaze and
+        hastily begin tying the rope around a sturdy palm tree. \n\n \n\n"
+      links:
+      - name: Anchor the rope around a tree
+        link: Anchor the rope around a tree
+        pid: 6
+      name: Argue
+      pid: 4
+      textList:
+      - "NARRATION \nAs you muster up the breath to argue with this feisty phantasm,
+        you begin to calculate what backlash you'll face as a result. "
+      - "NARRATION \nAs you reach your conclusion, you resign yourself to responding
+        with an \"aye\" - which, when your labours catch up to your thoughts, deflates
+        to a meager sigh as you exhale."
+      - "NARRATION \nYour eyes meet the sockets of the Captain and for a second you
+        swear he raised and eyebrow at you. That is, if he had an eyebrow still left. "
+      - "NARRATION \nYou avert his gaze and hastily begin tying the rope around a
+        sturdy palm tree. "
+      - ' '
+      - 'CAPTAIN
+
+        In the beginning we had to run from sea fights! We flew
+        up the black flag and if they didn''t surrender we had to run for our lives!'
+      progressIndex: 0
+      maxProgress: 6
+    - text: "NARRATION \nYou keep a steady pace and monitor your breath as you your
+        ship slides out of the water and drags through the sand. \n\nNARRATION\nIt
+        leaves behind a trench in the sand, one which you assume will be washed away
+        in the next high high tide. \n\nNARRATION\nYou find a sturdy palm tree deep
+        within the beach. This is a good spot.\n\n\n\n"
+      links:
+      - name: Anchor the rope around a tree
+        link: Anchor the rope around a tree
+        pid: 6
+      name: Keep towing the boat
+      pid: 5
+      textList:
+      - "NARRATION \nYou keep a steady pace and monitor your breath as you your ship
+        slides out of the water and drags through the sand. "
+      - 'NARRATION
+
+        It leaves behind a trench in the sand, one which you
+        assume will be washed away in the next high high tide. '
+      - 'NARRATION
+
+        You find a sturdy palm tree deep within the beach. This
+        is a good spot.'
+      - 
+      - 
+      progressIndex: 0
+      maxProgress: 5
+    - text: "CAPTAIN \nSink me! That's how ye tie a knot? Every old salt knows you
+        loop twice, go through the middle and do one more loop to make a proper taut-line.
+        \n\n\n\n\n\n"
+      links:
+      - name: Keep your knot as is
+        link: Keep your knot as is
+        pid: 7
+      - name: Retie your knot the Captain's way
+        link: Retie your knot the Captain's way
+        pid: 8
+      name: Anchor the rope around a tree
+      pid: 6
+      textList:
+      - "CAPTAIN \nSink me! That's how ye tie a knot? Every old salt knows you loop
+        twice, go through the middle and do one more loop to make a proper taut-line. "
+      - 'CAPTAIN
+
+        Even if that were true, they should have kept a better
+        eye on the crew! Mutinies don''t just happen you know!'
+      - 
+      - 
+      progressIndex: 0
+      maxProgress: 4
+    - text: "NARRATION \nYou ignore the Captain's advice and keep your knot the way
+        it is. What does he know? \n\nNARRATION \nAn annoyed click noise pops from
+        his jaw. \n\nNARRATION \nAfter you do one last check to test it's effectiveness
+        you look up to see the Captain facing towards the orange light. \n\n\n\n"
+      links:
+      - name: Walk toward the Captain
+        link: Walk toward the Captain
+        pid: 9
+      name: Keep your knot as is
+      pid: 7
+      textList:
+      - "NARRATION \nYou ignore the Captain's advice and keep your knot the way it
+        is. What does he know? "
+      - "NARRATION \nAn annoyed click noise pops from his jaw. "
+      - "NARRATION \nAfter you do one last check to test it's effectiveness you look
+        up to see the Captain facing towards the orange light. "
+      - 'CAPTAIN
+
+        I can put them all behind me! What matter is it if they
+        had less?'
+      - 'CAPTAIN
+
+        If they didn''t want more they would have stopped sailing!'
+      progressIndex: 0
+      maxProgress: 5
+    - text: "NARRATION \nYou follow his advice and learn that can already feel the
+        ease of sliding the knot to tighten or loosen. It appears very sturdy. \n\nNARRATION
+        \nAs you look up you recieve a brief nod before the captain pivots toward
+        the orange light. \n\n"
+      links:
+      - name: Walk toward the Captain
+        link: Walk toward the Captain
+        pid: 9
+      name: Retie your knot the Captain's way
+      pid: 8
+      textList:
+      - "NARRATION \nYou follow his advice and learn that can already feel the ease
+        of sliding the knot to tighten or loosen. It appears very sturdy. "
+      - "NARRATION \nAs you look up you recieve a brief nod before the captain pivots
+        toward the orange light. "
+      - 
+      progressIndex: 0
+      maxProgress: 3
+    - text: "NARRATION \nYou begin to walk towards him and stumble as you almost
+        trip over the rope. \n\nCAPTAIN \nIn future, put a rock over the rope to
+        keep the line down. It's good for when the hearties drink a clap of thunder
+        on a dark night. \n\nNARRATION \nFrom your angle you see what you believe
+        to be the edges of a grin on his skeletal face. \n\nCAPTAIN \n...\n\nCAPTAIN
+        \nShiver me timbers! Hurry up, will you? \n\n\nNARRATION \nHe sets off in
+        the lead and you begin your trek toward the orange glow.\n\nNARRATION \nAs
+        you near the figure you start to discern a mostly human shape - the only
+        difference is a ball of ethereal glowing amber light in the stead of a head.
+        \n\nNARRATION \nYou observe a wide array of tools on this individual, everything
+        from hammers, chisels, and most prominently, a saw. \n\nNARRATION \nThere
+        is a frenetic and spontaneous pacing from the orange ghoul like a fish in
+        a school; safe and purposeful, yet still anxious.\n\nCAPTAIN \nLeftpaw! You...
+        \n\nNARRATION \nYou see the orange phantom snap to attention in a salute
+        with his left palm facing down. \n\nNARRATION \nLike a jellyfish readying
+        itself to move, you swear you could see pride inflating his ethereal chest.
+        \n\n\nLEFTPAW THE BILGERAT\nCap'n!\n\nCAPTAIN \n...son of a biscuit eater
+        - you scurvy dog! I will give ye no quarter!!\n\nNARRATION \nAs quick as
+        it came so to did it go. Leftpaw deflated faster than a beached jellyfish.\n\nNARRATION
+        \nHis amber glow a hue closer to a red now. His arm now slumping limp at
+        his side.\n\nLEFTPAW THE BILGERAT\n'Scuze me Cap'n? \n\nNARRATION \nYou notice
+        a spectral flintlock in the Captain's hands now. There is a subtle tremble
+        in his grip.\n\nCAPTAIN \nI will never, NEVER, forgive ye, yer a mutinous
+        cur!\n\nLEFTPAW THE BILGERAT\nForgive me? Yer the one who left me to Davy
+        Jones' locker!\n\nLEFTPAW THE BILGERAT\nThe Cap'n is supposed to go down
+        with the ship! Where were ye when the Siren sunk to the briny deep? \n\nLEFTPAW
+        THE BILGERAT\nThe Siren was a loyal lass and ye left her behind on a dinghy!
+        What cap'n are ye? She deserved better!\n\nCAPTAIN \nAye, she was a loyal
+        //and //reliable lass - unlike //you// - when you scuttled her! \n\n\nLEFTPAW
+        THE BILGERAT\nI was too busy repairing her hull and keeping bilge out to
+        notice what the crew was doing. What sort of shipwright do you take me for?\n\nLEFTPAW
+        THE BILGERAT\nYer are my bruvva cap\u2019n. I am always grateful ye gave
+        me a 'ome and a sense of being part of somethin'...\n\nLEFTPAW THE BILGERAT\n...and
+        now ye accuse me of BETRAYING YE? OF SCUTTLING, ME 'OME, THE SCARLET SIREN
+        ?\n\nNARRATION \nThe Captain folded his arms across his chest. His hand still
+        gripping a flintlock.\n\nCAPTAIN \nPft, are you trying to run a rig on me
+        Otto? \n\nLEFTPAW THE BILGERAT\nThere's a name I 'adn't 'eard in awhile.
+        Well Cap'n, or should I say //Cedric, // do you even know why I followed?
+        It wasn\u2019t for the doubloons or the bounty.\n\nLEFTPAW THE BILGERAT\nI
+        was there from the beginning with ye. You were once the paragon of piracy,
+        eh? It's a right pity seeing where ye are now. \n\nCAPTAIN \nAt least I'm
+        getting closer to the booty while ye haplessly pace around like a landlubber
+        out to hornswaggle! \n\n\nLEFTPAW THE BILGERAT\n'aplessly? I'm trying to
+        put the Siren back together! She deserves dignity, even at the bottom of
+        the deep. \n\nCAPTAIN \nIf yer still loyal to me, then hand over the lantern
+        Otto. Prove yer still me Leftpaw, lest ye be a bilge-sucker. \n\nLEFTPAW
+        THE BILGERAT\nProve to me that ye still care about the Siren and the lantern
+        is all yours.\n\nNARRATION \nThe Captain moves to ready his flintlock once
+        more.\n\nNARRATION \nLeftpaw raises his hands in resignation and faces you.
+        \n\nLEFTPAW THE BILGERAT\nLook, ye seem to 'ave an even keel. The only thing
+        left I need to find is the 'elm. The cockswain 'ould've also 'anted it in
+        its rightful place. \n\n\n\n\n\n\n\n"
+      links:
+      - name: Ok, I'll get on it
+        link: Ok, I'll get on it
+        pid: 11
+      - name: '*stiffle a giggle* Cockswain?'
+        link: '*stiffle a giggle* Cockswain?'
+        pid: 10
+      name: Walk toward the Captain
+      pid: 9
+      textList:
+      - "NARRATION \nYou begin to walk towards him and stumble as you almost trip
+        over the rope. "
+      - "CAPTAIN \nIn future, put a rock over the rope to keep the line down. It's
+        good for when the hearties drink a clap of thunder on a dark night. "
+      - "NARRATION \nFrom your angle you see what you believe to be the edges of
+        a grin on his skeletal face. "
+      - "CAPTAIN \n..."
+      - "CAPTAIN \nShiver me timbers! Hurry up, will you? "
+      - "\nNARRATION \nHe sets off in the lead and you begin your trek toward the
+        orange glow."
+      - "NARRATION \nAs you near the figure you start to discern a mostly human shape
+        - the only difference is a ball of ethereal glowing amber light in the stead
+        of a head. "
+      - "NARRATION \nYou observe a wide array of tools on this individual, everything
+        from hammers, chisels, and most prominently, a saw. "
+      - "NARRATION \nThere is a frenetic and spontaneous pacing from the orange ghoul
+        like a fish in a school; safe and purposeful, yet still anxious."
+      - "CAPTAIN \nLeftpaw! You... "
+      - "NARRATION \nYou see the orange phantom snap to attention in a salute with
+        his left palm facing down. "
+      - "NARRATION \nLike a jellyfish readying itself to move, you swear you could
+        see pride inflating his ethereal chest. "
+      - '
+
+        LEFTPAW THE BILGERAT
+
+        Cap''n!'
+      - "CAPTAIN \n...son of a biscuit eater - you scurvy dog! I will give ye no
+        quarter!!"
+      - "NARRATION \nAs quick as it came so to did it go. Leftpaw deflated faster
+        than a beached jellyfish.\n \nNARRATION \nHis amber glow a hue closer to
+        a red now. His arm now slumping limp at his side."
+      - 'LEFTPAW THE BILGERAT
+
+        ''Scuze me Cap''n? '
+      - "NARRATION \nYou notice a spectral flintlock in the Captain's hands now.
+        There is a subtle tremble in his grip."
+      - "CAPTAIN \nI will never, NEVER, forgive ye, yer a mutinous cur!"
+      - 'LEFTPAW THE BILGERAT
+
+        Forgive me? Yer the one who left me to Davy
+        Jones'' locker!'
+      - 'LEFTPAW THE BILGERAT
+
+        The Cap''n is supposed to go down with the
+        ship! Where were ye when the Siren sunk to the briny deep? '
+      - 'LEFTPAW THE BILGERAT
+
+        The Siren was a loyal lass and ye left her
+        behind on a dinghy! What cap''n are ye? She deserved better!'
+      - "CAPTAIN \nAye, she was a loyal //and //reliable lass - unlike //you// -
+        when you scuttled her! "
+      - '
+
+        LEFTPAW THE BILGERAT
+
+        I was too busy repairing her hull
+        and keeping bilge out to notice what the crew was doing. What sort of shipwright
+        do you take me for?'
+      - "LEFTPAW THE BILGERAT\nYer are my bruvva cap\u2019n. I am always grateful
+        ye gave me a 'ome and a sense of being part of somethin'..."
+      - 'LEFTPAW THE BILGERAT
+
+        ...and now ye accuse me of BETRAYING YE? OF
+        SCUTTLING, ME ''OME, THE SCARLET SIREN ?'
+      - "NARRATION \nThe Captain folded his arms across his chest. His hand still
+        gripping a flintlock."
+      - "CAPTAIN \nPft, are you trying to run a rig on me Otto? "
+      - "LEFTPAW THE BILGERAT\nThere's a name I 'adn't 'eard in awhile. Well Cap'n,
+        or should I say //Cedric, // do you even know why I followed? It wasn\u2019t
+        for the doubloons or the bounty."
+      - 'LEFTPAW THE BILGERAT
+
+        I was there from the beginning with ye. You
+        were once the paragon of piracy, eh? It''s a right pity seeing where ye are
+        now. '
+      - "CAPTAIN \nAt least I'm getting closer to the booty while ye haplessly pace
+        around like a landlubber out to hornswaggle! "
+      - '
+
+        LEFTPAW THE BILGERAT
+
+        ''aplessly? I''m trying to put the
+        Siren back together! She deserves dignity, even at the bottom of the deep. '
+      - "CAPTAIN \nIf yer still loyal to me, then hand over the lantern Otto. Prove
+        yer still me Leftpaw, lest ye be a bilge-sucker. "
+      - 'LEFTPAW THE BILGERAT
+
+        Prove to me that ye still care about the Siren
+        and the lantern is all yours.'
+      - "NARRATION \nThe Captain moves to ready his flintlock once more."
+      - "NARRATION \nLeftpaw raises his hands in resignation and faces you. "
+      - 'LEFTPAW THE BILGERAT
+
+        Look, ye seem to ''ave an even keel. The only
+        thing left I need to find is the ''elm. The cockswain ''ould''ve also ''anted
+        it in its rightful place. '
+      - 
+      - 
+      - 
+      - 
+      progressIndex: 0
+      maxProgress: 40
+    - text: "NARRATION \nBoth the Captain and Leftpaw look at you with an expression
+        of ghastly shock. They quickly exchange a glance.\n\nLEFTPAW THE BILGERAT\nShivver
+        me timbers, yer serious?\n\nCAPTAIN \nA cockswain is a helmsmen ye scallywag!
+        What do they put in landlubber books these days?\n\nNARRATION \nIt appears
+        your own incompetence to see beyond the veil of child-like immaturity is
+        the only thing that can suprise spirits who have seen beyond the veil of
+        mortaility.\n\nNARRATION \nFor once tonight, the two actually agreed on something.
+        \n\n\n\n"
+      links:
+      - name: Ok, I'll get on it
+        link: Ok, I'll get on it
+        pid: 11
+      name: '*stiffle a giggle* Cockswain?'
+      pid: 10
+      textList:
+      - "NARRATION \nBoth the Captain and Leftpaw look at you with an expression
+        of ghastly shock. They quickly exchange a glance."
+      - 'LEFTPAW THE BILGERAT
+
+        Shivver me timbers, yer serious?'
+      - "CAPTAIN \nA cockswain is a helmsmen ye scallywag! What do they put in landlubber
+        books these days?"
+      - "NARRATION \nIt appears your own incompetence to see beyond the veil of child-like
+        immaturity is the only thing that can suprise spirits who have seen beyond
+        the veil of mortaility."
+      - "NARRATION \nFor once tonight, the two actually agreed on something. "
+      - 'CAPTAIN
+
+        Better yet, a great way to gather up others to grow closer
+        to.'
+      - 'CAPTAIN
+
+        Me, I''ve had my time. I''m through being captain.'
+      progressIndex: 0
+      maxProgress: 7
+    - text: "NARRATION \nYou set out to find the missing helm of the Scarlet Siren.
+        You hear the Captain and Leftpaw resume arguing in the distance.\n\n\n\n"
+      links:
+      - name: Search the beach
+        link: Search the beach
+        pid: 12
+      - name: 'Search the cave '
+        link: 'Search the cave '
+        pid: 13
+      name: Ok, I'll get on it
+      pid: 11
+      textList:
+      - "NARRATION \nYou set out to find the missing helm of the Scarlet Siren. You
+        hear the Captain and Leftpaw resume arguing in the distance."
+      - 'NARRATION
+
+        You step inside, and within is more gold than you possible
+        could have imagined. The cave is wider and deeper than it appears from outside.'
+      - 'NARRATION
+
+        You step inside, and within is more gold than you possible
+        could have imagined. The cave is wider and deeper than it appeared from outside.'
+      progressIndex: 0
+      maxProgress: 3
+    - text: "NARRATION \nUsing the orange and green glow of the ghosts as a point
+        of reference to navigate, you scour all around beach.\n\nNARRATION \nNo matter
+        how far away you were, the sound of the two arguing managed to always be
+        vageuly audible.\n\nNARRATION \nAlas, it is to no avail.\n\n \n\n\n"
+      links:
+      - name: 'Search the cave '
+        link: 'Search the cave '
+        pid: 13
+      name: Search the beach
+      pid: 12
+      textList:
+      - "NARRATION \nUsing the orange and green glow of the ghosts as a point of
+        reference to navigate, you scour all around beach."
+      - "NARRATION \nNo matter how far away you were, the sound of the two arguing
+        managed to always be vageuly audible."
+      - "NARRATION \nAlas, it is to no avail."
+      - ' '
+      - '
+
+'
+      progressIndex: 0
+      maxProgress: 5
+    - text: "NARRATION \nYou find the beachead closest to the cave and follow a river
+        inward. You creep further into the darkness, your steps echoing throughout
+        the cave. \n\nNARRATION \nYou follow the sound of the water, sometimes accidentally
+        slpping into it, until you see a feint light in the distance. It grows brighter
+        and brigher and the tunnel opens into a larger cavern.\n\nNARRATION \nYou
+        are surprised to be in a well-lit lagoon. You notice the pale and bright
+        moonlight pierces through holes in the mountain that eroded over the eons
+        and reflects off the water. \n\nNARRATION \nGently brushing agaisnt this
+        private beach is the wheel of a ship. You set out to return to the two arguing
+        ghosts by restracing your steps backwards.\n\nLEFTPAW THE BILGERAT\nI see
+        ye found it. Good work matey. \n\nLEFTPAW THE BILGERAT\nNow return it to
+        the deep. \n\nNARRATION \nLeftpaw motions towards the sea. \n\n\n\n"
+      links:
+      - name: Throw it as hard as you can
+        link: Throw it as hard as you can
+        pid: 14
+      - name: Throw it as stylishly as you can
+        link: Throw it as stylishly as you can
+        pid: 15
+      name: 'Search the cave '
+      pid: 13
+      textList:
+      - "NARRATION \nYou find the beachead closest to the cave and follow a river
+        inward. You creep further into the darkness, your steps echoing throughout
+        the cave. "
+      - "NARRATION \nYou follow the sound of the water, sometimes accidentally slpping
+        into it, until you see a feint light in the distance. It grows brighter and
+        brigher and the tunnel opens into a larger cavern."
+      - "NARRATION \nYou are surprised to be in a well-lit lagoon. You notice the
+        pale and bright moonlight pierces through holes in the mountain that eroded
+        over the eons and reflects off the water. "
+      - "NARRATION \nGently brushing agaisnt this private beach is the wheel of a
+        ship. You set out to return to the two arguing ghosts by restracing your
+        steps backwards."
+      - 'LEFTPAW THE BILGERAT
+
+        I see ye found it. Good work matey. '
+      - 'LEFTPAW THE BILGERAT
+
+        Now return it to the deep. '
+      - "NARRATION \nLeftpaw motions towards the sea. "
+      - ' '
+      - ' '
+      progressIndex: 0
+      maxProgress: 9
+    - text: "NARRATION \nYou take the helm with both hands and use your entire body
+        weight while throwing it in an arc to gain centrifugal momentum. \n\nNARRATION
+        \nThe helm flies deep and far into the dark sea and makes a very satisfying
+        sploosh sound. White water and mist glistens in the moonlight. \n\nNARRATION
+        \nYou turn to see the reaction of your two ghostly companions just in time
+        to see the Captain making an odd gesture with his boney jaw. \n\n\nLEFTPAW
+        THE BILGERAT\n\u2026Did ye just try to whistle Cap\u2019n? Without any lips?
+        \n\nCAPTAIN\nI -\n\nLEFTPAW THE BILGERAT\nHahahahahahaha!\n\nCAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!\n\nNARRATION
+        \nThe two chuckle and giggle on and off as they try to regain their composure.
+        The Captain puts his hand on Leftpaw\u2019s shoulder. \n\nLEFTPAW THE BILGERAT\nLook
+        at us now, eh? A couple of wretched ghouls. \n\nCAPTAIN\n\u2026\n\n\nNARRATION
+        \nA moment of sobriety washes over them both. The Captain's hand pulls away
+        from Leftpaw.\n\nLEFTPAW THE BILGERAT\nAhh\u2026 \n\nNARRATION \nLeftpaw\u2019s
+        glow starts to fade \u2013 the light diminishing with each passing seconds.
+        \n\n\nLEFTPAW THE BILGERAT\nI think me times up cap\u2019n. Look, I know
+        we didn\u2019t always agree in life, and we certainly aren\u2019t agreeing
+        in death. \n\nLEFTPAW THE BILGERAT\nI want ye to know that I hope ye find
+        what it is yer truly lookin\u2019 for on this course yer sailing. \n\nLEFTPAW
+        THE BILGERAT\nJust remember, it doesn\u2019t matter how big the island is,
+        it takes many islands to make an archipelago. \n\nNARRATION \nLeftpaw looks
+        back towards you. \n\nLEFTPAW THE BILGERAT\nA bargain is a bargain. The Scarlet
+        Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION
+        \nThe remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
+        into a swarm of ember-like motes. \n\nNARRATION\nLike fireflies dancing over
+        the ocean and across the night sky. Slowly flickering out one by one as they
+        landed in the water. \n\nNARRATION\nYou feel a gentle nudge at your feet,
+        and as you look down you notice the waves brought in the amber lantern.\n\nCAPTAIN\n\u2026\n\nCAPTAIN\nAvast
+        Ye! Back to the ship. Captain\u2019s orders!\n"
+      links:
+      - name: Finish the march!
+        link: Finish the march!
+        pid: 11
+      name: Throw it as hard as you can
+      pid: 14
+      textList:
+      - "NARRATION \nYou take the helm with both hands and use your entire body weight
+        while throwing it in an arc to gain centrifugal momentum. "
+      - "NARRATION \nThe helm flies deep and far into the dark sea and makes a very
+        satisfying sploosh sound. White water and mist glistens in the moonlight. "
+      - "NARRATION \nYou turn to see the reaction of your two ghostly companions
+        just in time to see the Captain making an odd gesture with his boney jaw. "
+      - "\nLEFTPAW THE BILGERAT\n\u2026Did ye just try to whistle Cap\u2019n? Without
+        any lips? "
+      - 'CAPTAIN
+
+        I -'
+      - 'LEFTPAW THE BILGERAT
+
+        Hahahahahahaha!'
+      - "CAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!"
+      - "NARRATION \nThe two chuckle and giggle on and off as they try to regain
+        their composure. The Captain puts his hand on Leftpaw\u2019s shoulder. "
+      - 'LEFTPAW THE BILGERAT
+
+        Look at us now, eh? A couple of wretched ghouls. '
+      - "CAPTAIN\n\u2026"
+      - "\nNARRATION \nA moment of sobriety washes over them both. The Captain's
+        hand pulls away from Leftpaw."
+      - "LEFTPAW THE BILGERAT\nAhh\u2026 "
+      - "NARRATION \nLeftpaw\u2019s glow starts to fade \u2013 the light diminishing
+        with each passing seconds. "
+      - "\nLEFTPAW THE BILGERAT\nI think me times up cap\u2019n. Look, I know we
+        didn\u2019t always agree in life, and we certainly aren\u2019t agreeing in
+        death. "
+      - "LEFTPAW THE BILGERAT\nI want ye to know that I hope ye find what it is yer
+        truly lookin\u2019 for on this course yer sailing. "
+      - "LEFTPAW THE BILGERAT\nJust remember, it doesn\u2019t matter how big the
+        island is, it takes many islands to make an archipelago. "
+      - "NARRATION \nLeftpaw looks back towards you. "
+      - "LEFTPAW THE BILGERAT\nA bargain is a bargain. The Scarlet Siren is whole
+        again. My lanterns yours\u2026 and\u2026 thank ye. "
+      - "NARRATION \nThe remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat
+        disintegrates into a swarm of ember-like motes. "
+      - 'NARRATION
+
+        Like fireflies dancing over the ocean and across the
+        night sky. Slowly flickering out one by one as they landed in the water. '
+      - 'NARRATION
+
+        You feel a gentle nudge at your feet, and as you look
+        down you notice the waves brought in the amber lantern.'
+      - "CAPTAIN\n\u2026"
+      - "CAPTAIN\nAvast Ye! Back to the ship. Captain\u2019s orders!\n"
+      progressIndex: 0
+      maxProgress: 23
+    - text: "NARRATION \nYou take a running start toward the water with the helm
+        in both hands. In your mind you plan on jumping while throwing the helm and
+        landing with a double backflip into a recovering somersault.\n\nNARRATION
+        \nAs you jump up, your boot gets stuck in the sand but it\u2019s too late
+        you\u2019re already committed. The helm spirals off in a random direction
+        while you fall back down.\n\nNARRATION\nYou land face first into the beach
+        as a wave hits you and washes over you. You hear a very unsatisfying splish
+        sound as the helm lands nearby. \n\nNARRATION\nThe seawater in your eyes
+        is disorienting and you think you can see the helm being pulled out by the
+        sea. \n\nNARRATION\nYou waddle back toward your two ghostly companions with
+        little dignity in tact. \n\nLEFTPAW THE BILGERAT\nYer new swabbie reminds
+        me of that clumsy young stowaway who we gave their first swig o\u2019 rum
+        to! \u2018member that? \n\nCAPTAIN\nI -\n\nLEFTPAW THE BILGERAT\nHahahahahahaha!\n\nCAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!\n\nNARRATION
+        \nThe two chuckle and giggle on and off as they try to regain their composure.
+        The Captain puts his hand on Leftpaw\u2019s shoulder. \n\nLEFTPAW THE BILGERAT\nLook
+        at us now, eh? A couple of wretched ghouls. \n\nCAPTAIN\n\u2026\n\nNARRATION
+        \nA moment of sobriety washes over them both. The Captain's hand pulls away
+        from Leftpaw.\n\nLEFTPAW THE BILGERAT\nAhh\u2026 \n\nNARRATION \nLeftpaw\u2019s
+        glow starts to fade \u2013 the light diminishing with each passing seconds.
+        \n\n\nLEFTPAW THE BILGERAT\nI think me times up cap\u2019n. Look, I know
+        we didn\u2019t always agree in life, and we certainly aren\u2019t agreeing
+        in death. \n\nLEFTPAW THE BILGERAT\nI want ye to know that I hope ye find
+        what it is yer truly lookin\u2019 for on this course yer sailing. \n\nLEFTPAW
+        THE BILGERAT\nJust remember, it doesn\u2019t matter how big the island is,
+        it takes many islands to make an archipelago. \n\nNARRATION \nLeftpaw looks
+        back towards you. \n\nLEFTPAW THE BILGERAT\nA bargain is a bargain. The Scarlet
+        Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION
+        \nThe remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
+        into a swarm of ember-like motes. \n\nNARRATION\nLike fireflies dancing over
+        the ocean and across the night sky. Slowly flickering out one by one as they
+        landed in the water. \n\nNARRATION\nYou feel a gentle nudge at your feet,
+        and as you look down you notice the waves brought in the amber lantern.\n\nCAPTAIN\n\u2026\n\nCAPTAIN\nAvast
+        Ye! Back to the ship. Captain\u2019s orders!\n"
+      links:
+      - name: Finish the march!
+        link: Finish the march!
+        pid: 11
+      name: Throw it as stylishly as you can
+      pid: 15
+      textList:
+      - "NARRATION \nYou take a running start toward the water with the helm in both
+        hands. In your mind you plan on jumping while throwing the helm and landing
+        with a double backflip into a recovering somersault."
+      - "NARRATION \nAs you jump up, your boot gets stuck in the sand but it\u2019s
+        too late you\u2019re already committed. The helm spirals off in a random
+        direction while you fall back down."
+      - 'NARRATION
+
+        You land face first into the beach as a wave hits you
+        and washes over you. You hear a very unsatisfying splish sound as the helm
+        lands nearby. '
+      - 'NARRATION
+
+        The seawater in your eyes is disorienting and you think
+        you can see the helm being pulled out by the sea. '
+      - 'NARRATION
+
+        You waddle back toward your two ghostly companions with
+        little dignity in tact. '
+      - "LEFTPAW THE BILGERAT\nYer new swabbie reminds me of that clumsy young stowaway
+        who we gave their first swig o\u2019 rum to! \u2018member that? "
+      - 'CAPTAIN
+
+        I -'
+      - 'LEFTPAW THE BILGERAT
+
+        Hahahahahahaha!'
+      - "CAPTAIN\n\u2026.ha\u2026haha\u2026hahahahaha!"
+      - "NARRATION \nThe two chuckle and giggle on and off as they try to regain
+        their composure. The Captain puts his hand on Leftpaw\u2019s shoulder. "
+      - 'LEFTPAW THE BILGERAT
+
+        Look at us now, eh? A couple of wretched ghouls. '
+      - "CAPTAIN\n\u2026"
+      - "NARRATION \nA moment of sobriety washes over them both. The Captain's hand
+        pulls away from Leftpaw."
+      - "LEFTPAW THE BILGERAT\nAhh\u2026 "
+      - "NARRATION \nLeftpaw\u2019s glow starts to fade \u2013 the light diminishing
+        with each passing seconds. "
+      - "\nLEFTPAW THE BILGERAT\nI think me times up cap\u2019n. Look, I know we
+        didn\u2019t always agree in life, and we certainly aren\u2019t agreeing in
+        death. "
+      - "LEFTPAW THE BILGERAT\nI want ye to know that I hope ye find what it is yer
+        truly lookin\u2019 for on this course yer sailing. "
+      - "LEFTPAW THE BILGERAT\nJust remember, it doesn\u2019t matter how big the
+        island is, it takes many islands to make an archipelago. "
+      - "NARRATION \nLeftpaw looks back towards you. "
+      - "LEFTPAW THE BILGERAT\nA bargain is a bargain. The Scarlet Siren is whole
+        again. My lanterns yours\u2026 and\u2026 thank ye. "
+      - "NARRATION \nThe remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat
+        disintegrates into a swarm of ember-like motes. "
+      - 'NARRATION
+
+        Like fireflies dancing over the ocean and across the
+        night sky. Slowly flickering out one by one as they landed in the water. '
+      - 'NARRATION
+
+        You feel a gentle nudge at your feet, and as you look
+        down you notice the waves brought in the amber lantern.'
+      - "CAPTAIN\n\u2026"
+      - "CAPTAIN\nAvast Ye! Back to the ship. Captain\u2019s orders!\n"
+      progressIndex: 0
+      maxProgress: 25
+    startnode: 1
 --- !u!82 &7728461816708191668
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2515,13 +3242,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1108113538858888306}
+  - component: {fileID: 8602976034465852555}
   m_Layer: 5
   m_Name: container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1108113538858888306
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2536,6 +3264,10 @@ RectTransform:
   m_Children:
   - {fileID: 1838141892956147096}
   - {fileID: 1108113537090357805}
+  - {fileID: 1108113537913627600}
+  - {fileID: 1108113537872451740}
+  - {fileID: 6548877636230612849}
+  - {fileID: 6094935725007163365}
   m_Father: {fileID: 1108113538438744094}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2544,6 +3276,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &8602976034465852555
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108113538858888333}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2159751166763139317
 GameObject:
   m_ObjectHideFlags: 0
@@ -2645,17 +3389,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5233147725532049235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1108113537090357805}
-  m_RootOrder: 2
+  m_Father: {fileID: 1108113538858888306}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -87.73038, y: 68.44199}
+  m_AnchoredPosition: {x: 116.26962, y: -18.371162}
   m_SizeDelta: {x: 118.4692, y: 22.256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8552328652559368617
@@ -2767,6 +3511,7 @@ GameObject:
   - component: {fileID: 1461513683257055001}
   - component: {fileID: 7852125235260894417}
   - component: {fileID: 5022093712582264879}
+  - component: {fileID: 2678635792977083744}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2786,12 +3531,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1108113537090357805}
-  m_RootOrder: 3
+  m_Father: {fileID: 1108113538858888306}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132.00003, y: -78.65738}
+  m_AnchoredPosition: {x: 336.00006, y: -165.47054}
   m_SizeDelta: {x: 45.0326, y: 44.0145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1461513683257055001
@@ -2876,3 +3621,23 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &2678635792977083744
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6576895316706636624}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ba8c827fb7f2774484846829ac759d0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

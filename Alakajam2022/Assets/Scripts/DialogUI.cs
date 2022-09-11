@@ -9,9 +9,10 @@ using UnityEngine.UI;
 public class DialogUI : MonoBehaviour
 {
     [TabGroup("References")] public GameObject UI;
+    [TabGroup("References")] public CanvasGroup UIGroup;
     [TabGroup("References")] public TMP_Text lineText;
     [TabGroup("References")] public TMP_Text nameText;
-    [TabGroup("References")] public Image continueIndicator;
+    [TabGroup("References")] public Animator continueIndicator;
     [TabGroup("References")] public Transform optionsParent;
     [TabGroup("References")] public GameObject optionButtonPrefab;
     [TabGroup("References")] public Image portrait;
@@ -69,16 +70,31 @@ public class DialogUI : MonoBehaviour
         currentStory = parser.GetStoryByIndex(storyIndex);
         currentCharacter = null;
         UI.SetActive(true);
+        StartCoroutine(FadeUI(1, true));
         currentPassageID = 0;
         RunPassage(currentStory.GetStartingPassage());
         Time.timeScale = 0;
+    }
+
+    IEnumerator FadeUI(float alpha, bool off)
+    {
+        float timer = 0;
+        float startAlpha = UIGroup.alpha;
+        while (timer < fadeDuration)
+        {
+            UIGroup.alpha = Mathf.Lerp(startAlpha, alpha, timer / fadeDuration);
+            yield return null;
+            timer += Time.unscaledDeltaTime;
+        }
+        UIGroup.alpha = alpha;
+        UI.SetActive(off);
     }
 
     public void Deactivate()
     {
         dialogActive = false;
         OnDialogComplete.Invoke();
-        UI.SetActive(false);
+        StartCoroutine(FadeUI(0, false));
         Time.timeScale = 1;
     }
 
@@ -121,7 +137,7 @@ public class DialogUI : MonoBehaviour
 
         while (passage.HasNext())
         {
-            continueIndicator.gameObject.SetActive(true);
+            continueIndicator.SetInteger("state", 0);
 
             // wait for a skip key to move to next line
             while (textButtonPressed == false)
@@ -148,7 +164,7 @@ public class DialogUI : MonoBehaviour
 
             lineText.text = text[text.Length - 1];
             textButtonPressed = false;
-            continueIndicator.gameObject.SetActive(false);
+            continueIndicator.SetInteger("state", 1);
             foreach (Transform child in optionsParent)
             {
                 Destroy(child.gameObject);
@@ -193,7 +209,7 @@ public class DialogUI : MonoBehaviour
                 }
             }
 
-            VolumeFadeRoutine = FadeOut(audio, fadeDuration);
+            VolumeFadeRoutine = FadeOut(audio, 0.5f);
             
             StartCoroutine(VolumeFadeRoutine);
             OnLineComplete.Invoke();
@@ -240,7 +256,7 @@ public class DialogUI : MonoBehaviour
                 StopCoroutine(ColorRoutine);
                 ColorRoutine = null;
             }
-            ColorRoutine = PortraitColorChange(fadedColor, fadeDuration);
+            ColorRoutine = PortraitColorChange(fadedColor);
             StartCoroutine(ColorRoutine);
         }
         else if (portrait.sprite == null && character.portrait == null)
@@ -254,12 +270,12 @@ public class DialogUI : MonoBehaviour
                 StopCoroutine(ColorRoutine);
                 ColorRoutine = null;
             }
-            ColorRoutine = PortraitColorChange(Color.white, fadeDuration);
+            ColorRoutine = PortraitColorChange(Color.white);
             StartCoroutine(ColorRoutine);
         }
 
-        if (character.portrait != null)
-            portrait.sprite = character.portrait;
+        if (character.portrait != null && character.portrait != portrait.sprite)
+            StartCoroutine(PortraitChange(character.portrait));
 
         if (character.font != null)
         {
@@ -269,11 +285,34 @@ public class DialogUI : MonoBehaviour
         nameText.text = character.name;
         lineText.color = character.setColor;
         textbox.color = character.setColor;
-        continueIndicator.color = character.setColor;
+        continueIndicator.GetComponent<Image>().color = character.setColor;
 
     }
 
-    IEnumerator PortraitColorChange(Color endColor, float speed)
+    IEnumerator PortraitChange(Sprite newPortrait)
+    {
+        float timer = 0;
+        Color startColor = portrait.color;
+        while (timer < fadeDuration / 2)
+        {
+            portrait.color = Color.Lerp(startColor, Color.clear, timer / (fadeDuration / 2));
+            yield return null;
+            timer += Time.unscaledDeltaTime;
+        }
+        portrait.sprite = newPortrait;
+        portrait.color = Color.clear;
+
+        timer = 0f;
+        while (timer < fadeDuration / 2)
+        {
+            portrait.color = Color.Lerp(Color.clear, Color.white, timer / (fadeDuration / 2));
+            yield return null;
+            timer += Time.unscaledDeltaTime;
+        }
+        portrait.color = Color.white;
+    }
+
+    IEnumerator PortraitColorChange(Color endColor)
     {
         float timer = 0;
         Color startColor = portrait.color;
