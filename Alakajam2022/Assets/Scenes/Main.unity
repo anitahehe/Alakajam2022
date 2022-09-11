@@ -9154,9 +9154,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1370817900}
     m_Modifications:
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: FadeTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: storyNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: characterMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: b5c275018c0b779478125baac550abfa, type: 3}
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: dialogUIScript
       value: 
@@ -18053,6 +18061,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1370817900}
     m_Modifications:
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: FadeTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: storyNumber
       value: 1
       objectReference: {fileID: 0}
@@ -22868,9 +22880,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 1370817900}
     m_Modifications:
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: FadeTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: storyNumber
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: characterMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 087880710f74ca54a908e8f3c77094d8, type: 3}
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: dialogUIScript
       value: 
@@ -25047,7 +25067,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: FadeTime
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: storyNumber
@@ -25056,7 +25076,7 @@ PrefabInstance:
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: characterMusic
       value: 
-      objectReference: {fileID: 8300000, guid: b5c275018c0b779478125baac550abfa, type: 3}
+      objectReference: {fileID: 8300000, guid: 37ac24214b14bd042ba8c5ebef1e3475, type: 3}
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: dialogUIScript
       value: 
