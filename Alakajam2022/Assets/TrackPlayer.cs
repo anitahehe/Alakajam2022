@@ -16,8 +16,8 @@ public class TrackPlayer : MonoBehaviour
 
     void Start()
     {
-        xMin = mapBounds.bounds.min.x;
-        xMax = mapBounds.bounds.max.x;
+        xMin = mapBounds.bounds.min.x-50.0f;
+        xMax = mapBounds.bounds.max.x+50.0f;
         yMin = mapBounds.bounds.min.y;
         yMax = mapBounds.bounds.max.y;
         var mainCam = GetComponent<Camera>();

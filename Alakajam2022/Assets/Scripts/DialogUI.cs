@@ -37,6 +37,7 @@ public class DialogUI : MonoBehaviour
     bool optionSelected;
 
     IEnumerator ColorRoutine;
+    bool dialogActive;
 
     TwineParser parser;
     public void Start()
@@ -50,7 +51,19 @@ public class DialogUI : MonoBehaviour
 
     public void InitializeStory(int storyIndex)
     {
-        currentStory = parser.GetStoryByIndex(0);
+        if (dialogActive)
+        {
+            Debug.LogError("dialog is already active");
+            return;
+        }
+        if (storyIndex >= parser.storyInfo.Count)
+        {
+            Debug.LogError("no story at index " + storyIndex + " exists");
+            return;
+        }
+
+        dialogActive = true;
+        currentStory = parser.GetStoryByIndex(storyIndex);
         currentCharacter = null;
         UI.SetActive(true);
         currentPassageID = 0;
@@ -60,6 +73,7 @@ public class DialogUI : MonoBehaviour
 
     public void Deactivate()
     {
+        dialogActive = false;
         OnDialogComplete.Invoke();
         UI.SetActive(false);
         Time.timeScale = 1;
@@ -214,6 +228,11 @@ public class DialogUI : MonoBehaviour
 
         if (character.portrait != null)
             portrait.sprite = character.portrait;
+
+        if (character.font != null)
+        {
+            lineText.font = character.font;
+        }
 
         nameText.text = character.name;
         lineText.color = character.setColor;
