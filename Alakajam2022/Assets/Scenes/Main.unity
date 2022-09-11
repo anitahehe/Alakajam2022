@@ -18561,6 +18561,10 @@ PrefabInstance:
       propertyPath: dialogUIScript
       value: 
       objectReference: {fileID: 503690655}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: givesNavigatorItem
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012793, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_Name
       value: DialogNavigator
@@ -23262,6 +23266,10 @@ PrefabInstance:
       propertyPath: dialogUIScript
       value: 
       objectReference: {fileID: 503690655}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: givesShipwrightItem
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012793, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_Name
       value: TriggerDialogHelsman

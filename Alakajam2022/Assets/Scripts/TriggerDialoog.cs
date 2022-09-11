@@ -13,8 +13,8 @@ public class TriggerDialoog : MonoBehaviour
     public float FadeTime;
 
 
-    bool givesNavigatorItem = false;
-    bool givesShipwrightItem = false;
+    public bool givesNavigatorItem = false;
+    public bool givesShipwrightItem = false;
 
    void OnTriggerEnter2D(Collider2D collision){
        if(collision.gameObject.tag == "Player"&& !isTriggered){
