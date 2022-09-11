@@ -3,7 +3,7 @@
 {
   "passages": [
     {
-      "text": "NARRATION\nThe last line is cast for the day. You enjoy the gentle sway of your boat as you take in another deep breath of the crisp sea air.\n\nNARRATION\nDuring your exhale, you enjoy the bright red sunset as it gently sets toward the horizon. You’re reminded of the vibrant coral back home. \n\nNARRATION\nSuddenly, you feel a tug on your line and your mind snaps back to the present. \nYou lick your lips as another fish will soon be yours!\n\nNARRATION\nYou begin to reel and to your surprise you're met with stiff resistence. \nThere is no doubt in your mind this is a larger fish, a sturgen perhaps? \n\nNARRATION\nYou continue to reel and your biceps ache while you exert yourself.\nWith all this effort you think you may even have a tuna on the line!\n\nNARRATION\nAs your line nears the boat your mind & body are warring with the thought of eating this catch and forgoing the profit. \n\n[[I think I'll eat the fish]]\n[[I need to sell this fish]]",
+      "text": "NARRATION\nThe last line is cast for the day. You enjoy the gentle sway of your boat as you take in another deep breath of the crisp sea air.\n\nNARRATION\nDuring your exhale, you enjoy the bright red sunset as it gently sets toward the horizon. You’re reminded of the vibrant coral back home. \n\nNARRATION\nSuddenly, you feel a tug on your line and your mind snaps back to the present. \nYou lick your lips as another fish will soon be yours!\n\nNARRATION\nYou begin to reel on your rod and to your surprise you're met with stiff resistance. \nThere is no doubt in your mind this is a larger fish, a sturgeon perhaps? \n\nNARRATION\nYou continue to reel, and your biceps begin to ache from your exertion.\nWith all this effort – you now wonder if a tuna is on the line!\n\nNARRATION\nAs your line nears the boat your mind & body are warring with the thought of eating this catch and forgoing the profit. \n\n[[I think I'll eat the fish]]\n[[I need to sell this fish]]\n",
       "links": [
         {
           "name": "I think I'll eat the fish",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "text": "NARRATION\nYou can always catch another fish to sell tomorrow and your mouth salivates while your stomach as it antipates it's next delicious meal.\n\nYou can see the catch emerge from the glistening amber waters and it's... \n\n[[Look closer]]",
+      "text": "NARRATION\nYou can always catch another fish to sell tomorrow, and your mouth salivates while your stomach anticipates its next delicious meal.\n\nNARRATION\nYou can see the catch emerge from the glistening amber waters and it's... \n\n[[Look closer]]\n",
       "links": [
         {
           "name": "Look closer",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "text": "NARRATION\n\nDespite really needing the money and mustering up the resistence, you know which is winning as your stomach growls in defiance. \n\nYou can see the catch emerge from the glistening amber waters and it's... \n\n[[Look closer]]",
+      "text": "NARRATION\nDespite really needing the money and mustering up the resistance, you know which part of you is winning as your stomach growls in defiance. \n\nNARRATION\nYou can see the catch emerge from the glistening amber waters and it's... \n\n[[Look closer]]\n",
       "links": [
         {
           "name": "Look closer",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "text": "NARRATION\n...a ball of kelp. \nYou begin to deflate as dissapointment washes over your body and mind.\n\nNARRATION\nYou notice a thud and heft as the kelp is lowered to the deck of your raft. \nThere is a glint of scarlet as you notice the reflection of something glassing from within.\n\nNARRATION\nYou stick your hand within the slimy tangled knot of kelp and your nose becomes overwhelmed with the aurma of brine and earth. \n\nNARRATION\nAfter some digging your hand emerges a bottle that rattles as you untangle the kelp from it. \n\nNARRATION\nYou peer inside the bottle and notice a roll of paper and determine the noise is coming from a corroded key inside the paper. \n\nNARRATION\nYou pop-off the cork in the bottle and notice faint blueish green gas seeping out.\n\nNARRATION\nThe gas is starting to coalesce into misty tendrils and the light begins to pulse in feint rhythm almost like a heartbeat. The key begins to glow green....\n\n[[Wait and watch]]\n[[Throw the key into the ocean]]\n",
+      "text": "NARRATION\n...a ball of kelp.\nYou begin to deflate as disappointment washes over your body and mind.\n\nNARRATION\nAs claim your catch, you notice a heft as the kelp is lowered to the deck of your raft. It hits the deck with a hollow thud. \n\nNARRATION\nThere is a glint of scarlet as you notice the reflection of something glassy from within.\n\nNARRATION\nYou stick your hand within the slimy tangled knot of kelp and your nose becomes overwhelmed with the aroma of brine and earth. \n\nNARRATION\nAfter some digging your hand emerges with a bottle. Something rattling within as you untangle the kelp from it. \n\nNARRATION\nYou peer inside the bottle and notice a roll of paper and determine the noise is coming from a corroded key inside housed inside.\n\nNARRATION\nYou pop the cork off the bottle and notice faint blueish green gas seeping out.\n\nNARRATION\nThe gas is starting to coalesce into misty tendrils and a green light begins to pulse in feint rhythm almost like a heartbeat. The key begins to glow…\n\n[[Wait and watch]]\n[[Throw the bottle into the ocean]]\n",
       "links": [
         {
           "name": "Wait and watch",
@@ -64,9 +64,9 @@
           "pid": "5"
         },
         {
-          "name": "Throw the key into the ocean",
-          "link": "Throw the key into the ocean",
-          "pid": "6"
+          "name": "Throw the bottle into the ocean",
+          "link": "Throw the bottle into the ocean",
+          "pid": "10"
         }
       ],
       "name": "Look closer",
@@ -77,12 +77,12 @@
       }
     },
     {
-      "text": "NARRATION\nThe spectral and green etheral ooze keeps seeping out of the key until the mist forms an incorporeal man. As it is happening, you hear faint whispers and groans of terror.\n\n[[Er, who are you?]]",
+      "text": "NARRATION\nThe green spectral and ethereal ooze keeps seeping out of the key until the mist forms an incorporeal man. As it is happening, you hear faint whispers and groans of terror.\n\n[[Er, who are you?]]\n",
       "links": [
         {
           "name": "Er, who are you?",
           "link": "Er, who are you?",
-          "pid": "7"
+          "pid": "6"
         }
       ],
       "name": "Wait and watch",
@@ -93,111 +93,97 @@
       }
     },
     {
-      "text": "NARRATION\nYou hear a satisfying glub as the bottle sinks back into the ocean, but a green light glows brighter in it's wake and the water begins to boil as if it were growling at you.\n\nNARRATION\nThe boiling reaches a climax as a bright light errupts from it and heads towards your boat. You close your eyes in fear and you begin to scream in terror. \n\nWhen you re-open your eyes you see an incorporeal man, a ghost, sitting across from you on your raft, and notice the bottle is back on the deck of your ship. \n\n[[Er, who are you?]]\n",
-      "links": [
-        {
-          "name": "Er, who are you?",
-          "link": "Er, who are you?",
-          "pid": "7"
-        }
-      ],
-      "name": "Throw the key into the ocean",
-      "pid": "6",
-      "position": {
-        "x": "687.5",
-        "y": "750"
-      }
-    },
-    {
-      "text": "NARRATION\nBefore you can finish your inquiry, what you begin to realize is a ghost interrupts you.\n\nCAPTAIN\nAvast ye' scallywag!  Yer to sail me right to Skull island immediately. This ship here is now commandeered by your's truly, savvy? \n\n\n[[Stay Silent]]\n[[Try to form a response]]",
+      "text": "NARRATION\nBefore you can finish your inquiry, what you begin to realize is the ghost of a pirate captain interrupts you.\n\nCAPTAIN\nAvast ye' scallywag!  Yer to sail me right to Skull Island immediately. This ship here is now commandeered by yer's truly, savvy? \n\n\n[[Stay Silent]]\n[[Try to form a response]]\n",
       "links": [
         {
           "name": "Stay Silent",
           "link": "Stay Silent",
-          "pid": "8"
+          "pid": "7"
         },
         {
           "name": "Try to form a response",
           "link": "Try to form a response",
-          "pid": "9"
+          "pid": "8"
         }
       ],
       "name": "Er, who are you?",
-      "pid": "7",
+      "pid": "6",
       "position": {
         "x": "625",
         "y": "875"
       }
     },
     {
-      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain, he looks entirely indifferent to you.  You are jumbling and stuttering your words in fear, you give up.\n\n[[The Captain Speaks First]]",
+      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.\n\nNARRATION\nYou are utterly frozen in fear, your mouth agape. \n\n[[The Captain Resumes Talking]]\n\n",
       "links": [
         {
-          "name": "The Captain Speaks First",
-          "link": "The Captain Speaks First",
-          "pid": "10"
+          "name": "The Captain Resumes Talking",
+          "link": "The Captain Resumes Talking",
+          "pid": "11"
         }
       ],
       "name": "Stay Silent",
-      "pid": "8",
+      "pid": "7",
       "position": {
         "x": "550",
         "y": "1000"
       }
     },
     {
-      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain, he looks entirely indifferent to you. You are utterly frozen in fear, your mouth agape. \n\n[[The Captain Speaks First]]",
+      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.  \n\nNARRATION\nYou open your mouth and are jumbling and stuttering your words in fear. \n\nNARRATION\nYou give up trying to articulate and close your mouth in surrender.\n\n[[The Captain Resumes Talking]]\n\n",
       "links": [
         {
-          "name": "The Captain Speaks First",
-          "link": "The Captain Speaks First",
-          "pid": "10"
+          "name": "The Captain Resumes Talking",
+          "link": "The Captain Resumes Talking",
+          "pid": "11"
         }
       ],
       "name": "Try to form a response",
-      "pid": "9",
+      "pid": "8",
       "position": {
         "x": "700",
         "y": "1000"
       }
     },
     {
-      "text": "CAPTAIN \nQuit being lily-livered and weigh anchor immedately! We need to get to my horde o' booty before those mutinious bilge-suckers do! \n\nCAPTAIN \nIf you don't comply with me orders - I will keelhaul ye across the deep. You don't realize how dark and cold it is down there. Savvy?\n\nNARRATION\nThe Captain leans in toward you raising one boney hand upward and closing it in a fist. His skeletel jaw clenches. You find yourself reluctently in agreement with his terms.\n\n[[Cast anchor and set sail]]\n[[I have questions to ask...]]",
+      "text": "NARRATION\nYou set sail for your next destination, heading deeper into the dreaded isles. \n",
+      "name": "Cast anchor and set sail",
+      "pid": "9",
+      "position": {
+        "x": "625",
+        "y": "1325"
+      }
+    },
+    {
+      "text": "NARRATION\nYou hear a satisfying glub as the bottle sinks back into the ocean. A green light glows brighter and brighter under it's wake. The water begins to froth and boil as if it were growling at you.\n\nNARRATION\nThe boiling reaches a climax as a bright ghastly light erupts from it and heads towards your boat. You close your eyes in fear and begin to scream in terror. \n\nNARRATION\nWhen you re-open your eyes you see an incorporeal man, a ghost, sitting across from you on your raft, and hear a clank and rattle as the bottle rolls across the deck of your ship. \n\n[[Er, who are you?]]\n",
+      "links": [
+        {
+          "name": "Er, who are you?",
+          "link": "Er, who are you?",
+          "pid": "6"
+        }
+      ],
+      "name": "Throw the bottle into the ocean",
+      "pid": "10",
+      "position": {
+        "x": "700",
+        "y": "750"
+      }
+    },
+    {
+      "text": "CAPTAIN\nQuit being lily-livered and weigh anchor immediately! We need to get to my horde o' booty before those mutinous bilge-suckers do! \n\nCAPTAIN\nBefore we can get into Skull Island we need the sapphire spyglass to see through the fog so we don’t end up fish food hitting the rocky shoreline.\n\nCAPTAIN\nWe also need the amber lantern to reveal the hidden ink on my map. \n\nNARRATOR\nHe gestures to the blank parchment in the bottle.\n\nCAPTAIN\nFortunately, I sense that these items are on the isles nearby.\n\nCAPTAIN\nIf you don't comply with me orders - I will keelhaul ye across the deep. You don't realize how dark and cold it is down there. Savvy?\n\nNARRATION\nThe Captain leans in toward you raising one boney hand upward and closing it in a fist. His skeletal jaw clenches. You find yourself reluctantly in agreement with his terms.\n\n[[Cast anchor and set sail]]\n",
       "links": [
         {
           "name": "Cast anchor and set sail",
           "link": "Cast anchor and set sail",
-          "pid": "11"
-        },
-        {
-          "name": "I have questions to ask...",
-          "link": "I have questions to ask...",
-          "pid": "12"
+          "pid": "9"
         }
       ],
-      "name": "The Captain Speaks First",
-      "pid": "10",
+      "name": "The Captain Resumes Talking",
+      "pid": "11",
       "position": {
         "x": "625",
         "y": "1150"
-      }
-    },
-    {
-      "text": "NARRATION\nYou set sail for your next destination - heading deeper into the dreaded isles. \n\n",
-      "name": "Cast anchor and set sail",
-      "pid": "11",
-      "position": {
-        "x": "700",
-        "y": "1300"
-      }
-    },
-    {
-      "text": "NO QUESTIONS RIGHT NOW - SORRY!",
-      "name": "I have questions to ask...",
-      "pid": "12",
-      "position": {
-        "x": "525",
-        "y": "1300"
       }
     }
   ],
