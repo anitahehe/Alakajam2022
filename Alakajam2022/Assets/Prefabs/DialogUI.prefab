@@ -364,7 +364,7 @@ MonoBehaviour:
     name: 
     nameID: NARRATION
     setColor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
-    font: {fileID: 11400000, guid: 1a78a55d33408dc4e9b54fb7ddc439be, type: 2}
+    font: {fileID: 11400000, guid: 96168bf251ae18a4787210f16b116c7d, type: 2}
   onDialogStart:
     m_PersistentCalls:
       m_Calls: []
