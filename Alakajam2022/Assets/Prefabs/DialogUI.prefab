@@ -388,8 +388,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 69034de79b9b36e44afbec092efbd75a, type: 3}
     - {fileID: 8300000, guid: 1485ac25ec7e3b5479cb702d1e9b6bbd, type: 3}
   - portrait: {fileID: 21300000, guid: e7250d8388cb21241933f12b0488045c, type: 3}
-    name: Shipwright
-    nameID: SHIPWRIGHT
+    name: LEFTPAW
+    nameID: LEFTPAW
     setColor: {r: 1, g: 0.7078877, b: 0.4481132, a: 1}
     font: {fileID: 11400000, guid: 1a78a55d33408dc4e9b54fb7ddc439be, type: 2}
     fontStyle: 0
@@ -3031,7 +3031,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.513
   m_Pitch: 1
   Loop: 1
   Mute: 0

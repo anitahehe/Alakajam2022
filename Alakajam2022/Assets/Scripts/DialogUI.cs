@@ -180,7 +180,7 @@ public class DialogUI : MonoBehaviour
                 StopCoroutine(VolumeFadeRoutine);
 
             VolumeFadeRoutine = null;
-            audio.volume = 1;
+            audio.volume = 0.5f;
 
             if (currentCharacter.dialogSounds.Length > 0)
             {
