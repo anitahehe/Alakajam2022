@@ -3,7 +3,7 @@
 {
   "passages": [
     {
-      "text": "NARRATION\nThe last line is cast for the day. You enjoy the gentle sway of your boat as you take in another deep breath of the crisp sea air.\n\nNARRATION\nDuring your exhale, you enjoy the bright red sunset as it gently sets toward the horizon. You’re reminded of the vibrant coral back home. \n\nNARRATION\nSuddenly, you feel a tug on your line and your mind snaps back to the present. \nYou lick your lips as another fish will soon be yours!\n\nNARRATION\nYou begin to reel on your rod and to your surprise you're met with stiff resistance. \nThere is no doubt in your mind this is a larger fish, a sturgeon perhaps? \n\nNARRATION\nYou continue to reel, and your biceps begin to ache from your exertion.\nWith all this effort – you now wonder if a tuna is on the line!\n\nNARRATION\nAs your line nears the boat your mind & body are warring with the thought of eating this catch and forgoing the profit. \n\n[[I think I'll eat the fish]]\n[[I need to sell this fish]]\n",
+      "text": "NARRATION\nThe last line is cast for the day. You enjoy the gentle sway of your boat as you take in another deep breath of the crisp sea air.\n\nNARRATION\nDuring your exhale, you enjoy the moonlight. \n\nNARRATION\nSuddenly, you feel a tug on your line and your mind snaps back to the present. \nYou lick your lips as another fish will soon be yours!\n\nNARRATION\nYou begin to reel on your rod and to your surprise you're met with stiff resistance. \nThere is no doubt in your mind this is a larger fish, a sturgeon perhaps? \n\nNARRATION\nYou continue to reel, and your biceps begin to ache from your exertion.\nWith all this effort – you now wonder if a tuna is on the line!\n\nNARRATION\nAs your line nears the boat your mind & body are warring with the thought of eating this catch and forgoing the profit. \n\n[[I think I'll eat the fish]]\n[[I need to sell this fish]]\n",
       "links": [
         {
           "name": "I think I'll eat the fish",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "text": "NARRATION\nYou can always catch another fish to sell tomorrow, and your mouth salivates while your stomach anticipates its next delicious meal.\n\nNARRATION\nYou can see the catch emerge from the glistening amber waters and it's... \n\n[[Look closer]]\n",
+      "text": "NARRATION\nYou can always catch another fish to sell tomorrow, and your mouth salivates while your stomach anticipates its next delicious meal.\n\nNARRATION\nYou can see the catch emerge from the waters and it's... \n\n[[Look closer]]\n",
       "links": [
         {
           "name": "Look closer",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "text": "NARRATION\nDespite really needing the money and mustering up the resistance, you know which part of you is winning as your stomach growls in defiance. \n\nNARRATION\nYou can see the catch emerge from the glistening amber waters and it's... \n\n[[Look closer]]\n",
+      "text": "NARRATION\nDespite really needing the money and mustering up the resistance, you know which part of you is winning as your stomach growls in defiance. \n\nNARRATION\nYou can see the catch emerge from the waters and it's... \n\n[[Look closer]]\n",
       "links": [
         {
           "name": "Look closer",
@@ -56,7 +56,7 @@
       }
     },
     {
-      "text": "NARRATION\n...a ball of kelp.\nYou begin to deflate as disappointment washes over your body and mind.\n\nNARRATION\nAs claim your catch, you notice a heft as the kelp is lowered to the deck of your raft. It hits the deck with a hollow thud. \n\nNARRATION\nThere is a glint of scarlet as you notice the reflection of something glassy from within.\n\nNARRATION\nYou stick your hand within the slimy tangled knot of kelp and your nose becomes overwhelmed with the aroma of brine and earth. \n\nNARRATION\nAfter some digging your hand emerges with a bottle. Something rattling within as you untangle the kelp from it. \n\nNARRATION\nYou peer inside the bottle and notice a roll of paper and determine the noise is coming from a corroded key inside housed inside.\n\nNARRATION\nYou pop the cork off the bottle and notice faint blueish green gas seeping out.\n\nNARRATION\nThe gas is starting to coalesce into misty tendrils and a green light begins to pulse in feint rhythm almost like a heartbeat. The key begins to glow…\n\n[[Wait and watch]]\n[[Throw the bottle into the ocean]]\n",
+      "text": "NARRATION\n...a ball of kelp.\nYou begin to deflate as disappointment washes over your body and mind.\n\nNARRATION\nYou notice a heft as the kelp is lowered to the deck of your raft. It hits the deck with a hollow thud. \n\nNARRATION\nThere is a glint of scarlet as you notice the reflection of something glassy from within.\n\nNARRATION\nYou stick your hand within the slimy tangled knot of kelp and your nose becomes overwhelmed with the aroma of brine and earth. \n\nNARRATION\nAfter some digging your hand emerges with a bottle. Something rattling within as you untangle the kelp from it. \n\nNARRATION\nYou peer inside the bottle and notice a roll of paper and determine the noise is coming from a corroded key  housed within.\n\nNARRATION\nYou pop the cork off the bottle and notice faint blueish green gas seeping out.\n\nNARRATION\nThe gas is starting to coalesce into misty tendrils and a green light begins to pulse in faint rhythm almost like a heartbeat. The key begins to glow…\n\n[[Wait and watch]]\n[[Throw the bottle into the ocean]]\n",
       "links": [
         {
           "name": "Wait and watch",
@@ -93,7 +93,7 @@
       }
     },
     {
-      "text": "NARRATION\nBefore you can finish your inquiry, what you begin to realize is the ghost of a pirate captain interrupts you.\n\nCAPTAIN\nAvast ye' scallywag!  Yer to sail me right to Skull Island immediately. This ship here is now commandeered by yer's truly, savvy? \n\n\n[[Stay Silent]]\n[[Try to form a response]]\n",
+      "text": "NARRATION\nBefore you can finish your inquiry, what you begin to realize is the ghost of a pirate captain interrupts you.\n\nCAPTAIN\nAvast ye' scallywag!  Yer to sail me right to Skull Island immediately. This ship here is now commandeered by yer's truly, savvy? \n\n[[Stay Silent]]\n[[Try to form a response]]\n",
       "links": [
         {
           "name": "Stay Silent",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.\n\nNARRATION\nYou are utterly frozen in fear, your mouth agape. \n\n[[The Captain Resumes Talking]]\n\n",
+      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.\n\nNARRATION\nYou are utterly frozen in fear, your mouth agape. \n\n[[The Captain Resumes Talking]]\n",
       "links": [
         {
           "name": "The Captain Resumes Talking",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.  \n\nNARRATION\nYou open your mouth and are jumbling and stuttering your words in fear. \n\nNARRATION\nYou give up trying to articulate and close your mouth in surrender.\n\n[[The Captain Resumes Talking]]\n\n",
+      "text": "NARRATION\nYou stare right into the empty sockets of this ethereal Captain; he looks entirely indifferent to your existence.  \n\nNARRATION\nYou open your mouth and are jumbling and stuttering your words in fear. \n\nNARRATION\nYou give up trying to articulate and close your mouth in surrender.\n\n[[The Captain Resumes Talking]]\n",
       "links": [
         {
           "name": "The Captain Resumes Talking",

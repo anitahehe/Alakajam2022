@@ -172,7 +172,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 4
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -1218,6 +1218,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2992531468665439462, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4811701027194049555, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1307,9 +1311,29 @@ PrefabInstance:
       value: UICanvas
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[0].dialogSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: characters.Array.data[3].dialogSounds.Array.size
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[0].dialogSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6d088d32dddf4bc4abd293a34defe64a, type: 3}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[0].dialogSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: f9463f271c1406d4f9dff988dc92c9f3, type: 3}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[0].dialogSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2903d07ec5a95e648900c139c812245a, type: 3}
+    - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: characters.Array.data[0].dialogSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: d406eeb789edc5c4ab1145a4cfbf3211, type: 3}
     - target: {fileID: 5595256289728256333, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: characters.Array.data[3].dialogSounds.Array.data[0]
       value: 
@@ -1333,6 +1357,135 @@ PrefabInstance:
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.size
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[0].text
+      value: "NARRATION\nThe last line is cast for the day. You enjoy the gentle
+        sway of your boat as you take in another deep breath of the crisp sea air.\n\nNARRATION\nDuring
+        your exhale, you enjoy the moonlight. \n\nNARRATION\nSuddenly, you feel a
+        tug on your line and your mind snaps back to the present. \nYou lick your
+        lips as another fish will soon be yours!\n\nNARRATION\nYou begin to reel
+        on your rod and to your surprise you're met with stiff resistance. \nThere
+        is no doubt in your mind this is a larger fish, a sturgeon perhaps? \n\nNARRATION\nYou
+        continue to reel, and your biceps begin to ache from your exertion.\nWith
+        all this effort \u2013 you now wonder if a tuna is on the line!\n\nNARRATION\nAs
+        your line nears the boat your mind & body are warring with the thought of
+        eating this catch and forgoing the profit. \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[1].text
+      value: "NARRATION\nYou can always catch another fish to sell tomorrow, and
+        your mouth salivates while your stomach anticipates its next delicious meal.\n\nNARRATION\nYou
+        can see the catch emerge from the waters and it's... \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[2].text
+      value: "NARRATION\nDespite really needing the money and mustering up the resistance,
+        you know which part of you is winning as your stomach growls in defiance.
+        \n\nNARRATION\nYou can see the catch emerge from the waters and it's... \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[3].text
+      value: "NARRATION\n...a ball of kelp.\nYou begin to deflate as disappointment
+        washes over your body and mind.\n\nNARRATION\nYou notice a heft as the kelp
+        is lowered to the deck of your raft. It hits the deck with a hollow thud.
+        \n\nNARRATION\nThere is a glint of scarlet as you notice the reflection of
+        something glassy from within.\n\nNARRATION\nYou stick your hand within the
+        slimy tangled knot of kelp and your nose becomes overwhelmed with the aroma
+        of brine and earth. \n\nNARRATION\nAfter some digging your hand emerges with
+        a bottle. Something rattling within as you untangle the kelp from it. \n\nNARRATION\nYou
+        peer inside the bottle and notice a roll of paper and determine the noise
+        is coming from a corroded key  housed within.\n\nNARRATION\nYou pop the cork
+        off the bottle and notice faint blueish green gas seeping out.\n\nNARRATION\nThe
+        gas is starting to coalesce into misty tendrils and a green light begins
+        to pulse in faint rhythm almost like a heartbeat. The key begins to glow\u2026\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[5].text
+      value: "NARRATION\nBefore you can finish your inquiry, what you begin to realize
+        is the ghost of a pirate captain interrupts you.\n\nCAPTAIN\nAvast ye' scallywag! 
+        Yer to sail me right to Skull Island immediately. This ship here is now commandeered
+        by yer's truly, savvy? \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].text
+      value: "NARRATION\nYou stare right into the empty sockets of this ethereal
+        Captain; he looks entirely indifferent to your existence.\n\nNARRATION\nYou
+        are utterly frozen in fear, your mouth agape. \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[7].text
+      value: "NARRATION\nYou stare right into the empty sockets of this ethereal
+        Captain; he looks entirely indifferent to your existence.  \n\nNARRATION\nYou
+        open your mouth and are jumbling and stuttering your words in fear. \n\nNARRATION\nYou
+        give up trying to articulate and close your mouth in surrender.\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[0].text
+      value: "NARRATION\nThe tide is calm making your approach straightforward. A
+        moment of solace for the first time during this journey.\n\nNARRATION\nYou
+        realize the captain has been quiet for some time as he is fixated on a distant
+        blue light.\n\nNARRATION\nYou approach the shores of the island and run your
+        raft up against the beachhead to dismount onto the sand.\n\nNARRATION\nYou
+        watch the sea foam bubbling across the shore as you drag your vessel deeper
+        on the beach. You leave it unanchored with no worry of the tide.\n\nCAPTAIN\nThis
+        island reeks of betrayal.\n\nCAPTAIN\nThe spyglass of my ol\u2019 navigator
+        should be around here somewhere. We won't even reach the shore of where we're
+        going without it.\n\nNARRATION\nYou only make it a few steps inland before
+        you find human remains clutching a spyglass. \n\nNARRATION\nAs you reach
+        for it blue light swirls and coalesces in front of you \u2013 it as blinding
+        as a full moon across a calm sea. \n\nFLORRIE\nWell, look what has washed
+        up with the tides.\n\nFLORRIE\nYou \u2018ought to give up piracy and return
+        to that fishing raft of yours. This captain will be no help to your livelihood.\n\nCAPTAIN\nFlorrie
+        you fiend! \n\nNARRATION\nThe captain reaches for his cutlass. \n\nCAPTAIN\nWith
+        a scurvy dog like ye thrice-damned to such a pitiful island as this, justice
+        exists after all!\n\nCAPTAIN\nMy new crew may be modest in size but is a
+        great improvement in the loyalty department, as a traitor like ye should
+        know.\n\nFLORRIE\nI expect your heart would have fed the bottom-feeders in
+        your watery grave well, had you not lost it so long before your demise.\n\nCAPTAIN\nHearsay!
+        Speak not of hearts to me ye accursed mutineer!\n\nFLORRIE\nThe only traitor
+        here is you. You long ago abandoned a love of sea, comradery, and adventure
+        for love of gold. It poisoned you captain. \n\nCAPTAIN\nWith crewmates like
+        ye, I'd prefer the company of gold. Give us yer spyglass, traitor.\n\nFLORRIE\nYou
+        entrusted it to me once with my judgement, and it remains under my protection.
+        My judgement is to refuse your command.\n\nCAPTAIN\nRefusing yer captain
+        can get you quickly to the end of a plank! I wish I had the chance when it
+        mattered most, but this\u2019ll do! \n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[3].text
+      value: "NARRATION\nYou go inland and retrieve driftwood from the beach and
+        collect scattered apparel and the remaining belongings of Florrie the Navigator.\n\nNARRATION\nYou
+        hear Florrie and the Captain talking as you return and set to work on building
+        a pyre. \n\nCAPTAIN\nYe were too quick to pack a duffle and show the dungbie
+        of a dinghy as ye sailed away.\n\nCAPTAIN\nThose seabirds pecking at yer
+        corpse were the best funeral wake a traitor like ye deserves Florrie.\n\nFLORRIE\nI
+        did it to deny the mutineers the spyglass you seadog. They figured out its
+        importance. \n\nNARRATION\nFlorrie turns to you as you ready to light the
+        pyre with your tinder box. A profound mix of sadness and relief washes across
+        her ghastly face.\n\nFLORRIE\nThank you for this funeral pyre. You have fulfilled
+        my final wish.\n\nFLORRIE\nCaptain, perhaps in this moment you could set
+        aside your blinding greed and eulogize me like you once promised?\n\nCAPTAIN\nI
+        don't recall ever making such a promise.\n\nNARRATION\nAn expression crosses
+        Florries face showing the captain's words cut deep.\n\nFLORRIE\nI see. Well,
+        I know what it's like to be forgotten just like that promise.\n\nNARRATION\nShe
+        is fighting tears. Seeing this, the captain's smug look of self-righteousness
+        appears to have weakened across his skullish expression.\n\nCAPTAIN\n...\n\nCAPTAIN\nYou
+        earned your title, Florrie the Straight. Not once were we lost at sea. A
+        captain couldn\u2019t ask for a better navigator. \n\nNARRATION\nA few tears
+        roll down her face, the motes of blue ectoplasm dissolving into the sand
+        below. You see a slight smile. You start to see her fade as more parts dissolve
+        into the ground below.\n\nFLORRIE\nIt is true. I was as obsessed with the
+        map room as you are now with gold.\n\nFLORRIE\nPerhaps if we both lifted
+        our heads up more, we could have seen what the rest of the crew had planned
+        for us all.\n\nCAPTAIN\n...?\n\nFLORRIE\nYou have given me what I need to
+        free myself of this place. Take the spyglass and go.\n\nFLORRIE\nGo get your
+        gold, captain. Perhaps there you'll see what a fool you are.\n\nNARRATION\nShe
+        continues to fade in a gentle waterfall of azure light gracefully pooling
+        below her pyre.\n\nNARRATION\nYou feel spyglass appear in your hands, now
+        complete with its sapphire lens whole again.\n\nCAPTAIN\n...\n\nNARRATION\nThe
+        Captain stows his cutlas and stiffens up. \n\nCAPTAIN\nBack to sea. Captain's
+        orders."
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].text
@@ -1405,7 +1558,7 @@ PrefabInstance:
         all partied for days, until all the rum and rations were gone. What a fine
         time!\n\nCAPTAIN\nBy the end we had completely fogotten about the-\n\nNARRATION\nThe
         captain trails off.\n\nCAPTAIN\n...\n\nCAPTAIN\n\"It takes many islands to
-        make an archipelago...\" heh.\n\nNARRATION\nThe seems to notice you again,
+        make an archipelago...\" heh.\n\nNARRATION\nHe seems to notice you again,
         his gaze focusses on you. \n\nCAPTAIN\nGet back to marching, landlubber.
         We could have bought twice the rum with the gold on the ship we escaped from
         back then!\n\n"
@@ -1571,7 +1724,7 @@ PrefabInstance:
       value: 'NARRATION
 
         From the distance you''re at, you estimate that
-        the cave could fit a war brig in there.
+        the cave could fit a warship in there.
 
 
         NARRATION
@@ -1595,7 +1748,6 @@ PrefabInstance:
         thoughts are soon interrupted by a spray of briny white water that shakes
         your boat. Nothing too serious, but you focus your attention on not ending
         up as a ghost yourself.
-
 
 
 
@@ -1630,7 +1782,7 @@ PrefabInstance:
         sigh as you exhale.\n\nNARRATION\nYour eyes meet the sockets of the Captain
         and for a second you swear he raised and eyebrow at you. That is, if he had
         an eyebrow still left. \n\nNARRATION\nYou avert his gaze and hastily begin
-        tying the rope around a sturdy palm tree. \n\n \n\n"
+        tying the rope around a sturdy palm tree. \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[4].text
@@ -1638,20 +1790,20 @@ PrefabInstance:
         ship slides out of the water and drags through the sand. \n\nNARRATION\nIt
         leaves behind a trench in the sand, one which you assume will be washed away
         in the next high high tide. \n\nNARRATION\nYou find a sturdy palm tree deep
-        within the beach. This is a good spot.\n\n\n\n"
+        within the beach. This is a good spot.\n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[5].text
       value: "CAPTAIN\nSink me! That's how ye tie a knot? Every old salt knows you
         loop twice, go through the middle and do one more loop to make a proper taut-line.
-        \n\n\n\n\n\n"
+        \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[6].text
       value: "NARRATION\nYou ignore the Captain's advice and keep your knot the way
         it is. What does he know? \n\nNARRATION\nAn annoyed click noise pops from
         his jaw. \n\nNARRATION\nAfter you do one last check to test it's effectiveness
-        you look up to see the Captain facing towards the orange light. \n\n\n\n"
+        you look up to see the Captain facing towards the orange light. \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[7].text
@@ -1709,7 +1861,7 @@ PrefabInstance:
         moves to ready his flintlock once more.\n\nNARRATION\nLeftpaw raises his
         hands in resignation and faces you. \n\nLEFTPAW THE BILGERAT\nLook, ye seem
         to 'ave an even keel. The only thing left I need to find is the 'elm. The
-        cockswain 'ould've also 'anted it in its rightful place. \n\n\n\n\n\n\n\n"
+        cockswain 'ould've also 'anted it in its rightful place. \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[9].text
@@ -1720,7 +1872,7 @@ PrefabInstance:
         your own incompetence to see beyond the veil of child-like immaturity is
         the only thing that can suprise spirits who have seen beyond the veil of
         mortaility.\n\nNARRATION\nFor once tonight, the two actually agreed on something.
-        \n\n\n\n"
+        \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].text
@@ -1753,16 +1905,30 @@ PrefabInstance:
         Siren. You hear the Captain and Leftpaw resume arguing in the distance.
 
 
-
-
 '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[11].text
-      value: "NARRATION\nUsing the orange and green glow of the ghosts as a point
-        of reference to navigate, you scour all around beach.\n\nNARRATION\nNo matter
-        how far away you were, the sound of the two arguing managed to always be
-        vageuly audible.\n\nNARRATION\nAlas, it is to no avail.\n\n \n\n\n"
+      value: 'NARRATION
+
+        Using the orange and green glow of the ghosts as
+        a point of reference to navigate, you scour all around beach.
+
+
+        NARRATION
+
+        No
+        matter how far away you were, the sound of the two arguing managed to always
+        be vageuly audible.
+
+
+        NARRATION
+
+        Alas, it is to no avail.
+
+
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[12].text
@@ -1777,7 +1943,7 @@ PrefabInstance:
         beach is the wheel of a ship. You set out to return to the two arguing ghosts
         by restracing your steps backwards.\n\nLEFTPAW\nI see ye found it. Good work
         matey. \n\nLEFTPAW\nNow return it to the deep. \n\nNARRATION\nLeftpaw motions
-        towards the sea. \n\n\n\n"
+        towards the sea. \n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[13].text
@@ -1800,7 +1966,7 @@ PrefabInstance:
         course yer sailing. \n\nLEFTPAW\nJust remember, it doesn\u2019t matter how
         big the island is, it takes many islands to make an archipelago. \n\nNARRATION\nLeftpaw
         looks back towards you. \n\nLEFTPAW\nA bargain is a bargain. The Scarlet
-        Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
+        Siren is whole again. My lantern is yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
         remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
         into a swarm of ember-like motes adrift across the sky. \n\nNARRATION\nLike
         fireflies dancing over the ocean and across the night sky. Slowly flickering
@@ -1836,13 +2002,25 @@ PrefabInstance:
         course yer sailing. \n\nLEFTPAW\nJust remember, it doesn\u2019t matter how
         big the island is, it takes many islands to make an archipelago. \n\nNARRATION\nLeftpaw
         looks back towards you. \n\nLEFTPAW\nA bargain is a bargain. The Scarlet
-        Siren is whole again. My lanterns yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
+        Siren is whole again. My lantern is yours\u2026 and\u2026 thank ye. \n\nNARRATION\nThe
         remainder of what was Otto \u201CLeftpaw\u201D the Bilgerat disintegrates
         into a swarm of ember-like motes. \n\nNARRATION\nLike fireflies dancing over
         the ocean and across the night sky. Slowly flickering out one by one as they
         landed in the water. \n\nNARRATION\nYou feel a gentle nudge at your feet,
         and as you look down you notice the waves brought in the amber lantern.\n\nCAPTAIN\n\u2026\n\nCAPTAIN\nAvast
         Ye! Back to the ship. Captain\u2019s orders!\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[5].maxProgress
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].maxProgress
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[7].maxProgress
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].maxProgress
@@ -1857,12 +2035,52 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].maxProgress
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].maxProgress
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[4].maxProgress
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[5].maxProgress
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].maxProgress
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].maxProgress
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].maxProgress
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].maxProgress
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[12].maxProgress
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[10].maxProgress
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].maxProgress
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].maxProgress
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].links.Array.size
@@ -1877,6 +2095,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[5].textList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].textList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[7].textList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.size
       value: 25
       objectReference: {fileID: 0}
@@ -1889,6 +2119,34 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[4].textList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[5].textList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.size
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].textList.Array.size
       value: 9
       objectReference: {fileID: 0}
@@ -1897,8 +2155,106 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[10].textList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].textList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[0].textList.Array.data[1]
+      value: 'NARRATION
+
+        During your exhale, you enjoy the moonlight. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[1].textList.Array.data[1]
+      value: 'NARRATION
+
+        You can see the catch emerge from the waters and
+        it''s... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[2].textList.Array.data[1]
+      value: 'NARRATION
+
+        You can see the catch emerge from the waters and
+        it''s... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[3].textList.Array.data[1]
+      value: 'NARRATION
+
+        You notice a heft as the kelp is lowered to the
+        deck of your raft. It hits the deck with a hollow thud. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[3].textList.Array.data[5]
+      value: 'NARRATION
+
+        You peer inside the bottle and notice a roll of
+        paper and determine the noise is coming from a corroded key  housed within.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[3].textList.Array.data[7]
+      value: "NARRATION\nThe gas is starting to coalesce into misty tendrils and
+        a green light begins to pulse in faint rhythm almost like a heartbeat. The
+        key begins to glow\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[5].textList.Array.data[2]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[6].textList.Array.data[2]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[0].passages.Array.data[6].textList.Array.data[3]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[0].passages.Array.data[7].textList.Array.data[3]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[0].textList.Array.data[0]
+      value: 'NARRATION
+
+        The tide is calm making your approach straightforward.
+        A moment of solace for the first time during this journey.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[0].textList.Array.data[1]
+      value: 'NARRATION
+
+        You realize the captain has been quiet for some
+        time as he is fixated on a distant blue light.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[0].textList.Array.data[6]
+      value: 'NARRATION
+
+        You only make it a few steps inland before you find
+        human remains clutching a spyglass. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[3].textList.Array.data[4]
+      value: 'FLORRIE
+
+        I did it to deny the mutineers the spyglass you seadog.
+        They figured out its importance. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[0]
@@ -2060,7 +2416,7 @@ PrefabInstance:
       value: 'NARRATION
 
         From the distance you''re at, you estimate that
-        the cave could fit a war brig in there.'
+        the cave could fit a warship in there.'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.data[1]
@@ -2085,6 +2441,12 @@ PrefabInstance:
         Your thoughts are soon interrupted by a spray of
         briny white water that shakes your boat. Nothing too serious, but you focus
         your attention on not ending up as a ghost yourself.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[1].textList.Array.data[4]
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[2].textList.Array.data[0]
@@ -2166,6 +2528,12 @@ PrefabInstance:
         around a sturdy palm tree. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[4]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[3].textList.Array.data[5]
       value: 
       objectReference: {fileID: 0}
@@ -2177,6 +2545,12 @@ PrefabInstance:
         you your ship slides out of the water and drags through the sand. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[4].textList.Array.data[3]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[5].textList.Array.data[0]
       value: 'CAPTAIN
 
@@ -2186,7 +2560,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[5].textList.Array.data[1]
-      value: 
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[0]
@@ -2210,7 +2586,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[3]
-      value: 
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[6].textList.Array.data[4]
@@ -2332,11 +2710,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[5]
-      value: 
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[9].textList.Array.data[6]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[1].passages.Array.data[3].textList.Array.data[11]
+      value: 'NARRATION
+
+        She is fighting tears. Seeing this, the captain''s
+        smug look of self-righteousness appears to have weakened across his skullish
+        expression.'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[0].textList.Array.data[10]
@@ -2455,7 +2843,7 @@ PrefabInstance:
       propertyPath: storyInfo.Array.data[2].passages.Array.data[3].textList.Array.data[15]
       value: 'NARRATION
 
-        The seems to notice you again, his gaze focusses
+        He seems to notice you again, his gaze focusses
         on you. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
@@ -2555,6 +2943,12 @@ PrefabInstance:
         Alas, it is to no avail.'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[11].textList.Array.data[3]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[0]
       value: 'NARRATION
 
@@ -2594,7 +2988,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[7]
-      value: 
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[12].textList.Array.data[8]
@@ -2746,6 +3142,12 @@ PrefabInstance:
         you. '
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
+      propertyPath: storyInfo.Array.data[3].passages.Array.data[8].textList.Array.data[36]
+      value: '
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[2].passages.Array.data[10].links.Array.data[0].pid
       value: 13
       objectReference: {fileID: 0}
@@ -2789,7 +3191,7 @@ PrefabInstance:
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[17]
       value: "LEFTPAW\nA bargain is a bargain. The Scarlet Siren is whole again.
-        My lanterns yours\u2026 and\u2026 thank ye. "
+        My lantern is yours\u2026 and\u2026 thank ye. "
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[13].textList.Array.data[18]
@@ -2842,7 +3244,7 @@ PrefabInstance:
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[19]
       value: "LEFTPAW\nA bargain is a bargain. The Scarlet Siren is whole again.
-        My lanterns yours\u2026 and\u2026 thank ye. "
+        My lantern is yours\u2026 and\u2026 thank ye. "
       objectReference: {fileID: 0}
     - target: {fileID: 5595256289728256334, guid: ceeece8394843e1419898dd7611b5bdd, type: 3}
       propertyPath: storyInfo.Array.data[3].passages.Array.data[14].textList.Array.data[20]
@@ -2908,7 +3310,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.355
   m_Color: {r: 0.3820755, g: 1, b: 0.6033078, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -3352,7 +3754,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -4468,7 +4870,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -4579,7 +4981,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.36470592, g: 1, b: 0.5927907, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -4747,7 +5149,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.273
   m_Color: {r: 0.95354116, g: 0.36470592, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -5117,7 +5519,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.355
   m_Color: {r: 0.3820755, g: 1, b: 0.6033078, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -6837,7 +7239,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.355
   m_Color: {r: 0.3820755, g: 1, b: 0.6033078, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -6958,7 +7360,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -7424,7 +7826,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.273
   m_Color: {r: 0.95354116, g: 0.36470592, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -8166,7 +8568,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -8277,7 +8679,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -9139,7 +9541,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.36470592, g: 1, b: 0.5927907, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -9297,6 +9699,18 @@ PrefabInstance:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b5c275018c0b779478125baac550abfa, type: 3}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
 --- !u!1 &545374673
@@ -9348,7 +9762,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 4
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -9853,7 +10267,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -10188,7 +10602,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 4
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -10368,7 +10782,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -10863,7 +11277,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.36470592, g: 1, b: 0.5927907, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -11031,7 +11445,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 4
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -11931,7 +12345,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.355
   m_Color: {r: 0.3820755, g: 1, b: 0.6033078, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -12319,7 +12733,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -12492,7 +12906,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -12608,7 +13022,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -13402,7 +13816,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.36470592, g: 1, b: 0.5927907, a: 1}
-  m_Intensity: 3
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -13757,7 +14171,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -14141,7 +14555,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.273
   m_Color: {r: 0.95354116, g: 0.36470592, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -14987,7 +15401,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -15331,7 +15745,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 4
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -15442,7 +15856,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -15615,7 +16029,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 3
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -16753,7 +17167,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -17147,7 +17561,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -17943,7 +18357,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.273
   m_Color: {r: 0.95354116, g: 0.36470592, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -18054,7 +18468,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.355
   m_Color: {r: 0.3820755, g: 1, b: 0.6033078, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -18280,7 +18694,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_Volume
-      value: 0.168
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ea6dec18d73bdd142a79d23c0b977f1a, type: 3}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
@@ -20275,6 +20697,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 819583043, guid: d0ff10850d95b8747a464f84ceee5f9e, type: 3}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 679923204539904491, guid: d0ff10850d95b8747a464f84ceee5f9e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -20552,7 +20978,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -20746,7 +21172,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 4
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -21318,7 +21744,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.355
   m_Color: {r: 0.3820755, g: 1, b: 0.6033078, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -22174,7 +22600,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 4
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -22697,7 +23123,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.36470592, b: 0.482733, a: 1}
-  m_Intensity: 4
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -22899,7 +23325,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.273
   m_Color: {r: 0.95354116, g: 0.36470592, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -22970,7 +23396,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: FadeTime
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: storyNumber
@@ -23055,6 +23481,18 @@ PrefabInstance:
     - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: Loop
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 087880710f74ca54a908e8f3c77094d8, type: 3}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
@@ -23185,7 +23623,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.36470592, g: 1, b: 0.5927907, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -23506,7 +23944,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -23896,7 +24334,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -24148,7 +24586,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.74511266, b: 0.36320752, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -25249,6 +25687,10 @@ PrefabInstance:
     - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_audioClip
       value: 
+      objectReference: {fileID: 8300000, guid: 37ac24214b14bd042ba8c5ebef1e3475, type: 3}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
