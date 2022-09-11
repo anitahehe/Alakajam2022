@@ -113,8 +113,8 @@ public class BoatMovement : MonoBehaviour
         }
 
         // Don't leave the map.
-        float xBound = Mathf.Clamp(transform.position.x, xMin + 10.0f, xMax - 10.0f);
-        float yBound = Mathf.Clamp(transform.position.y, yMin + 10.0f, yMax - 10.0f);
+        float xBound = Mathf.Clamp(transform.position.x, xMin + 50.0f, xMax - 50.0f);
+        float yBound = Mathf.Clamp(transform.position.y, yMin + 50.0f, yMax - 50.0f);
         var smoothPos = Vector3.Lerp(transform.position, new Vector3(xBound, yBound, transform.position.z), 0.5f);
         this.transform.position = smoothPos;
     }
