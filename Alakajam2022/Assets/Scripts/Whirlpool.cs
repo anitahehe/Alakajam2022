@@ -11,7 +11,7 @@ public class Whirlpool : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<BoatController>() is not null)
+        if (other.gameObject.tag == "Player")
         {
             // The player is here!
             pulling = true;
@@ -21,7 +21,7 @@ public class Whirlpool : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<BoatController>() is not null)
+        if (other.gameObject.tag =="Player")
         {
             // The player has escaped!
             pulling = false;

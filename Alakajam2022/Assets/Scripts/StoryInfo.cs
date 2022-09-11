@@ -101,7 +101,8 @@ public class Passage
     {
         text = Regex.Replace(text, @"\[[^)]*\]", string.Empty);
 
-        textList = text.Split(new[] { Environment.NewLine, Environment.NewLine }, StringSplitOptions.None);
+        textList = text.Split("\n\n", StringSplitOptions.None);
+
         maxProgress = textList.Length;
     }
 }

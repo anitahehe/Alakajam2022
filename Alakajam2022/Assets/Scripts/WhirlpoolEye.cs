@@ -8,6 +8,9 @@ public class WhirlpoolEye : MonoBehaviour
     public float rotationTorque;
     public Transform UniversalWhirlpoolEyeExit;
     private bool running;
+    public AudioSource AudioObject;
+    public AudioClip WhirlpoolSound;
+    bool soundPlayed = false;
     
     private void Awake()
     {
@@ -15,15 +18,23 @@ public class WhirlpoolEye : MonoBehaviour
     }
 
     private void Update() {
+        UpdateSound();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<BoatController>() is not null && !running)
+        if (other.gameObject.tag == "Player" && !running)
         {
+            
             // The player is here!
             StartCoroutine(ShrinkSpinSpitOut(other.gameObject));
         }
+    }
+    private void UpdateSound(){
+        if(soundPlayed == false && running == true){
+            AudioObject.PlayOneShot(WhirlpoolSound);
+            soundPlayed = true;
+            }
     }
 
     IEnumerator ShrinkSpinSpitOut(GameObject player)
@@ -43,15 +54,20 @@ public class WhirlpoolEye : MonoBehaviour
 
         // Move to exit.
         player.transform.position = UniversalWhirlpoolEyeExit.position;
+        
+        
 
         // Spin and grow until visible at right location.
         while (player.transform.localScale.x < originalScale.x)
         {
+            
+            
             rb.AddTorque(rotationTorque * (1 + transform.forward.magnitude));
             player.transform.localScale += new Vector3(shrinkRate, shrinkRate, shrinkRate);
             yield return null;
         }
         player.transform.localScale = originalScale;
+        
         running = false;
     }
 }
