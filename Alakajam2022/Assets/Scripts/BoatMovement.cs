@@ -19,6 +19,9 @@ public class BoatMovement : MonoBehaviour
 
     public BoatController boatController;
 
+    public BoxCollider2D mapBounds;
+    private float xMin, xMax, yMin, yMax;
+
     private void Start()
     {
         boatController = GetComponent<BoatController>();
@@ -27,6 +30,11 @@ public class BoatMovement : MonoBehaviour
             Debug.LogError("Error: Boat Movement does not have attacked Boat Controller");
         }
         rb = GetComponent<Rigidbody2D>();
+
+        xMin = mapBounds.bounds.min.x;
+        xMax = mapBounds.bounds.max.x;
+        yMin = mapBounds.bounds.min.y;
+        yMax = mapBounds.bounds.max.y;
     }
 
     public void Bump(float strength, Vector2 dir, float stunDuration)
@@ -103,5 +111,11 @@ public class BoatMovement : MonoBehaviour
             soundPlaying=false;
 
         }
+
+        // Don't leave the map.
+        float xBound = Mathf.Clamp(transform.position.x, xMin + 50.0f, xMax - 50.0f);
+        float yBound = Mathf.Clamp(transform.position.y, yMin + 50.0f, yMax - 50.0f);
+        var smoothPos = Vector3.Lerp(transform.position, new Vector3(xBound, yBound, transform.position.z), 0.5f);
+        this.transform.position = smoothPos;
     }
 }

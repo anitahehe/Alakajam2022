@@ -3842,7 +3842,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 300, y: 300}
+  m_Size: {x: 290, y: 290}
   m_EdgeRadius: 0
 --- !u!4 &79951057
 Transform:
@@ -9919,6 +9919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TriggerDialogFinal
       objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012793, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012798, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11227,6 +11231,10 @@ PrefabInstance:
       propertyPath: playerTarget
       value: 
       objectReference: {fileID: 819583037}
+    - target: {fileID: 5080765848407927114, guid: 6b81c1fa156b91a45a80c95a7f3e3d53, type: 3}
+      propertyPath: mapBounds
+      value: 
+      objectReference: {fileID: 79951056}
     - target: {fileID: 6530327353253073962, guid: 6b81c1fa156b91a45a80c95a7f3e3d53, type: 3}
       propertyPath: m_SortingOrder
       value: 11
@@ -11900,6 +11908,10 @@ PrefabInstance:
       propertyPath: playerTarget
       value: 
       objectReference: {fileID: 819583037}
+    - target: {fileID: 5080765848407927114, guid: 6b81c1fa156b91a45a80c95a7f3e3d53, type: 3}
+      propertyPath: mapBounds
+      value: 
+      objectReference: {fileID: 79951056}
     - target: {fileID: 6530327353253073962, guid: 6b81c1fa156b91a45a80c95a7f3e3d53, type: 3}
       propertyPath: m_SortingOrder
       value: 11
@@ -17777,6 +17789,10 @@ PrefabInstance:
       propertyPath: playerTarget
       value: 
       objectReference: {fileID: 819583037}
+    - target: {fileID: 5080765848407927114, guid: 6b81c1fa156b91a45a80c95a7f3e3d53, type: 3}
+      propertyPath: mapBounds
+      value: 
+      objectReference: {fileID: 79951056}
     - target: {fileID: 6530327353253073962, guid: 6b81c1fa156b91a45a80c95a7f3e3d53, type: 3}
       propertyPath: m_SortingOrder
       value: 11
@@ -18549,6 +18565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogNavigator
       objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012793, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012798, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -18690,6 +18710,10 @@ PrefabInstance:
       propertyPath: playerTarget
       value: 
       objectReference: {fileID: 819583037}
+    - target: {fileID: 5080765848407927114, guid: 6b81c1fa156b91a45a80c95a7f3e3d53, type: 3}
+      propertyPath: mapBounds
+      value: 
+      objectReference: {fileID: 79951056}
     - target: {fileID: 6530327353253073962, guid: 6b81c1fa156b91a45a80c95a7f3e3d53, type: 3}
       propertyPath: m_SortingOrder
       value: 11
@@ -20499,6 +20523,10 @@ PrefabInstance:
       propertyPath: torque
       value: 0.06
       objectReference: {fileID: 0}
+    - target: {fileID: 679923204539904503, guid: d0ff10850d95b8747a464f84ceee5f9e, type: 3}
+      propertyPath: mapBounds
+      value: 
+      objectReference: {fileID: 79951056}
     - target: {fileID: 679923204539904503, guid: d0ff10850d95b8747a464f84ceee5f9e, type: 3}
       propertyPath: audioObject
       value: 
@@ -23177,6 +23205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TriggerDialogHelsman
       objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012793, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012798, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -25354,6 +25386,10 @@ PrefabInstance:
     - target: {fileID: 2856546000970012793, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_Name
       value: TriggerDialogPirateCaptain
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856546000970012793, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012798, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_RootOrder
