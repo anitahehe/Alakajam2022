@@ -14161,6 +14161,10 @@ PrefabInstance:
       propertyPath: rotationTorque
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: UniversalWhirlpoolEyeExit
+      value: 
+      objectReference: {fileID: 142285000}
     - target: {fileID: 693814679682338358, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: m_Name
       value: Whirlpool
