@@ -7458,6 +7458,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 2135165891}
     m_Modifications:
     - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: shrinkRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: rotationTorque
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: UniversalWhirlpoolEyeExit
       value: 
       objectReference: {fileID: 316963346}
@@ -7511,10 +7519,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceMax
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceInitial
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: pullForceIncrement
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7526,6 +7538,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2135165891}
     m_Modifications:
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: shrinkRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: rotationTorque
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: UniversalWhirlpoolEyeExit
       value: 
@@ -7580,10 +7600,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceMax
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceInitial
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: pullForceIncrement
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9855,6 +9879,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 2135165891}
     m_Modifications:
     - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: shrinkRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: rotationTorque
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: UniversalWhirlpoolEyeExit
       value: 
       objectReference: {fileID: 1553589539}
@@ -9908,10 +9940,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceMax
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceInitial
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: pullForceIncrement
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9986,6 +10022,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 2135165891}
     m_Modifications:
     - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: shrinkRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: rotationTorque
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: UniversalWhirlpoolEyeExit
       value: 
       objectReference: {fileID: 316963346}
@@ -10039,10 +10083,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceMax
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceInitial
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: pullForceIncrement
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14947,6 +14995,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 2135165891}
     m_Modifications:
     - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: shrinkRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: rotationTorque
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: UniversalWhirlpoolEyeExit
       value: 
       objectReference: {fileID: 142285000}
@@ -15000,10 +15056,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceMax
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceInitial
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: pullForceIncrement
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15620,10 +15680,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceMax
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceInitial
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: pullForceIncrement
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -20336,6 +20400,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 2135165891}
     m_Modifications:
     - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: shrinkRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: rotationTorque
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679542939535, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: UniversalWhirlpoolEyeExit
       value: 
       objectReference: {fileID: 1553589539}
@@ -20389,10 +20461,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceMax
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
       propertyPath: pullForceInitial
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 693814679682338363, guid: 3267add3208ce80428421937b185effb, type: 3}
+      propertyPath: pullForceIncrement
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

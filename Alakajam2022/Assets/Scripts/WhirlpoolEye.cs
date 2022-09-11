@@ -31,7 +31,7 @@ public class WhirlpoolEye : MonoBehaviour
         }
     }
     private void UpdateSound(){
-        if(soundPlayed == false && running == true){
+        if(soundPlayed == false && GetComponentInParent<Whirlpool>().pulling){
             AudioObject.PlayOneShot(WhirlpoolSound);
             soundPlayed = true;
             }
