@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6313726, g: 1, b: 0.6313726, a: 0.92156863}
+  m_Color: {r: 0.8000001, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -221,8 +221,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288806817
-  m_fontColor: {r: 0.6313726, g: 1, b: 0.6313726, a: 1}
+    rgba: 4294967244
+  m_fontColor: {r: 0.8000001, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.63
+  m_fontSize: 14.4
   m_fontSizeBase: 17.63
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 1108113538438744094}
   - component: {fileID: 1108113538438744095}
   - component: {fileID: 1108113538438744092}
+  - component: {fileID: 7728461816708191668}
   m_Layer: 5
   m_Name: DialogUI
   m_TagString: Untagged
@@ -342,29 +343,42 @@ MonoBehaviour:
   textbox: {fileID: 1108113537090357778}
   textSpeed: 0.03
   skipKey: 32
+  turboKey: 0
   fadedColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
   fadeDuration: 0.5
   characters:
-  - portrait: {fileID: 21300000, guid: c64dcfe81ccdf7947aabca7fd3cb5eda, type: 3}
+  - portrait: {fileID: 21300000, guid: 8cdcf6165c7f8654aa6877c673522b7e, type: 3}
     name: Captain
     nameID: CAPTAIN
-    setColor: {r: 0.6313726, g: 1, b: 0.6313726, a: 1}
-    font: {fileID: 11400000, guid: 1a78a55d33408dc4e9b54fb7ddc439be, type: 2}
-  - portrait: {fileID: 0}
+    setColor: {r: 0.5686275, g: 0.9686275, b: 0.7725491, a: 1}
+    font: {fileID: 11400000, guid: 457ef3dccb2746149a9f59b7a818347b, type: 2}
+    dialogSounds:
+    - {fileID: 8300000, guid: eadd82a565c306c4d82474a41e024ac0, type: 3}
+    - {fileID: 8300000, guid: 267bde84aa5de6443bb626458c4700c9, type: 3}
+  - portrait: {fileID: 21300000, guid: 3edec7bc904befd4e98cd7b207412d4a, type: 3}
     name: Florrie
     nameID: FLORRIE
-    setColor: {r: 0.5424528, g: 0.7846837, b: 1, a: 1}
-    font: {fileID: 11400000, guid: 1a78a55d33408dc4e9b54fb7ddc439be, type: 2}
+    setColor: {r: 0.7803922, g: 0.3137255, b: 0.3137255, a: 1}
+    font: {fileID: 11400000, guid: b05223ce69fc30648944aea423f0c12a, type: 2}
+    dialogSounds:
+    - {fileID: 8300000, guid: eadd82a565c306c4d82474a41e024ac0, type: 3}
+    - {fileID: 8300000, guid: 267bde84aa5de6443bb626458c4700c9, type: 3}
   - portrait: {fileID: 0}
     name: Shipwright
     nameID: SHIPWRIGHT
     setColor: {r: 1, g: 0.7078877, b: 0.4481132, a: 1}
     font: {fileID: 11400000, guid: 1a78a55d33408dc4e9b54fb7ddc439be, type: 2}
+    dialogSounds:
+    - {fileID: 8300000, guid: eadd82a565c306c4d82474a41e024ac0, type: 3}
+    - {fileID: 8300000, guid: 267bde84aa5de6443bb626458c4700c9, type: 3}
   - portrait: {fileID: 0}
     name: 
     nameID: NARRATION
     setColor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
-    font: {fileID: 11400000, guid: 96168bf251ae18a4787210f16b116c7d, type: 2}
+    font: {fileID: 11400000, guid: 8c9776f0ba1b40c4e8ad5ad5ddaf8ec6, type: 2}
+    dialogSounds:
+    - {fileID: 8300000, guid: eadd82a565c306c4d82474a41e024ac0, type: 3}
+    - {fileID: 8300000, guid: 267bde84aa5de6443bb626458c4700c9, type: 3}
   onDialogStart:
     m_PersistentCalls:
       m_Calls: []
@@ -2389,6 +2403,102 @@ MonoBehaviour:
       progressIndex: 0
       maxProgress: 4
     startnode: 1
+--- !u!82 &7728461816708191668
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108113538438744089}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1108113538858888333
 GameObject:
   m_ObjectHideFlags: 0
@@ -2462,8 +2572,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37.832245, y: -0.78456116}
-  m_SizeDelta: {x: 727.0998, y: 450.5055}
+  m_AnchoredPosition: {x: -66, y: -0.78456116}
+  m_SizeDelta: {x: 810.2238, y: 455.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5375447072089308591
 CanvasRenderer:
