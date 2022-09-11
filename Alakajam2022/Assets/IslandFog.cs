@@ -9,7 +9,7 @@ public class IslandFog : MonoBehaviour
     {
         if (GameManager.Instance().hasNavigatorItem && GameManager.Instance().hasShipwrightItem)
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
     }
 }
