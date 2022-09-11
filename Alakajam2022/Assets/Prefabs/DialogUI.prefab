@@ -335,22 +335,36 @@ MonoBehaviour:
   UI: {fileID: 1108113538858888333}
   lineText: {fileID: 1108113537913627601}
   nameText: {fileID: 2509810378357900569}
-  continueIndicator: {fileID: 6576895316706636624}
+  continueIndicator: {fileID: 7852125235260894417}
   optionsParent: {fileID: 1108113537872451740}
   optionButtonPrefab: {fileID: 5570540824088336098, guid: 147e25d07c98aec4e83af55415b24466, type: 3}
-  portrait: {fileID: 0}
-  textSpeed: 0.05
+  portrait: {fileID: 3666402897159332683}
+  textbox: {fileID: 1108113537090357778}
+  textSpeed: 0.03
   skipKey: 32
+  fadedColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+  fadeDuration: 0.5
   characters:
   - portrait: {fileID: 21300000, guid: c64dcfe81ccdf7947aabca7fd3cb5eda, type: 3}
     name: Captain
     nameID: CAPTAIN
+    setColor: {r: 0.6313726, g: 1, b: 0.6313726, a: 1}
+    font: {fileID: 0}
+  - portrait: {fileID: 0}
+    name: Florrie
+    nameID: FLORRIE
+    setColor: {r: 0.5424528, g: 0.7846837, b: 1, a: 1}
+    font: {fileID: 0}
+  - portrait: {fileID: 0}
+    name: Shipwright
+    nameID: SHIPWRIGHT
+    setColor: {r: 1, g: 0.7078877, b: 0.4481132, a: 1}
+    font: {fileID: 0}
   - portrait: {fileID: 0}
     name: 
-    nameID: 
-  - portrait: {fileID: 0}
-    name: 
-    nameID: 
+    nameID: NARRATION
+    setColor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
+    font: {fileID: 0}
   onDialogStart:
     m_PersistentCalls:
       m_Calls: []
@@ -376,61 +390,1089 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stories:
-  - {fileID: 4900000, guid: 2343679d2c1064d4bbe9819173d0360b, type: 3}
+  - {fileID: 4900000, guid: f0ea1936e11b67e42b064716307588f4, type: 3}
   storyInfo:
-  - name: Untitled Story
+  - name: Ending Scene
     creator: Twine
     passages:
-    - text: '"I am speaking dialouge" said the guy!
+    - text: 'NARRATION
+
+        With the spyglass cutting through the fog and the
+        latern revealing the hidden contents of the map, your raft creeps up against
+        the shoreline.
+
+
+        CAPTAIN
+
+        Oh how I''ve longed to set foot
+        on you once more, my dear island!
+
+
+        NARRATION
+
+        The captain
+        snatches the map and lantern from your hands and begins marching.
+
+
+        CAPTAIN
+
+        You''re
+        about to witness a sight few have had the privelege of seeing. No greater
+        fortune has ever been amassed on the high seas.
+
+
+        NARRATION
+
+        The
+        march proceeds mostly in silence, a rare case for the captain in your journey
+        so far.
+
+
+        NARRATION
+
+        To your surprise, the captain begins
+        to slow down. His steps are no longer full of the enthusiasm he had jumping
+        off the raft.
+
+
+        NARRATION
+
+        Finally, he comes to a stop after
+        catching sight the moon resting over the ocean horizon.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        You''re
+        not getting the full experience here you know.
+
+
+        CAPTAIN
+
+        You
+        pilot a miserable raft. Have you ever sailed with a full crew?
+
+
+        CAPTAIN
+
+        The
+        coordination is remarkable. Sea battles are strategy, but one can only strategize
+        effectively when the crew is consistent.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        Bah!
+        Small crew or large, the old crew chose to be looters! And here we are, a
+        mere crew of two having accomplished what they failed to do!
+
+
+        CAPTAIN
+
+        I
+        must admit. You would fare poorly in a sea battle.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        Alone,
+        I mean. A good sailor knows themselves and their mates form more than the
+        sum of their parts.
+
+
+        CAPTAIN
+
+        ... you should get a fishing
+        buddy or something.
+
+
+        CAPTAIN
+
+        What am I saying? Get back
+        to marching landlubber, break''s over!
+
+
+        NARRATION
+
+        He abruptly
+        begins marching, returning his eyes to the map.
+
+
+        CAPTAIN
+
+        Gold
+        in the moonlight! That''s what being a pirate is all about!
+
+
+        NARRATION
+
+        He
+        is completely ignoring you.
+
+
+        CAPTAIN
+
+        They couldn''t earn
+        their keep and decided to take it from their dear old captain! Ha!
+
+
+        CAPTAIN
+
+        Greed!
+        That''s what did those bastards in, and brought them to their watery grave!
 
 
 '
       links:
-      - name: Option A
-        link: Option A
+      - name: A watery grave like yours?
+        link: A watery grave like yours?
         pid: 2
-      - name: Option B
-        link: Option B
-        pid: 3
-      name: Conversation Start
+      name: Ending 1
       pid: 1
-    - text: '"Option A huh? What do you think of my flavor text?" said the guy.
+      textList:
+      - 'NARRATION
+
+        With the spyglass cutting through the fog and the latern
+        revealing the hidden contents of the map, your raft creeps up against the
+        shoreline.'
+      - 'CAPTAIN
+
+        Oh how I''ve longed to set foot on you once more, my dear
+        island!'
+      - 'NARRATION
+
+        The captain snatches the map and lantern from your hands
+        and begins marching.'
+      - 'CAPTAIN
+
+        You''re about to witness a sight few have had the privelege
+        of seeing. No greater fortune has ever been amassed on the high seas.'
+      - 'NARRATION
+
+        The march proceeds mostly in silence, a rare case for
+        the captain in your journey so far.'
+      - 'NARRATION
+
+        To your surprise, the captain begins to slow down. His
+        steps are no longer full of the enthusiasm he had jumping off the raft.'
+      - 'NARRATION
+
+        Finally, he comes to a stop after catching sight the
+        moon resting over the ocean horizon.'
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        You''re not getting the full experience here you know.'
+      - 'CAPTAIN
+
+        You pilot a miserable raft. Have you ever sailed with a
+        full crew?'
+      - 'CAPTAIN
+
+        The coordination is remarkable. Sea battles are strategy,
+        but one can only strategize effectively when the crew is consistent.'
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        Bah! Small crew or large, the old crew chose to be looters!
+        And here we are, a mere crew of two having accomplished what they failed
+        to do!'
+      - 'CAPTAIN
+
+        I must admit. You would fare poorly in a sea battle.'
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        Alone, I mean. A good sailor knows themselves and their
+        mates form more than the sum of their parts.'
+      - 'CAPTAIN
+
+        ... you should get a fishing buddy or something.'
+      - 'CAPTAIN
+
+        What am I saying? Get back to marching landlubber, break''s
+        over!'
+      - 'NARRATION
+
+        He abruptly begins marching, returning his eyes to the
+        map.'
+      - 'CAPTAIN
+
+        Gold in the moonlight! That''s what being a pirate is all
+        about!'
+      - 'NARRATION
+
+        He is completely ignoring you.'
+      - 'CAPTAIN
+
+        They couldn''t earn their keep and decided to take it from
+        their dear old captain! Ha!'
+      - 'CAPTAIN
+
+        Greed! That''s what did those bastards in, and brought
+        them to their watery grave!'
+      - 
+      progressIndex: 0
+      maxProgress: 24
+    - text: 'CAPTAIN
+
+        Don''t mistake me for a victim of my own greed like
+        those others, fool! You may be daft but at least you''re not a mutineer!
+
+
+        CAPTAIN
+
+        Who
+        gets the gold in the end? Me, that''s who. The one who earned it!
 
 
 '
       links:
-      - name: Conversation Midpoint
-        link: Conversation Midpoint
-        pid: 4
-      name: Option A
+      - name: You didn't earn it alone.
+        link: You didn't earn it alone.
+        pid: 3
+      name: A watery grave like yours?
       pid: 2
-    - text: '"Option B? Fuck you!" said the guy.
+      textList:
+      - 'CAPTAIN
+
+        Don''t mistake me for a victim of my own greed like those
+        others, fool! You may be daft but at least you''re not a mutineer!'
+      - 'CAPTAIN
+
+        Who gets the gold in the end? Me, that''s who. The one
+        who earned it!'
+      - 
+      progressIndex: 0
+      maxProgress: 3
+    - text: 'CAPTAIN
+
+        I earned my keep, and a crew needs a captain.
+
+
+        CAPTAIN
+
+        Do
+        you know what those bastards were before I came along?
+
+
+        CAPTAIN
+
+        Street
+        urchins. Whelps. Drunks. The dregs of society.
+
+
+        CAPTAIN
+
+        Every
+        captain starts somewhere. Who wants to join an inexperienced captain?
+
+
+        CAPTAIN
+
+        I''ll
+        give you a hint. It''s not the picks of the litter.
+
+
+        CAPTAIN
+
+        No,
+        I made them the crew they were. I invested time and care into my crew.
+
+
+        CAPTAIN
+
+        Long
+        days and late nights. A captain who spends all his time in his quarters is
+        the captain who loses his battles.
+
+
+        CAPTAIN
+
+        You need a
+        crew you can trust with your life.
 
 
 '
       links:
-      - name: Conversation Midpoint
-        link: Conversation Midpoint
+      - name: Guess that wasn't the crew you made then.
+        link: Guess that wasn't the crew you made then.
         pid: 4
-      name: Option B
+      name: You didn't earn it alone.
       pid: 3
-    - text: '"Aight I''m out." said the guy.
+      textList:
+      - 'CAPTAIN
+
+        I earned my keep, and a crew needs a captain.'
+      - 'CAPTAIN
+
+        Do you know what those bastards were before I came along?'
+      - 'CAPTAIN
+
+        Street urchins. Whelps. Drunks. The dregs of society.'
+      - 'CAPTAIN
+
+        Every captain starts somewhere. Who wants to join an inexperienced
+        captain?'
+      - 'CAPTAIN
+
+        I''ll give you a hint. It''s not the picks of the litter.'
+      - 'CAPTAIN
+
+        No, I made them the crew they were. I invested time and
+        care into my crew.'
+      - 'CAPTAIN
+
+        Long days and late nights. A captain who spends all his
+        time in his quarters is the captain who loses his battles.'
+      - 'CAPTAIN
+
+        You need a crew you can trust with your life.'
+      - 
+      progressIndex: 0
+      maxProgress: 9
+    - text: 'NARRATION
+
+        The captain is dumbfounded. He stops his marching.
+
+
+        CAPTAIN
+
+        Don''t
+        tell me about my own crew, ye scallywag!
+
+
+        CAPTAIN
+
+        I taught
+        them too well if anything! Once we could go for the big fish there was no
+        looking back!
+
+
+        CAPTAIN
+
+        Royal galleons. Merchant vessels.
+        Literal treasure ships. The amount of gold was beyond anything I had promised
+        them.
+
+
+        CAPTAIN
+
+        Why shouldn''t I get my fair share? They
+        had more than enough of what they''d originally agreed to.
+
+
+        CAPTAIN
+
+        In
+        the beginning we had to run from sea fights! We flew up the black flag and
+        if they didn''t surrender we had to run for our lives!
+
+
+        CAPTAIN
+
+        If
+        Florrie couldn''t help us flee into the reefs we''d have died a thousand
+        times over!
+
+
+        CAPTAIN
+
+        And that''s nothing if Leftpaw didn''t
+        find ways of keeping the ship afloat when god knows it took one too many
+        cannonballs to the hull!
+
+
+        CAPTAIN
+
+        I remember one time we
+        barely made it to land to do repairs, and what did we find on the deserted
+        island we hit?
+
+
+        CAPTAIN
+
+        Another recent shipwreck. Rum smugglers!
+        They had been so drunk at sea they had run the ship aground!
+
+
+        CAPTAIN
+
+        We
+        all partied for days, until all the rum and rations were gone. What a fine
+        time!
+
+
+        CAPTAIN
+
+        By the end we had completely fogotten about
+        the-
+
+
+        NARRATION
+
+        The captain trails off.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        Get
+        back to marching, landlubber. We could have bought twice the rum with the
+        gold on the ship we escaped from back then!
 
 
 '
       links:
-      - name: Conversation End
-        link: Conversation End
+      - name: Florrie and Leftpaw didn't betray you.
+        link: Florrie and Leftpaw didn't betray you.
         pid: 5
-      name: Conversation Midpoint
+      name: Guess that wasn't the crew you made then.
       pid: 4
-    - text: '"The Man Leaves"
+      textList:
+      - 'NARRATION
+
+        The captain is dumbfounded. He stops his marching.'
+      - 'CAPTAIN
+
+        Don''t tell me about my own crew, ye scallywag!'
+      - 'CAPTAIN
+
+        I taught them too well if anything! Once we could go for
+        the big fish there was no looking back!'
+      - 'CAPTAIN
+
+        Royal galleons. Merchant vessels. Literal treasure ships.
+        The amount of gold was beyond anything I had promised them.'
+      - 'CAPTAIN
+
+        Why shouldn''t I get my fair share? They had more than
+        enough of what they''d originally agreed to.'
+      - 'CAPTAIN
+
+        In the beginning we had to run from sea fights! We flew
+        up the black flag and if they didn''t surrender we had to run for our lives!'
+      - 'CAPTAIN
+
+        If Florrie couldn''t help us flee into the reefs we''d
+        have died a thousand times over!'
+      - 'CAPTAIN
+
+        And that''s nothing if Leftpaw didn''t find ways of keeping
+        the ship afloat when god knows it took one too many cannonballs to the hull!'
+      - 'CAPTAIN
+
+        I remember one time we barely made it to land to do repairs,
+        and what did we find on the deserted island we hit?'
+      - 'CAPTAIN
+
+        Another recent shipwreck. Rum smugglers! They had been
+        so drunk at sea they had run the ship aground!'
+      - 'CAPTAIN
+
+        We all partied for days, until all the rum and rations
+        were gone. What a fine time!'
+      - 'CAPTAIN
+
+        By the end we had completely fogotten about the-'
+      - 'NARRATION
+
+        The captain trails off.'
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        Get back to marching, landlubber. We could have bought
+        twice the rum with the gold on the ship we escaped from back then!'
+      - 
+      progressIndex: 0
+      maxProgress: 16
+    - text: 'NARRATION
+
+        The captain erupts into a raging stance.
 
 
-        FIN.'
-      links: []
-      name: Conversation End
+        CAPTAIN
+
+        They
+        were the closest crewmates I had! I trusted them with the security of this
+        very island!
+
+
+        CAPTAIN
+
+        And in the end, they betrayed me!
+
+
+'
+      links:
+      - name: They sacrificed themselves for you.
+        link: They sacrificed themselves for you.
+        pid: 6
+      name: Florrie and Leftpaw didn't betray you.
       pid: 5
+      textList:
+      - 'NARRATION
+
+        The captain erupts into a raging stance.'
+      - 'CAPTAIN
+
+        They were the closest crewmates I had! I trusted them with
+        the security of this very island!'
+      - 'CAPTAIN
+
+        And in the end, they betrayed me!'
+      - 
+      progressIndex: 0
+      maxProgress: 4
+    - text: 'CAPTAIN
+
+        Nonsense! Balderdash!
+
+
+        CAPTAIN
+
+        Even
+        if that were true, they should have kept a better eye on the crew! Mutinies
+        don''t just happen you know!
+
+
+'
+      links:
+      - name: Gold and greed replaced you as captain.
+        link: Gold and greed replaced you as captain.
+        pid: 7
+      name: They sacrificed themselves for you.
+      pid: 6
+      textList:
+      - 'CAPTAIN
+
+        Nonsense! Balderdash!'
+      - 'CAPTAIN
+
+        Even if that were true, they should have kept a better
+        eye on the crew! Mutinies don''t just happen you know!'
+      - 
+      progressIndex: 0
+      maxProgress: 3
+    - text: 'CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        Oh bugger it all.
+
+
+        CAPTAIN
+
+        I''m
+        this close to the gold, and you''re ruining it!
+
+
+        CAPTAIN
+
+        I
+        can put them all behind me! What matter is it if they had less?
+
+
+        CAPTAIN
+
+        If
+        they didn''t want more they would have stopped sailing!
+
+
+        CAPTAIN
+
+        And
+        if they stopped sailing I wouldn''t have a crew!
+
+
+        CAPTAIN
+
+        And
+        if I didn''t have a crew I''d be-
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        All
+        alone.
+
+
+        CAPTAIN
+
+        All alone with me gold.
+
+
+        NARRATION
+
+        The
+        captain falls silent and in the distance you hear the crashing sounds of
+        the waves.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        I don''t
+        like to see it, but the treasure I''ve lost is something gold can''t buy.
+
+
+        NARRATION
+
+        The
+        captain looks over his incorpoeal body.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        If
+        you had to choose, would you pick a life or a legacy?
+
+
+'
+      links:
+      - name: Life.
+        link: Life.
+        pid: 8
+      - name: Legacy.
+        link: Legacy.
+        pid: 9
+      name: Gold and greed replaced you as captain.
+      pid: 7
+      textList:
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        Oh bugger it all.'
+      - 'CAPTAIN
+
+        I''m this close to the gold, and you''re ruining it!'
+      - 'CAPTAIN
+
+        I can put them all behind me! What matter is it if they
+        had less?'
+      - 'CAPTAIN
+
+        If they didn''t want more they would have stopped sailing!'
+      - 'CAPTAIN
+
+        And if they stopped sailing I wouldn''t have a crew!'
+      - 'CAPTAIN
+
+        And if I didn''t have a crew I''d be-'
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        All alone.'
+      - 'CAPTAIN
+
+        All alone with me gold.'
+      - 'NARRATION
+
+        The captain falls silent and in the distance you hear
+        the crashing sounds of the waves.'
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        I don''t like to see it, but the treasure I''ve lost is
+        something gold can''t buy.'
+      - 'NARRATION
+
+        The captain looks over his incorpoeal body.'
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        If you had to choose, would you pick a life or a legacy?'
+      - 
+      progressIndex: 0
+      maxProgress: 17
+    - text: 'CAPTAIN
+
+        I guess me next question should be, "would you spend
+        your life like pirates save gold?"
+
+
+        NARRATION
+
+        The captain
+        passes you the lantern and map.
+
+
+'
+      links:
+      - name: Take it.
+        link: Take it.
+        pid: 10
+      name: Life.
+      pid: 8
+      textList:
+      - 'CAPTAIN
+
+        I guess me next question should be, "would you spend your
+        life like pirates save gold?"'
+      - 'NARRATION
+
+        The captain passes you the lantern and map.'
+      - 
+      progressIndex: 0
+      maxProgress: 3
+    - text: 'CAPTAIN
+
+        Ha! I suppose most do want to live beyond their lives.
+        It''s not what it''s cracked up to be.
+
+
+        NARRATION
+
+        The captain
+        passes you the lantern and map.
+
+
+'
+      links:
+      - name: Take it.
+        link: Take it.
+        pid: 10
+      name: Legacy.
+      pid: 9
+      textList:
+      - 'CAPTAIN
+
+        Ha! I suppose most do want to live beyond their lives.
+        It''s not what it''s cracked up to be.'
+      - 'NARRATION
+
+        The captain passes you the lantern and map.'
+      - 
+      progressIndex: 0
+      maxProgress: 3
+    - text: 'CAPTAIN
+
+        You''re getting a field promotion. For exceptional
+        work at sea.
+
+
+        CAPTAIN
+
+        You''re first mate now. Better find
+        someone to boss around.
+
+
+        CAPTAIN
+
+        Maybe buying someone a
+        drink with some of that gold would help?
+
+
+        CAPTAIN
+
+        Take
+        it from a lonely captain. Buying folks a drink is a great way to gather up
+        a crew.
+
+
+        CAPTAIN
+
+        ...
+
+
+        CAPTAIN
+
+        Better
+        yet, a great way to gather up others to grow closer to.
+
+
+        CAPTAIN
+
+        Me,
+        I''ve had my time. I''m through being captain.
+
+
+        CAPTAIN
+
+        I
+        had it and even when I almost lost it all, I went ahead and made sure I lost
+        everything.
+
+
+        CAPTAIN
+
+        Me best mates. And I threw their lot
+        in with those I would curse beyond the grave.
+
+
+        CAPTAIN
+
+        I''m
+        through with it. I''m though with being a captain, and I''m through with
+        being anything.
+
+
+        NARRATION
+
+        His ghostly body begins to fade,
+        like Florrie and Leftpaw did.
+
+
+        CAPTAIN
+
+        Maybe... maybe I
+        ought to try fishing?
+
+
+        NARRATION
+
+        Your captain is gone.
+
+
+        NARRATION
+
+        At
+        sea, command falls to those of the next highest rank. What are your orders,
+        captain?
+
+
+'
+      links:
+      - name: Finish the march!
+        link: Finish the march!
+        pid: 11
+      - name: Return to the boat.
+        link: Return to the boat.
+        pid: 12
+      name: Take it.
+      pid: 10
+      textList:
+      - 'CAPTAIN
+
+        You''re getting a field promotion. For exceptional work
+        at sea.'
+      - 'CAPTAIN
+
+        You''re first mate now. Better find someone to boss around.'
+      - 'CAPTAIN
+
+        Maybe buying someone a drink with some of that gold would
+        help?'
+      - 'CAPTAIN
+
+        Take it from a lonely captain. Buying folks a drink is
+        a great way to gather up a crew.'
+      - 'CAPTAIN
+
+        ...'
+      - 'CAPTAIN
+
+        Better yet, a great way to gather up others to grow closer
+        to.'
+      - 'CAPTAIN
+
+        Me, I''ve had my time. I''m through being captain.'
+      - 'CAPTAIN
+
+        I had it and even when I almost lost it all, I went ahead
+        and made sure I lost everything.'
+      - 'CAPTAIN
+
+        Me best mates. And I threw their lot in with those I would
+        curse beyond the grave.'
+      - 'CAPTAIN
+
+        I''m through with it. I''m though with being a captain,
+        and I''m through with being anything.'
+      - 'NARRATION
+
+        His ghostly body begins to fade, like Florrie and Leftpaw
+        did.'
+      - 'CAPTAIN
+
+        Maybe... maybe I ought to try fishing?'
+      - 'NARRATION
+
+        Your captain is gone.'
+      - 'NARRATION
+
+        At sea, command falls to those of the next highest rank.
+        What are your orders, captain?'
+      - 
+      progressIndex: 0
+      maxProgress: 15
+    - text: 'NARRATION
+
+        You barely walk a few meters before you see the entrace
+        to a cave, the moonlight cutting through and revealing a golden glow.
+
+
+        NARRATION
+
+        You
+        step inside, and within is more gold than you possible could have imagined.
+        The cave is wider and deeper than it appears from outside.
+
+
+        NARRATION
+
+        You
+        step inside, and within is more gold than you possible could have imagined.
+        The cave is wider and deeper than it appeared from outside.
+
+
+        NARRATION
+
+        It''ll
+        take a few trips with your raft, but you figure you can go back and forth
+        to accumulate enough to buy a ship of your own.
+
+
+        NARRATION
+
+        With
+        your magic lantern and spyglass it will be no trouble.
+
+
+        NARRATION
+
+        As
+        you lift the first handful of gold, you realize how heavy it is.
+
+
+        NARRATION
+
+        You
+        can''t help but think - this would be easier with a crew.
+
+
+        NARRATION
+
+        THE
+        END.
+
+
+        NARRATION
+
+        Created for the 16th Alakajam by:
+
+
+        NARRATION
+
+        TODO:
+        ALPHABETICAL CREDITS'
+      links: []
+      name: Finish the march!
+      pid: 11
+      textList:
+      - 'NARRATION
+
+        You barely walk a few meters before you see the entrace
+        to a cave, the moonlight cutting through and revealing a golden glow.'
+      - 'NARRATION
+
+        You step inside, and within is more gold than you possible
+        could have imagined. The cave is wider and deeper than it appears from outside.'
+      - 'NARRATION
+
+        You step inside, and within is more gold than you possible
+        could have imagined. The cave is wider and deeper than it appeared from outside.'
+      - 'NARRATION
+
+        It''ll take a few trips with your raft, but you figure
+        you can go back and forth to accumulate enough to buy a ship of your own.'
+      - 'NARRATION
+
+        With your magic lantern and spyglass it will be no trouble.'
+      - 'NARRATION
+
+        As you lift the first handful of gold, you realize how
+        heavy it is.'
+      - 'NARRATION
+
+        You can''t help but think - this would be easier with
+        a crew.'
+      - 'NARRATION
+
+        THE END.'
+      - 'NARRATION
+
+        Created for the 16th Alakajam by:'
+      - 'NARRATION
+
+        TODO: ALPHABETICAL CREDITS'
+      progressIndex: 0
+      maxProgress: 10
+    - text: "NARRATION\n\"A pirate's life's not for me,\" you say to yourself.\n\nNARRATION\nYou
+        turn around, then remember how excited you were to possibly catch a tuna
+        earlier.\n\nNARRATION\n... and gold can buy a lot of tuna.\n\n "
+      links:
+      - name: Finish the march!
+        link: Finish the march!
+        pid: 11
+      name: Return to the boat.
+      pid: 12
+      textList:
+      - 'NARRATION
+
+        "A pirate''s life''s not for me," you say to yourself.'
+      - 'NARRATION
+
+        You turn around, then remember how excited you were to
+        possibly catch a tuna earlier.'
+      - 'NARRATION
+
+        ... and gold can buy a lot of tuna.'
+      - ' '
+      progressIndex: 0
+      maxProgress: 4
     startnode: 1
 --- !u!1 &1108113538858888333
 GameObject:
@@ -536,7 +1578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c64dcfe81ccdf7947aabca7fd3cb5eda, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -779,11 +1821,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.6313726, g: 1, b: 0.6313726, a: 0.92156863}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
