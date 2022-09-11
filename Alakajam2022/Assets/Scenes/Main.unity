@@ -22892,6 +22892,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1370817900}
     m_Modifications:
     - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: characterMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: b5c275018c0b779478125baac550abfa, type: 3}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: dialogUIScript
       value: 
       objectReference: {fileID: 503690655}
@@ -22946,6 +22950,14 @@ PrefabInstance:
     - target: {fileID: 2856546000970012798, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4778805630186841844, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
