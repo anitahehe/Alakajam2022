@@ -7,7 +7,7 @@ public class Whirlpool : MonoBehaviour
     public float pullForceInitial;
     public float pullForceMax;
     public float pullForceIncrement;
-    private bool pulling;
+    public bool pulling;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
