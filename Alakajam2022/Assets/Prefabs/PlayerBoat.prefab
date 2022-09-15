@@ -169,10 +169,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 12
-  forwardThrust: 2.1
-  reverseThrust: 0.5
+  forwardThrust: 3
+  reverseThrust: 2
   deceleration: 0.03
-  torque: 0.06
+  torque: 0.07
   audioObject: {fileID: 819583043}
   paddlingSound: {fileID: 8300000, guid: a83e35a0b7f950e43b80685647bab82e, type: 3}
   canMove: 1
