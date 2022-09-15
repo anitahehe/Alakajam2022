@@ -15,6 +15,7 @@ public class TriggerDialoog : MonoBehaviour
 
     public bool givesNavigatorItem = false;
     public bool givesShipwrightItem = false;
+    public bool introducesCaptain = false;
 
    void OnTriggerEnter2D(Collider2D collision){
        if(collision.gameObject.tag == "Player"&& !isTriggered){
@@ -29,6 +30,10 @@ public class TriggerDialoog : MonoBehaviour
            if (givesShipwrightItem)
            {
                 GameManager.Instance().hasShipwrightItem = true;
+           }
+           if (introducesCaptain)
+           {
+                GameManager.Instance().hasMetCaptain = true;
            }
        }
    }

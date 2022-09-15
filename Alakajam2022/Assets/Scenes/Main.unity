@@ -14595,6 +14595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a2ef490c3cc744691a32efa3f6f3a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasMetCaptain: 0
   hasNavigatorItem: 0
   hasShipwrightItem: 0
 --- !u!4 &1062429103
@@ -25898,6 +25899,10 @@ PrefabInstance:
       propertyPath: dialogeUIScript
       value: 
       objectReference: {fileID: 503690655}
+    - target: {fileID: 2856546000970012786, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
+      propertyPath: introducesCaptain
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2856546000970012793, guid: 5801287f6d2d92e42a350920a827f01e, type: 3}
       propertyPath: m_Name
       value: TriggerDialogPirateCaptain

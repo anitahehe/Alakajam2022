@@ -11,11 +11,13 @@ public class Compass : MonoBehaviour
     public ISLAND island;
 
     private SpriteRenderer sr;
+    private GameManager gm;
 
     // Start is called before the first frame update
     void Start()
     {
         sr = GetComponentInChildren<SpriteRenderer>();
+        gm = GameManager.Instance();
         if (island == ISLAND.SKUL)
         {
             sr.enabled = false;
@@ -41,13 +43,13 @@ public class Compass : MonoBehaviour
         switch (island)
         {
         case ISLAND.HELM:
-            sr.enabled = !GameManager.Instance().hasShipwrightItem;
+            sr.enabled = !gm.hasShipwrightItem && gm.hasMetCaptain;
             break;
         case ISLAND.NAVI:
-            sr.enabled = !GameManager.Instance().hasNavigatorItem;
+            sr.enabled = !gm.hasNavigatorItem && gm.hasMetCaptain;
             break;
         case ISLAND.SKUL:
-            sr.enabled = GameManager.Instance().hasNavigatorItem && GameManager.Instance().hasShipwrightItem;
+            sr.enabled = gm.hasNavigatorItem && gm.hasShipwrightItem;
             break;
         }
     }

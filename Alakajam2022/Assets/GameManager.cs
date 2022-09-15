@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public bool hasMetCaptain = false;
     public bool hasNavigatorItem = false;
     public bool hasShipwrightItem = false;
 
